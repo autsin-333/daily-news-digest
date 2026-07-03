@@ -1,73 +1,73 @@
 {
   "date": "2026-07-03",
-  "time_window": "2026-07-02 13:58 ~ 2026-07-03 13:58",
+  "time_window": "2026-07-02 14:14 ~ 2026-07-03 14:14",
   "categories": [
     {
       "name": "智能硬件",
       "icon": "🥽",
       "news": [
         {
-          "title": "三星 Galaxy 眼镜泄露图曝光，智能眼镜令 Meta 担忧",
-          "summary": "一次新的泄露展示了三星 Galaxy Glasses Manager 应用，提前揭示了眼镜、充电盒、配对过程、One UI XR 品牌等细节，显示出三星和谷歌的智能眼镜将对 Meta 构成竞争。",
-          "comment": "三星和谷歌联合推出的智能眼镜能否在功能和生态上超越 Ray-Ban Meta？",
+          "title": "三星Galaxy Glasses泄露图显示智能眼镜，Meta应担忧",
+          "summary": "新泄露揭示了Galaxy Glasses Manager应用，提供了眼镜、充电盒、配对过程及One UI XR品牌等细节，表明三星与谷歌已展示其首款智能眼镜。",
+          "comment": "三星的智能眼镜能否在功能和生态上超越Meta Ray-Ban，成为市场新宠？",
           "source": "MIXED Reality News",
           "url": "https://mixed-news.com/en/samsung-galaxy-glasses-leak-shows-the-smart-glasses-meta-should-worry-about/"
         },
         {
-          "title": "Flatirons Solutions 收购 Scope AR，打造 AI 驱动端到端 AR 技术执行平台",
-          "summary": "技术内容管理公司 Flatirons Solutions 收购了 AR 厂商 Scope AR，整合双方能力以服务于航空航天、制造等行业，形成统一的 AI 驱动端到端技术内容执行平台。",
-          "comment": "这次收购能否真正打通工业 AR 的内容管理与现场执行环节，提升一线工作效率？",
-          "source": "VR陀螺",
-          "url": "https://www.vrtuoluo.cn/545529.html"
-        },
-        {
-          "title": "机构集体看多 AI 眼镜赛道：一季度出货同比暴涨 130.1%",
-          "summary": "行业报告显示，AI 眼镜一季度出货量同比增长 130.1%，硬件放量叠加 AI 赋能和生态扩张，行业正加速走向大众普及。",
-          "comment": "AI 眼镜出货量爆发式增长背后，用户体验和续航痛点能否同步解决？",
-          "source": "93913-元宇宙&AI信息与产业服务",
-          "url": "https://www.93913.com/122732.html"
-        },
-        {
-          "title": "Meta 对 Ray-Ban 智能眼镜本地音频功能设时长限制，月费 20 美元引争议",
-          "summary": "Meta 更新服务条款，为 Ray-Ban Meta 智能眼镜的对话聚焦功能设置月度使用限额，需每月支付近 20 美元订阅才能解锁完整权限，引发用户质疑。",
-          "comment": "硬件原生功能被捆绑付费订阅，是否会损害用户对智能眼镜的信任？",
+          "title": "Meta对Ray-Ban智能眼镜本地音频功能设时长限制，月费20美元订阅仅解锁15小时额度引争议",
+          "summary": "Meta更新条款，为Ray-Ban Meta智能眼镜的对话聚焦功能设置月度使用限额，需订阅每月19.99美元的Meta One Premium才能完整使用，引发用户争议。",
+          "comment": "将硬件原生功能绑定付费订阅，是否会损害用户对智能眼镜的信任和采用率？",
           "source": "93913-元宇宙&AI信息与产业服务",
           "url": "https://www.93913.com/122753.html"
         },
         {
-          "title": "Luxonis 完成 A 轮融资，扩大物理 AI 感知层规模",
-          "summary": "Luxonis 宣布完成 A 轮融资，计划扩大其 OAK 相机产量，并优化平台以支持机器人和工业自动化应用。",
-          "comment": "OAK 相机作为机器人的‘眼睛’，能否在工业自动化领域大规模替代传统视觉方案？",
-          "source": "The Robot Report",
-          "url": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/"
+          "title": "机构集体看多AI眼镜赛道：一季度出货同比暴涨130.1%，行业迎来普及窗口期",
+          "summary": "AI眼镜出货量一季度同比增长130.1%，行业进入硬件放量、AI赋能和生态扩张的黄金发展期，全球科技巨头和国产品牌持续加码。",
+          "comment": "AI眼镜的爆发式增长能否持续，还是会重蹈AR/VR此前普及缓慢的覆辙？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/122732.html"
         },
         {
-          "title": "中宣部电影局出台 VR 影院场所管理细则，可申领放映许可证享专项资金扶持",
-          "summary": "中宣部电影局发布 VR 影院场所管理细则，明确 VR 电影放映场所可申领《电影放映经营许可证》，并享受专项资金扶持政策。",
-          "comment": "官方对 VR 影院的正规化扶持，能否催生出一批高质量的 VR 观影内容？",
-          "source": "VR陀螺",
-          "url": "https://www.vrtuoluo.cn/545536.html"
+          "title": "腾景科技斥资3500万元设立昆山子公司，加码AR近眼显示光学模组产业化",
+          "summary": "腾景科技拟出资3500万元在昆山设立全资子公司，专注AR近眼显示光学模组的产业化落地。",
+          "comment": "AR光学模组本土化量产加速，是否意味着消费级AR眼镜价格即将大幅下降？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/122762.html"
         },
         {
-          "title": "Neuralink 完成首例经硬膜脑植入手术",
-          "summary": "马斯克旗下 Neuralink 在临床试验中完成首例经硬膜脑植入手术，无需切开硬脑膜即可植入电极，降低了手术创伤。",
-          "comment": "经硬膜植入技术能否推动脑机接口从实验室走向更广泛的医疗应用？",
+          "title": "Neuralink完成首例经硬膜脑植入手术",
+          "summary": "Neuralink在临床试验中完成首例不经切开硬脑膜的脑植入手术，降低了创伤并提高了可扩展性。",
+          "comment": "微创脑机接口技术成熟后，AI智能硬件与人脑的融合边界将如何重新定义？",
           "source": "VR陀螺",
           "url": "https://www.vrtuoluo.cn/545533.html"
         },
         {
-          "title": "Valve 发布新驱动更新，Steam Frame 眼镜发布日渐近",
-          "summary": "Valve 发布新驱动更新后，Steam Frame 智能眼镜的正式发布日期更近一步，这是 Valve 硬件阵容中最后未正式上市的产品。",
-          "comment": "Valve 的智能眼镜能否凭借 Steam 生态在 AR 市场中开辟新赛道？",
-          "source": "MIXED Reality News",
-          "url": "https://mixed-news.com/en/steam-frame-looks-closer-than-ever-after-valves-new-driver-update/"
+          "title": "Luxonis完成A轮融资，扩大物理AI感知层规模",
+          "summary": "Luxonis计划扩大其OAK相机产量并优化平台，以支持机器人和工业自动化领域的物理AI感知。",
+          "comment": "机器人的视觉感知层升级，能否真正推动工业自动化从“自动化”迈向“自主化”？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/"
         },
         {
-          "title": "腾景科技斥资 3500 万元设立昆山子公司，加码 AR 近眼显示光学模组产业化",
-          "summary": "科创板企业腾景科技宣布投资 3500 万元在昆山设立全资子公司，聚焦 AR 近眼显示光学模组的产业化落地。",
-          "comment": "AR 光学模组本土化量产加速，能否降低智能眼镜的整机成本？",
-          "source": "93913-元宇宙&AI信息与产业服务",
-          "url": "https://www.93913.com/122762.html"
+          "title": "Automate 2026展会回顾：聚焦物理AI、人形机器人与软件编排",
+          "summary": "编辑们回顾Automate 2026展会，分析了物理AI、人形机器人和软件编排等关键趋势。",
+          "comment": "人形机器人从展会概念到工厂落地，还需要突破哪些关键技术瓶颈？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/automate-2026-show-recap/"
+        },
+        {
+          "title": "研究：VR联合神经刺激显著改善慢性中风患者上肢功能",
+          "summary": "一项研究表明，VR联合神经刺激能显著改善慢性中风患者的上肢功能。",
+          "comment": "VR医疗康复方案的临床验证越来越多，AI能否在此基础上实现个性化治疗方案的自动生成？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141498"
+        },
+        {
+          "title": "上海市第五人民医院引入PICO头显，打造VR认知康复新防线",
+          "summary": "上海市第五人民医院使用PICO头显进行VR认知康复训练，为患者提供新的康复手段。",
+          "comment": "医院大规模引入VR设备后，如何衡量和保障长期康复效果的数据价值？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141508"
         }
       ]
     },
@@ -76,18 +76,18 @@
       "icon": "🤖",
       "news": [
         {
-          "title": "智谱AI推出ZCode，挑战Cursor、Claude Code和GitHub Copilot",
-          "summary": "北京AI实验室智谱AI（原智谱华章）正式发布免费桌面应用ZCode，这是一个基于其旗舰模型GLM-5.2构建的“Agentic开发环境”，旨在进入AI编程工具市场。",
-          "comment": "国内AI编程工具能否在Cursor等国际产品主导的市场中突围？",
+          "title": "智谱AI发布ZCode，挑战Cursor、Claude Code和GitHub Copilot",
+          "summary": "智谱AI（原智谱华章）推出免费桌面应用ZCode，这是一个基于其GLM-5.2大模型的“Agent开发环境”，标志着该公司正式进军AI编程工具市场。",
+          "comment": "国产AI编程工具能否在Cursor和GitHub Copilot主导的市场中突围？",
           "source": "VentureBeat",
           "url": "https://venturebeat.com/technology/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot-in-ai-coding"
         },
         {
-          "title": "阿里发布新AI框架SkillWeaver，可将Agent令牌使用量减少99%",
-          "summary": "阿里巴巴研究人员开发了SkillWeaver框架，能为任务创建执行图并选择合适技能，大幅降低企业AI Agent的令牌消耗和路由混乱问题。",
-          "comment": "这种极致优化是否意味着Agent规模化部署的成本瓶颈即将被打破？",
-          "source": "VentureBeat",
-          "url": "https://venturebeat.com/orchestration/new-alibaba-ai-framework-skips-loading-every-tool-cutting-agent-token-use-99"
+          "title": "Meta悄然发布AI游戏应用Pocket",
+          "summary": "Meta推出名为Pocket的实验性AI应用，用户可以通过文本提示生成并分享交互式小游戏。这与已关闭的Mozilla版Pocket完全不同，是Meta在AI原生应用领域的新探索。",
+          "comment": "AI驱动的UGC游戏平台会催生新的内容生态吗？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
         }
       ]
     },
@@ -96,30 +96,16 @@
       "icon": "🏢",
       "news": [
         {
-          "title": "Meta打造云业务售卖过剩AI算力，股价大涨10%",
-          "summary": "Meta计划利用其巨额AI数据中心投资，打造云业务将过剩算力出售，与AWS、Azure等竞争。消息公布后Meta股价上涨超10%。",
-          "comment": "卖算力是否能成为Meta长期战略中比社交广告更可靠的盈利支柱？",
+          "title": "Meta打造云业务消化过剩AI算力，股价暴涨10%",
+          "summary": "Meta正计划推出云业务，出售过剩的AI算力资源，与AWS、Google Cloud和Microsoft Azure展开竞争。此举帮助投资者重新审视其AI巨额投入，消息公布后Meta股价上涨超10%。",
+          "comment": "当AI军备竞赛进入算力过剩阶段，“卖铲人”模式能否成为科技巨头的新盈利引擎？",
           "source": "InfoQ",
           "url": "https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv"
-        },
-        {
-          "title": "OpenAI提议向美国政府提供5%股权以缓解华盛顿压力",
-          "summary": "据报告，OpenAI向特朗普政府提议美国政府持有其5%股份，试图减轻政治反弹。此前特朗普表示美国持有AI巨头股份将是“一件好事”。",
-          "comment": "OpenAI此举是否意味着全球AI治理正从技术竞赛转向地缘政治谈判桌？",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html"
-        },
-        {
-          "title": "Mark Zuckerberg告诉员工AI Agent进展不及预期",
-          "summary": "在内部会议上，Meta CEO扎克伯格表示AI代理（Agent）的开发进展未达预期，暗示公司对AI落地的速度感到不满。",
-          "comment": "连Meta这样全力押注AI的巨头都承认Agent进展缓慢，行业是否需要重新评估Agent落地的真实时间表？",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
         }
       ]
     }
   ],
   "source": "manual",
   "status": "pending_review",
-  "created_at": "2026-07-03T13:59:05.353680+08:00"
+  "created_at": "2026-07-03T14:15:11.412720+08:00"
 }
