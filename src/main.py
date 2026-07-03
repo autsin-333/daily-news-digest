@@ -1,0 +1,713 @@
+#!/usr/bin/env python3
+"""
+Main script for daily news digest.
+Supports modes:
+  - fetch:     Fetch news, save as draft (for review)
+  - send:      Read draft and send (email/webhook by channel type)
+  - webhook:   Read draft and send webhook only (no email, no status change)
+  - (default): Fetch + send in one step (legacy behavior)
+"""
+
+import os
+import sys
+import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+from fetch_news import (
+    fetch_news, format_email_html, save_draft, load_draft, load_settings,
+    summarize_news_with_claude,
+)
+from send_email import send_email
+from send_webhook import send_webhook, send_admin_alert, format_webhook_markdown
+
+
+# ---------------------------------------------------------------------------
+# Helper: truncate categories to max_items
+# ---------------------------------------------------------------------------
+
+def truncate_categories(categories: list[dict], max_items: int, balanced: bool = False) -> list[dict]:
+    """Truncate news in categories to max_items total, preserving category structure.
+
+    If balanced=True (focused mode), non-first categories keep all their items,
+    and the first category (hardware) fills the remaining slots.
+    This ensures all categories have content.
+    """
+    import copy
+    total = sum(len(c.get("news", [])) for c in categories)
+    if total <= max_items:
+        return copy.deepcopy(categories)
+
+    if balanced and len(categories) > 1:
+        # Keep all items from non-first categories, cap the first category
+        non_first_count = sum(len(c.get("news", [])) for c in categories[1:])
+        first_max = max(1, max_items - non_first_count)
+        result = []
+        for i, cat in enumerate(categories):
+            new_cat = copy.deepcopy(cat)
+            if i == 0:
+                new_cat["news"] = new_cat.get("news", [])[:first_max]
+            if new_cat.get("news"):
+                result.append(new_cat)
+        return result
+
+    # Default: sequential truncation
+    result = []
+    count = 0
+    for cat in categories:
+        new_cat = copy.deepcopy(cat)
+        news = new_cat.get("news", [])
+        remaining = max_items - count
+        if remaining <= 0:
+            break
+        new_cat["news"] = news[:remaining]
+        count += len(new_cat["news"])
+        if new_cat["news"]:
+            result.append(new_cat)
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Helper: channel selectors
+# ---------------------------------------------------------------------------
+
+def get_enabled_channels(settings: dict) -> list[dict]:
+    """Return all enabled channels from settings."""
+    return [ch for ch in settings.get("channels", []) if ch.get("enabled", False)]
+
+
+def get_channels_to_fetch(settings: dict, now: datetime) -> list[dict]:
+    """Return channels that need fetching.
+
+    A channel needs fetching if current time >= fetch_time AND:
+    - Draft doesn't exist for today, OR
+    - Draft is stale (pending_review and created > 2 hours ago)
+    """
+    from datetime import timedelta
+    from fetch_news import load_draft
+
+    result = []
+    today = now.strftime("%Y-%m-%d")
+
+    for ch in get_enabled_channels(settings):
+        ch_id = ch.get("id", "unknown")
+        send_hour = ch.get("send_hour", 10)
+        send_minute = ch.get("send_minute", 0)
+
+        # Calculate fetch_time = send_time - 30 minutes
+        send_time = now.replace(hour=send_hour, minute=send_minute, second=0, microsecond=0)
+        fetch_time = send_time - timedelta(minutes=30)
+
+        if now < fetch_time:
+            continue
+
+        # Check if draft exists
+        if ch.get("type") == "email":
+            draft = load_draft(today)
+        else:
+            draft = load_draft(today, channel_id=ch_id)
+
+        if draft is None:
+            result.append(ch)
+        else:
+            # Draft exists: check if stale (unreviewed and > 2 hours old)
+            status = draft.get("status", "pending_review")
+            source = draft.get("source", "scheduled")
+            created_at = draft.get("created_at", "")
+            # Never overwrite manual drafts — user triggered them intentionally
+            if source == "manual":
+                continue
+            if status == "pending_review" and created_at:
+                try:
+                    created = datetime.fromisoformat(created_at)
+                    hours_old = (now - created).total_seconds() / 3600
+                    if hours_old > 2:
+                        result.append(ch)
+                except (ValueError, TypeError):
+                    pass
+
+    return result
+
+
+
+# ---------------------------------------------------------------------------
+# HTML export
+# ---------------------------------------------------------------------------
+
+_MODE_LABELS = {"focused": "AI 精选日报", "broad": "科技全览日报"}
+
+def _render_news_html(draft: dict, mode: str) -> str:
+    """Render draft JSON to a standalone HTML page."""
+    date = draft.get("date", "")
+    categories = draft.get("categories", [])
+    label = _MODE_LABELS.get(mode, "科技日报")
+
+    items_html = []
+    total = 0
+    for cat in categories:
+        icon = cat.get("icon", "")
+        name = cat.get("name", "")
+        news = cat.get("news", [])
+        if not news:
+            continue
+        items_html.append(f'<section class="cat"><h2>{icon} {name}</h2>')
+        for item in news:
+            title = item.get("title", "")
+            summary = item.get("summary", "")
+            comment = item.get("comment", "")
+            url = item.get("url", "")
+            items_html.append('<article>')
+            items_html.append(f'<h3><a href="{url}" target="_blank" rel="noopener">{title}</a></h3>')
+            if summary:
+                items_html.append(f'<p class="summary">{summary}</p>')
+            if comment:
+                items_html.append(f'<p class="comment">{comment}</p>')
+            items_html.append('</article>')
+            total += 1
+        items_html.append('</section>')
+
+    body = "\n".join(items_html)
+
+    return f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{label} {date}</title>
+<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans SC",sans-serif;
+  background:#f5f5f7;color:#1d1d1f;line-height:1.6}}
+.container{{max-width:680px;margin:0 auto;padding:20px 16px 40px}}
+header{{text-align:center;padding:32px 0 24px;border-bottom:1px solid #e5e5e5;margin-bottom:24px}}
+header h1{{font-size:24px;font-weight:700;letter-spacing:-0.5px}}
+header .date{{color:#86868b;font-size:14px;margin-top:6px}}
+header .count{{display:inline-block;background:#0071e3;color:#fff;font-size:12px;
+  padding:2px 10px;border-radius:12px;margin-top:8px}}
+.cat{{margin-bottom:28px}}
+.cat h2{{font-size:16px;font-weight:600;color:#0071e3;padding:8px 0;
+  border-bottom:2px solid #0071e3;margin-bottom:16px}}
+article{{background:#fff;border-radius:12px;padding:16px 18px;margin-bottom:12px;
+  box-shadow:0 1px 3px rgba(0,0,0,0.06)}}
+article h3{{font-size:15px;font-weight:600;margin-bottom:8px;line-height:1.4}}
+article h3 a{{color:#1d1d1f;text-decoration:none}}
+article h3 a:hover{{color:#0071e3}}
+.summary{{font-size:14px;color:#424245;margin-bottom:6px}}
+.comment{{font-size:13px;color:#0071e3;background:#f0f7ff;padding:8px 12px;
+  border-radius:8px;border-left:3px solid #0071e3}}
+footer{{text-align:center;color:#86868b;font-size:12px;padding-top:24px;border-top:1px solid #e5e5e5;margin-top:16px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>{label}</h1>
+<div class="date">{date}</div>
+<span class="count">{total} 条</span>
+</header>
+{body}
+<footer>Powered by daily-news-digest</footer>
+</div>
+</body>
+</html>"""
+
+
+# ---------------------------------------------------------------------------
+# Mode: fetch
+# ---------------------------------------------------------------------------
+
+def run_fetch(settings: dict, manual: bool = False, channel_ids: list[str] = None) -> int:
+    """Fetch news and save as draft for each channel that needs fetching.
+
+    Steps:
+    1. Determine which channels need fetching
+    2. RSS fetch once
+    3. Collect unique topic_modes, call Claude once per mode
+    4. Save per-channel drafts (email draft = YYYY-MM-DD.json)
+    """
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    deepseek_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not anthropic_key and not deepseek_key:
+        print("Error: Neither ANTHROPIC_API_KEY nor DEEPSEEK_API_KEY is set")
+        return 1
+
+    tz = ZoneInfo(settings.get("timezone", "Asia/Shanghai"))
+    now = datetime.now(tz)
+
+    # Determine channels to fetch
+    if manual:
+        channels = get_enabled_channels(settings)
+    elif channel_ids:
+        all_ch = {ch["id"]: ch for ch in settings.get("channels", [])}
+        channels = [all_ch[cid] for cid in channel_ids if cid in all_ch]
+    else:
+        channels = get_channels_to_fetch(settings, now)
+
+    if not channels:
+        print("No channels need fetching at this time")
+        return 0
+
+    topic = settings.get("news_topic", "AI")
+
+    # Collect all needed topic_modes and compute max_items per mode
+    all_modes = set()
+    max_items_by_mode = {}
+    for ch in channels:
+        mode = ch.get("topic_mode", "broad")
+        all_modes.add(mode)
+        ch_max = ch.get("max_news_items", 10)
+        max_items_by_mode[mode] = max(max_items_by_mode.get(mode, 0), ch_max)
+
+    # If any mode is focused, enable hardware_unlimited for RSS fetch
+    hardware_unlimited = "focused" in all_modes
+
+    # Use the largest max_news_items across ALL channels for the initial fetch
+    max_items = max(max_items_by_mode.values())
+
+    print(f"Fetching news... (manual={manual})")
+    print(f"  - Channels to fetch: {[ch.get('name', ch.get('id')) for ch in channels]}")
+    print(f"  - Unique modes needed: {all_modes}")
+
+    # Use the earliest channel as reference for time window and topic_mode
+    ref_channel = channels[0]
+    ref_mode = ref_channel.get("topic_mode", "broad")
+    # Pass topic_mode at top-level so summarize_news_with_claude picks it up
+    ref_settings = {**settings, "topic_mode": ref_mode}
+    news_data = fetch_news(
+        anthropic_key, topic=topic, max_items=max_items,
+        settings=ref_settings, manual=manual, hardware_unlimited=hardware_unlimited,
+        channel=ref_channel,
+    )
+
+    if news_data.get("error"):
+        print(f"Warning: {news_data['error']}")
+
+    raw_articles = news_data.get("_raw_articles", [])
+    categories = news_data.get("categories", [])
+    total_news = sum(len(c.get("news", [])) for c in categories)
+    print(f"Got {total_news} news items in {len(categories)} categories")
+
+    if categories:
+        for cat in categories:
+            icon = cat.get("icon", "")
+            name = cat.get("name", "")
+            count = len(cat.get("news", []))
+            print(f"   {icon} {name}: {count}")
+
+    # Cache Claude results by topic_mode (ref_mode set above)
+    mode_results = {ref_mode: categories}
+
+    # Process each channel
+    for ch in channels:
+        ch_id = ch.get("id", "unknown")
+        ch_mode = ch.get("topic_mode", "broad")
+        ch_name = ch.get("name", ch_id)
+        ch_max = ch.get("max_news_items", 10)
+        print(f"\n--- Channel: {ch_name} (id={ch_id}, mode={ch_mode}) ---")
+
+        if ch_mode in mode_results:
+            ch_categories = mode_results[ch_mode]
+            original_count = sum(len(c.get('news', [])) for c in ch_categories)
+            print(f"  Reusing {ch_mode} mode result ({original_count} items)")
+            # Truncate to this channel's max_news_items
+            ch_categories = truncate_categories(ch_categories, ch_max, balanced=(ch_mode == "focused"))
+            truncated_count = sum(len(c.get('news', [])) for c in ch_categories)
+            if truncated_count < original_count:
+                print(f"  Truncated to {truncated_count} items (max={ch_max})")
+        else:
+            if not raw_articles:
+                print(f"  No raw articles available, skipping Claude call")
+                ch_categories = []
+            else:
+                # Use the max_items for this mode (across all channels with this mode)
+                mode_max = max_items_by_mode.get(ch_mode, ch_max)
+                print(f"  Calling Claude for {ch_mode} mode (max={mode_max})...")
+                ch_settings = {**settings, "topic_mode": ch_mode}
+                ch_categories = summarize_news_with_claude(
+                    anthropic_key, raw_articles, mode_max, ch_settings,
+                )
+                total = sum(len(c.get("news", [])) for c in ch_categories)
+                print(f"  Got {total} items for {ch_mode} mode")
+            # Only cache non-empty results so other channels can retry on failure
+            if ch_categories:
+                mode_results[ch_mode] = ch_categories
+            else:
+                print(f"  WARNING: {ch_mode} mode returned 0 items, not caching (next channel will retry)")
+            # Truncate for this specific channel
+            original_count = sum(len(c.get("news", [])) for c in ch_categories)
+            ch_categories = truncate_categories(ch_categories, ch_max, balanced=(ch_mode == "focused"))
+            truncated_count = sum(len(c.get("news", [])) for c in ch_categories)
+            if truncated_count < original_count:
+                print(f"  Truncated to {truncated_count} items for this channel (max={ch_max})")
+
+        # Build draft data
+        ch_draft = {
+            "date": news_data.get("date"),
+            "time_window": news_data.get("time_window"),
+            "categories": ch_categories,
+            "source": "manual" if manual else "scheduled",
+        }
+
+        # Email channel: save as YYYY-MM-DD.json (no channel_id suffix)
+        if ch.get("type") == "email":
+            draft_path = save_draft(ch_draft, settings)
+        else:
+            draft_path = save_draft(ch_draft, settings, channel_id=ch_id)
+        print(f"  Draft saved: {draft_path}")
+
+    # Export MD + HTML files (one per topic_mode)
+    exports_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "exports")
+    os.makedirs(exports_dir, exist_ok=True)
+    news_date = news_data.get("date", datetime.now(tz).strftime("%Y-%m-%d"))
+    for mode, cats in mode_results.items():
+        if not cats:
+            continue
+        md_draft = {"date": news_date, "categories": cats}
+        md_content = format_webhook_markdown(md_draft)
+        md_path = os.path.join(exports_dir, f"{news_date}_{mode}.md")
+        with open(md_path, "w", encoding="utf-8") as f:
+            f.write(md_content)
+        html_content = _render_news_html(md_draft, mode)
+        html_path = os.path.join(exports_dir, f"{news_date}_{mode}.html")
+        with open(html_path, "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print(f"  Exported: {md_path}, {html_path}")
+
+    # Check for empty drafts and alert admin
+    tz = ZoneInfo(settings.get("timezone", "Asia/Shanghai"))
+    now_str = datetime.now(tz).strftime("%Y-%m-%d %H:%M")
+    empty_channels = []
+    for ch in channels:
+        ch_id = ch.get("id", "unknown")
+        ch_name = ch.get("name", ch_id)
+        ch_mode = ch.get("topic_mode", "broad")
+        ch_cats = mode_results.get(ch_mode, [])
+        ch_max = ch.get("max_news_items", 10)
+        total = sum(len(c.get("news", [])) for c in truncate_categories(ch_cats, ch_max, balanced=(ch_mode == "focused")))
+        if total == 0:
+            empty_channels.append(f"- {ch_name} ({ch_mode})")
+
+    if empty_channels:
+        alert_msg = (
+            f"**⚠️ 每日AI新闻摘要 - 运维告警**\n"
+            f"\n"
+            f"**问题**: 以下频道抓取结果为 0 条新闻\n"
+            + "\n".join(empty_channels) + "\n"
+            f"\n"
+            f"**时间**: {now_str}\n"
+            f"**建议**: 请检查 Admin UI 并手动重新抓取"
+        )
+        print(f"\n⚠️ Alert: {len(empty_channels)} channel(s) have 0 items")
+        send_admin_alert(alert_msg)
+
+    return 0
+
+
+# ---------------------------------------------------------------------------
+# Mode: send
+# ---------------------------------------------------------------------------
+
+def run_send(settings: dict, date: str = None, channel_id: str = None) -> int:
+    """Manually send specified channel(s).
+
+    If channel_id is given, send that channel only.
+    Otherwise send all enabled channels.
+    """
+    tz = ZoneInfo(settings.get("timezone", "Asia/Shanghai"))
+    today = date or datetime.now(tz).strftime("%Y-%m-%d")
+
+    channels = settings.get("channels", [])
+    enabled = [ch for ch in channels if ch.get("enabled", False)]
+
+    if channel_id:
+        target = [ch for ch in channels if ch.get("id") == channel_id]
+        if not target:
+            print(f"Error: Channel '{channel_id}' not found in settings")
+            return 1
+        enabled = target
+
+    any_failed = False
+    skipped_empty = []
+    failed_send = []
+    for ch in enabled:
+        ch_id = ch.get("id", "unknown")
+        ch_type = ch.get("type", "webhook")
+        ch_name = ch.get("name", ch_id)
+
+        # Load draft (no fallback - each channel uses its own draft only)
+        if ch_type == "email":
+            draft = load_draft(today)
+        else:
+            draft = load_draft(today, channel_id=ch_id)
+
+        if not draft:
+            print(f"Warning: No draft found for {ch_name} on {today}, skipping")
+            any_failed = True
+            continue
+
+        status = draft.get("status", "pending_review")
+        if status in ("sent", "rejected"):
+            print(f"Channel {ch_name}: draft {status}, skipping")
+            continue
+
+        source = draft.get("source", "scheduled")
+        if status == "pending_review" and source == "manual":
+            print(f"Channel {ch_name}: manual draft, requires approval before sending, skipping")
+            continue
+
+        # Guard: skip if draft has no news content
+        total_items = sum(len(c.get("news", [])) for c in draft.get("categories", []))
+        if total_items == 0:
+            print(f"Channel {ch_name}: draft has 0 news items, skipping to avoid empty message")
+            skipped_empty.append(ch_name)
+            continue
+
+        print(f"Sending to {ch_name} (type={ch_type})...")
+
+        if ch_type == "email":
+            email_body = format_email_html(draft, settings)
+            email_subject = f"AI/科技新闻日报 - {draft.get('date', today)}"
+            success = send_email(subject=email_subject, body=email_body)
+            if success:
+                draft["status"] = "sent"
+                save_draft(draft, settings)
+                print(f"Channel {ch_name}: email sent successfully")
+            else:
+                print(f"Channel {ch_name}: email send failed")
+                failed_send.append(ch_name)
+                any_failed = True
+        else:
+            try:
+                wh_ok = send_webhook(draft, settings, channel=ch)
+                if wh_ok:
+                    draft["status"] = "sent"
+                    save_draft(draft, settings, channel_id=ch_id)
+                    print(f"Channel {ch_name}: webhook sent successfully")
+                else:
+                    print(f"Channel {ch_name}: webhook send failed")
+                    failed_send.append(ch_name)
+                    any_failed = True
+            except Exception as e:
+                print(f"Channel {ch_name}: webhook error: {e}")
+                failed_send.append(ch_name)
+                any_failed = True
+
+    # Alert admin if any channels were skipped or failed
+    problems = []
+    if skipped_empty:
+        problems.append("**0 条新闻被跳过**:\n" + "\n".join(f"- {n}" for n in skipped_empty))
+    if failed_send:
+        problems.append("**发送失败**:\n" + "\n".join(f"- {n}" for n in failed_send))
+
+    if problems:
+        now_str = datetime.now(tz).strftime("%Y-%m-%d %H:%M")
+        alert_msg = (
+            f"**⚠️ 每日AI新闻摘要 - 发送告警**\n"
+            f"\n"
+            + "\n\n".join(problems) + "\n"
+            f"\n"
+            f"**日期**: {today}\n"
+            f"**时间**: {now_str}\n"
+            f"**建议**: 请检查 Admin UI"
+        )
+        send_admin_alert(alert_msg)
+
+    return 1 if any_failed else 0
+
+
+# ---------------------------------------------------------------------------
+# Mode: webhook only (manual, no status change)
+# ---------------------------------------------------------------------------
+
+def run_webhook(settings: dict, date: str = None, channel_id: str = None) -> int:
+    """Read draft and send webhook only (no email, no status change)."""
+    tz = ZoneInfo(settings.get("timezone", "Asia/Shanghai"))
+    if date is None:
+        date = datetime.now(tz).strftime("%Y-%m-%d")
+
+    channels = settings.get("channels", [])
+    webhook_channels = [ch for ch in channels if ch.get("type") == "webhook" and ch.get("enabled", False)]
+
+    if channel_id:
+        ch = next((c for c in channels if c.get("id") == channel_id), None)
+        if not ch:
+            print(f"Error: Channel '{channel_id}' not found in settings")
+            return 1
+
+        ch_draft = load_draft(date, channel_id=channel_id)
+        if not ch_draft:
+            print(f"Error: No draft found for {date} (channel={channel_id})")
+            return 1
+
+        ch_name = ch.get("name", channel_id)
+        print(f"Sending webhook to {ch_name}...")
+        try:
+            wh_ok = send_webhook(ch_draft, settings, channel=ch)
+            if wh_ok:
+                print(f"Webhook sent to {ch_name} successfully!")
+                return 0
+            else:
+                print(f"Webhook send failed for {ch_name}")
+                return 1
+        except Exception as e:
+            print(f"Webhook error for {ch_name}: {e}")
+            return 1
+
+    elif webhook_channels:
+        any_failed = False
+        for ch in webhook_channels:
+            ch_id_val = ch.get("id", "unknown")
+            ch_name = ch.get("name", ch_id_val)
+
+            ch_draft = load_draft(date, channel_id=ch_id_val)
+            if not ch_draft:
+                print(f"Warning: No draft found for {ch_name}, skipping")
+                any_failed = True
+                continue
+
+            status = ch_draft.get("status", "pending_review")
+            if status in ("sent", "rejected"):
+                print(f"Channel {ch_name}: draft {status}, skipping")
+                continue
+
+            source = ch_draft.get("source", "scheduled")
+            if status == "pending_review" and source == "manual":
+                print(f"Channel {ch_name}: manual draft, requires approval before sending, skipping")
+                continue
+
+            print(f"Sending webhook to {ch_name}...")
+            try:
+                wh_ok = send_webhook(ch_draft, settings, channel=ch)
+                if wh_ok:
+                    print(f"Webhook sent to {ch_name} successfully!")
+                else:
+                    print(f"Webhook send failed for {ch_name}")
+                    any_failed = True
+            except Exception as e:
+                print(f"Webhook error for {ch_name}: {e}")
+                any_failed = True
+
+        return 1 if any_failed else 0
+
+    else:
+        print("No webhook channels found")
+        return 1
+
+
+# ---------------------------------------------------------------------------
+# Mode: full (legacy)
+# ---------------------------------------------------------------------------
+
+def run_full(settings: dict) -> int:
+    """Legacy mode: fetch + send in one step."""
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    deepseek_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not anthropic_key and not deepseek_key:
+        print("Error: Neither ANTHROPIC_API_KEY nor DEEPSEEK_API_KEY is set")
+        return 1
+
+    topic = settings.get("news_topic", "AI")
+    # Use email channel's max_items and topic_mode
+    channels = settings.get("channels", [])
+    email_ch = next((ch for ch in channels if ch.get("type") == "email"), {})
+    max_items = email_ch.get("max_news_items", settings.get("max_news_items", 10))
+    email_mode = email_ch.get("topic_mode", settings.get("topic_mode", "broad"))
+    full_settings = {**settings, "topic_mode": email_mode}
+
+    print("Fetching news...")
+    news_data = fetch_news(anthropic_key, topic=topic, max_items=max_items, settings=full_settings)
+
+    if news_data.get("error"):
+        print(f"Warning: {news_data['error']}")
+
+    categories = news_data.get("categories", [])
+    total_news = sum(len(c.get("news", [])) for c in categories)
+    print(f"Got {total_news} news items in {len(categories)} categories")
+
+    if categories:
+        for cat in categories:
+            icon = cat.get("icon", "")
+            name = cat.get("name", "")
+            count = len(cat.get("news", []))
+            print(f"   {icon} {name}: {count}")
+
+    save_draft(news_data, settings)
+
+    email_body = format_email_html(news_data, settings)
+    email_subject = f"AI/科技新闻日报 - {news_data['date']}"
+    print(f"HTML email generated ({len(email_body)} bytes)")
+
+    print("Sending email...")
+    success = send_email(subject=email_subject, body=email_body)
+
+    if success:
+        webhook_channels = [ch for ch in channels if ch.get("type") == "webhook" and ch.get("enabled", False)]
+        for ch in webhook_channels:
+            ch_name = ch.get("name", ch.get("id", "?"))
+            print(f"Sending webhook to {ch_name}...")
+            try:
+                wh_ok = send_webhook(news_data, settings, channel=ch)
+                if not wh_ok:
+                    print(f"Warning: Webhook send failed for {ch_name}")
+            except Exception as e:
+                print(f"Warning: Webhook error for {ch_name}: {e}")
+
+        print("Done!")
+        return 0
+    else:
+        print("Email send failed")
+        return 1
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
+def main():
+    settings = load_settings()
+    tz = ZoneInfo(settings.get("timezone", "Asia/Shanghai"))
+
+    print(f"=== AI/科技新闻日报 ===")
+    print(f"Time: {datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    print()
+
+    # Determine mode from command line or environment
+    mode = "full"
+    if len(sys.argv) > 1:
+        mode = sys.argv[1]
+    else:
+        mode = os.environ.get("RUN_MODE", "full")
+
+    # Check for --manual flag
+    manual_flag = "--manual" in sys.argv
+
+    # Parse --channel <id> argument
+    channel_id = None
+    args = sys.argv[2:]
+    i = 0
+    date_arg = None
+    while i < len(args):
+        if args[i] == "--channel" and i + 1 < len(args):
+            channel_id = args[i + 1]
+            i += 2
+        elif args[i] == "--manual":
+            i += 1
+        else:
+            if date_arg is None:
+                date_arg = args[i]
+            i += 1
+
+    if mode == "fetch":
+        exit_code = run_fetch(settings, manual=manual_flag, channel_ids=[channel_id] if channel_id else None)
+    elif mode == "send":
+        exit_code = run_send(settings, date_arg, channel_id=channel_id)
+    elif mode == "webhook":
+        exit_code = run_webhook(settings, date_arg, channel_id=channel_id)
+    else:
+        exit_code = run_full(settings)
+
+    sys.exit(exit_code)
+
+
+if __name__ == "__main__":
+    main()

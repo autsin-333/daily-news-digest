@@ -1,0 +1,563 @@
+{
+  "timezone": "Asia/Shanghai",
+  "channels": [
+    {
+      "id": "email",
+      "type": "email",
+      "name": "邮件",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "focused",
+      "max_news_items": 14
+    },
+    {
+      "id": "default",
+      "type": "webhook",
+      "name": "2人测试群",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "focused",
+      "max_news_items": 14,
+      "webhook_url_base": "",
+      "webhook_key_slot": 1
+    },
+    {
+      "id": "ch_ml9b9t9s",
+      "type": "webhook",
+      "name": "ai-interactive群",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "focused",
+      "max_news_items": 14,
+      "webhook_url_base": "",
+      "webhook_key_slot": 3
+    },
+    {
+      "id": "ch_aimirror",
+      "type": "webhook",
+      "name": "ai-interactive镜像版",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "focused",
+      "max_news_items": 14,
+      "webhook_url_base": "",
+      "webhook_key_slot": 7
+    },
+    {
+      "id": "ch_mlajg7no",
+      "type": "webhook",
+      "name": "2人测试群for部门",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "broad",
+      "max_news_items": 14,
+      "webhook_url_base": "",
+      "webhook_key_slot": 4
+    },
+    {
+      "id": "ch_mm09yf0x",
+      "type": "webhook",
+      "name": "午休新频道",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "broad",
+      "max_news_items": 14,
+      "webhook_url_base": "",
+      "webhook_key_slot": 5
+    },
+    {
+      "id": "ch_xiayue",
+      "type": "webhook",
+      "name": "测试for夏月",
+      "enabled": false,
+      "send_hour": 19,
+      "send_minute": 0,
+      "topic_mode": "broad",
+      "max_news_items": 14,
+      "webhook_url_base": "",
+      "webhook_key_slot": 6
+    }
+  ],
+  "webhook_url_base": "https://redcity-open.xiaohongshu.com/api/robot/webhook/send",
+  "categories_order": [
+    "技术进展",
+    "行业观察",
+    "巨头动向",
+    "产品发布",
+    "投融资"
+  ],
+  "source_limits": {
+    "AI公司博客": 5,
+    "中文科技媒体": 5,
+    "英文科技媒体": 3,
+    "微信公众号": 5,
+    "WeWe RSS": 5,
+    "国际主流媒体": 3,
+    "技术社区": 2,
+    "智能硬件": 99,
+    "B站UP主": 2,
+    "播客": 2,
+    "技术博客": 3,
+    "独立博客": 3,
+    "default": 3
+  },
+  "filters": {
+    "blacklist_keywords": [],
+    "blacklist_sources": [],
+    "whitelist_keywords": [],
+    "whitelist_sources": [
+      "宝玉AI",
+      "数字生命卡兹克",
+      "歸藏的AI工具箱"
+    ]
+  },
+  "rss_feeds": [
+    {
+      "url": "https://techcrunch.com/feed/",
+      "name": "TechCrunch",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.theverge.com/rss/index.xml",
+      "name": "The Verge",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "name": "Ars Technica",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.wired.com/feed/rss",
+      "name": "Wired",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://venturebeat.com/feed/",
+      "name": "VentureBeat",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.technologyreview.com/feed/",
+      "name": "MIT Technology Review",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "name": "TechCrunch AI",
+      "group": "英文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://openai.com/blog/rss.xml",
+      "name": "OpenAI Blog",
+      "group": "AI公司博客",
+      "enabled": true
+    },
+    {
+      "url": "https://blog.google/technology/ai/rss/",
+      "name": "Google AI Blog",
+      "group": "AI公司博客",
+      "enabled": true
+    },
+    {
+      "url": "https://engineering.fb.com/feed/",
+      "name": "Meta Engineering",
+      "group": "AI公司博客",
+      "enabled": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml",
+      "name": "Anthropic Blog",
+      "group": "AI公司博客",
+      "enabled": true
+    },
+    {
+      "url": "https://news.ycombinator.com/rss",
+      "name": "Hacker News",
+      "group": "技术社区",
+      "enabled": true
+    },
+    {
+      "url": "https://huggingface.co/blog/feed.xml",
+      "name": "HuggingFace Blog",
+      "group": "技术社区",
+      "enabled": true
+    },
+    {
+      "url": "https://simonwillison.net/atom/everything/",
+      "name": "Simon Willison",
+      "group": "技术社区",
+      "enabled": true
+    },
+    {
+      "url": "https://36kr.com/feed",
+      "name": "36氪",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.leiphone.com/feed",
+      "name": "雷锋网",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.huxiu.com/rss/0.xml",
+      "name": "虎嗅",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.tmtpost.com/feed",
+      "name": "钛媒体",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.rssforever.com/pingwest/status",
+      "name": "PingWest品玩",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.ifanr.com/feed",
+      "name": "爱范儿",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://sspai.com/feed",
+      "name": "少数派",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.oschina.net/news/rss",
+      "name": "开源中国",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.rssforever.com/infoq/recommend",
+      "name": "InfoQ中文",
+      "group": "中文科技媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+      "name": "NYT Tech",
+      "group": "国际主流媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "name": "BBC Tech",
+      "group": "国际主流媒体",
+      "enabled": true
+    },
+    {
+      "url": "http://rss.cnn.com/rss/cnn_tech.rss",
+      "name": "CNN Tech",
+      "group": "国际主流媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "name": "CNBC Tech",
+      "group": "国际主流媒体",
+      "enabled": true
+    },
+    {
+      "url": "https://feeds.bloomberg.com/technology/news.rss",
+      "name": "Bloomberg Tech",
+      "group": "国际主流媒体",
+      "enabled": true,
+      "paywalled": true
+    },
+    {
+      "url": "https://www.ft.com/technology?format=rss",
+      "name": "Financial Times Tech",
+      "group": "国际主流媒体",
+      "enabled": true,
+      "paywalled": true
+    },
+    {
+      "url": "https://www.semianalysis.com/feed",
+      "name": "SemiAnalysis",
+      "group": "技术博客",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.liumingye.cn/bilibili/user/video/266765166",
+      "name": "漫士沉思录",
+      "group": "B站UP主",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.liumingye.cn/bilibili/user/video/517221395",
+      "name": "ZOMI酱",
+      "group": "B站UP主",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.liumingye.cn/bilibili/user/video/504715181",
+      "name": "王木头学科学",
+      "group": "B站UP主",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.rssforever.com/ximalaya/album/51487187",
+      "name": "硅谷101",
+      "group": "播客",
+      "enabled": false
+    },
+    {
+      "url": "https://rsshub.rssforever.com/ximalaya/album/29161862",
+      "name": "OnBoard!",
+      "group": "播客",
+      "enabled": false
+    },
+    {
+      "url": "https://rsshub.rssforever.com/ximalaya/album/3558668",
+      "name": "42章经",
+      "group": "播客",
+      "enabled": false
+    },
+    {
+      "url": "https://github.blog/feed/",
+      "name": "GitHub Blog",
+      "group": "技术博客",
+      "enabled": true
+    },
+    {
+      "url": "https://a16z.com/feed/",
+      "name": "a16z",
+      "group": "技术博客",
+      "enabled": false
+    },
+    {
+      "url": "https://www.ycombinator.com/blog/feed.xml",
+      "name": "Y Combinator Blog",
+      "group": "技术博客",
+      "enabled": true
+    },
+    {
+      "url": "https://wechat2rss.xlab.app/feed/a1cd365aa14ed7d64cabfc8aa086da40ecaba34d.xml",
+      "name": "夕小瑶科技说",
+      "group": "微信公众号",
+      "enabled": true
+    },
+    {
+      "url": "https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml",
+      "name": "腾讯技术工程",
+      "group": "微信公众号",
+      "enabled": true
+    },
+    {
+      "url": "https://baoyu.io/feed.xml",
+      "name": "宝玉AI",
+      "group": "独立博客",
+      "enabled": true
+    },
+    {
+      "url": "https://www.tomshardware.com/feeds/all",
+      "name": "Tom's Hardware",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_2399148061.rss",
+      "name": "腾讯研究院",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3087832081.rss",
+      "name": "AGI Hunt",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_2756372660.rss",
+      "name": "腾讯科技",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3218535860.rss",
+      "name": "Web3天空之城",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3012772922.rss",
+      "name": "老刘说NLP",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3895742803.rss",
+      "name": "Founder Park",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3199175120.rss",
+      "name": "AI炼金术",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3010319264.rss",
+      "name": "十字路口Crossing",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3540975510.rss",
+      "name": "歸藏的AI工具箱",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3934419561.rss",
+      "name": "赛博禅心",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3930654829.rss",
+      "name": "CSDN",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3075486737.rss",
+      "name": "白鲸出海",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3223096120.rss",
+      "name": "数字生命卡兹克",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://amb2rzhou.zeabur.app/feeds/MP_WXS_3941633310.rss",
+      "name": "PaperAgent",
+      "group": "WeWe RSS",
+      "enabled": true
+    },
+    {
+      "url": "https://rsshub.rssforever.com/jike/user/0ae2afa7-9b10-4b3a-ab7e-15fbf847038d",
+      "name": "归藏(即刻)",
+      "group": "独立博客",
+      "enabled": false
+    },
+    {
+      "url": "https://uploadvr.com/feed/",
+      "name": "UploadVR",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://www.roadtovr.com/feed/",
+      "name": "Road to VR",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://www.therobotreport.com/feed/",
+      "name": "The Robot Report",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://www.wareable.com/feed/",
+      "name": "Wareable",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://www.xrtoday.com/feed/",
+      "name": "XR Today",
+      "group": "智能硬件",
+      "enabled": false
+    },
+    {
+      "url": "https://www.93913.com/feed/",
+      "name": "93913",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://www.vrtuoluo.cn/feed",
+      "name": "VR陀螺",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://mixed-news.com/en/feed/",
+      "name": "MIXED News",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://arpost.co/feed/",
+      "name": "AR Post",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://mixed-news.com/en/feed/",
+      "name": "MIXED",
+      "group": "智能硬件",
+      "enabled": false
+    },
+    {
+      "url": "https://6dofreviews.com/feed/",
+      "name": "6DOF Reviews",
+      "group": "智能硬件",
+      "enabled": false
+    },
+    {
+      "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+      "name": "IEEE Spectrum Robotics",
+      "group": "智能硬件",
+      "enabled": true
+    },
+    {
+      "url": "https://www.robotics247.com/rss/rss.xml",
+      "name": "Robotics 24/7",
+      "group": "智能硬件",
+      "enabled": false
+    },
+    {
+      "url": "https://www.7tin.cn/feed/",
+      "name": "青亭网",
+      "group": "智能硬件",
+      "enabled": false
+    },
+    {
+      "url": "https://news.nweon.com/feed",
+      "name": "映维网",
+      "group": "智能硬件",
+      "enabled": true
+    }
+  ],
+  "recipients": []
+}
