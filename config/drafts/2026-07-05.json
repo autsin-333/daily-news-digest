@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-05",
+  "time_window": "2026-07-04 19:00 ~ 2026-07-05 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "宇树科技科创板IPO注册获批，A股人形机器人第一股上市在即",
+          "summary": "证监会正式批复宇树科技科创板首次公开发行股票注册申请，人形机器人龙头即将登陆A股。",
+          "comment": "人形机器人从实验室走向资本市场，将如何重塑行业格局？",
+          "source": "93913",
+          "url": "https://www.93913.com/122807.html"
+        },
+        {
+          "title": "差异化AI眼镜深耕多元场景，东莞克里特云科以轻量化智造开辟产业蓝海",
+          "summary": "东莞克里特云科避开头部厂商竞争，聚焦多垂直场景研发轻量化AI眼镜。",
+          "comment": "轻量化AI眼镜能否在垂直场景中复制手机市场的成功？",
+          "source": "93913",
+          "url": "https://www.93913.com/122789.html"
+        },
+        {
+          "title": "富瀚微：AI眼镜市场空间广阔，新一代配套芯片正研发推进",
+          "summary": "富瀚微在深交所互动易上表示，AI眼镜市场前景长期向好，适配该类设备的新一代芯片正在研发中。",
+          "comment": "芯片企业入局AI眼镜，是否会引爆新一波穿戴设备升级潮？",
+          "source": "93913",
+          "url": "https://www.93913.com/122805.html"
+        },
+        {
+          "title": "全球首款Micro-LED透明手表亮相，辰显光电破解机械表与智能表“二选一”难题",
+          "summary": "辰显光电发布了全球首款Micro-LED透明手表，实现了息屏显示机械质感、亮屏使用智能功能，融合了传统与智能体验。",
+          "comment": "Micro-LED透明技术能否让智表摆脱塑料感，成为新一代时尚科技单品？",
+          "source": "93913",
+          "url": "https://www.93913.com/122801.html"
+        },
+        {
+          "title": "科技赋能传统文化！《走近孔子》VR大空间落地东莞袁崇焕纪念园",
+          "summary": "豆神动漫打造的儒家文化沉浸式VR项目《走近孔子》正式进驻东莞袁崇焕纪念园，用VR技术活化传统文化。",
+          "comment": "VR大空间项目能否成为文博场所吸引年轻游客的新引擎？",
+          "source": "93913",
+          "url": "https://www.93913.com/122799.html"
+        },
+        {
+          "title": "国家电影局发布两项VR电影行业技术文件，规范头显与放映场所标准",
+          "summary": "国家电影局发布VR电影头显与放映场所的行业技术规范，自2026年6月24日起实施。",
+          "comment": "官方技术规范的出台会加速VR电影院的普及，还是抬高行业准入门槛？",
+          "source": "93913",
+          "url": "https://www.93913.com/122797.html"
+        },
+        {
+          "title": "天马发布全球首款3.16英寸Micro LED透明圆屏，完善车载Micro LED产品矩阵",
+          "summary": "天马推出全球首款3.16英寸Micro LED透明圆屏，面向智能座舱、车载交互、智能机器人等领域，解决了方形屏幕不适配车内圆弧内饰的问题。",
+          "comment": "异形透明屏幕能否让车载交互和机器人界面变得更自然？",
+          "source": "93913",
+          "url": "https://www.93913.com/122803.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "sqlite-utils 4.0rc2：大部分代码由Claude Fable编写（花费约149.25美元）",
+          "summary": "开发者Simon Willison利用Claude Fable（AI编程助手）编写了sqlite-utils 4.0rc2版本的大部分代码，总花费仅约149.25美元，展示了AI编程工具在开源项目维护中的强大能力。",
+          "comment": "当AI能以极低成本完成核心代码编写，开源项目的维护模式会发生怎样的根本性变化？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything"
+        },
+        {
+          "title": "Midjourney 要求好莱坞工作室披露其AI使用细节",
+          "summary": "在与三家好莱坞工作室的持续法律纠纷中，Midjourney正寻求强制这些工作室公开他们自身使用AI的方式，涉及AI创作工具在法律层面的透明度争议。",
+          "comment": "AI创作工具公司要求对手披露AI使用细节，这会成为AI版权诉讼中的新标准策略吗？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "阿里巴巴据报禁止员工使用Claude Code",
+          "summary": "据TechCrunch报道，阿里巴巴已将Anthropic的AI编程工具Claude Code列为高风险软件，禁止员工使用，继腾讯之后国内大厂对海外AI开发工具的管控进一步收紧。",
+          "comment": "国内巨头接连封禁海外AI编程工具，是出于数据安全担忧还是另有战略考量？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+        },
+        {
+          "title": "英伟达供应商鸿海精密季度营收超预期，AI需求持续增长",
+          "summary": "英伟达服务器组装合作伙伴鸿海精密报告季度销售额同比增长40%，超出预期，并指出人工智能需求仍在进一步扩大。",
+          "comment": "AI芯片供应链的持续繁荣，是否预示着大模型算力需求尚未见顶？",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-05/nvidia-supplier-hon-hai-reports-surging-sales-on-solid-ai-demand"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-07-05T19:02:00.129913+08:00"
+}
