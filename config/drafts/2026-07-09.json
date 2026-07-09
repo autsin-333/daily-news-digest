@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-09",
+  "time_window": "2026-07-08 19:00 ~ 2026-07-09 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Innovative Eyewear与FYihealth达成合作，Lucyd Armor智能安全眼镜将进入加拿大345家门店",
+          "summary": "智能眼镜厂商Innovative Eyewear宣布与加拿大眼镜零售集团FYihealth合作，旗下Lucyd Armor智能安全眼镜将于2026年第三季度起进入加拿大345家门店销售。",
+          "comment": "传统眼镜零售渠道是否会成为AI眼镜大规模普及的关键路径？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545567.html"
+        },
+        {
+          "title": "传Meta研发“全视全听”AI眼镜，可全天候记录你的生活",
+          "summary": "Meta正在测试具备“超级感知”能力的AI眼镜原型，可持续采集音频和间隔拍摄画面，配合AI实现日常见闻回溯，但该功能运行时不启用提示灯引发隐私担忧。",
+          "comment": "全天候记录设备在带来便利的同时，如何在技术上真正保障周围人的隐私知情权？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141624"
+        },
+        {
+          "title": "韩媒：苹果搁置平价XR显示屏，三星随之终止相关开发课题",
+          "summary": "据韩媒The Elec报道，苹果已终止原计划用于下一代低成本XR头显的显示器开发项目，三星显示也将于今年9月提前结束相关研发任务，业内认为苹果正将资源转向AI眼镜。",
+          "comment": "苹果放弃平价VR头显是否意味着AI眼镜将彻底取代VR成为下一阶段消费电子的主流形态？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141640"
+        },
+        {
+          "title": "Omdia：行业重心转向轻薄XR眼镜，VR头显2027年止跌回暖",
+          "summary": "市场研究机构Omdia预测2026年全球XR头戴设备出货量同比下滑12%至620万台，2027年将重回增长，增长动力主要来自轻量化XR眼镜，消费者和厂商正逐步放弃厚重头显。",
+          "comment": "在VR头显持续萎缩的背景下，轻量化XR眼镜能否在2027年真正接棒成为市场主力？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545577.html"
+        },
+        {
+          "title": "Fi Ultra成为首款由星链卫星驱动的狗追踪器",
+          "summary": "智能宠物科技公司Fi推出了Fi Ultra狗追踪器，这是首款配备Starlink卫星连接、GPS和LTE连接功能的设备，可实现对宠物的全球追踪。",
+          "comment": "卫星物联网技术进入消费级穿戴设备，是否会开启‘智能宠物+AI’的跨界新赛道？",
+          "source": "Latest from Tom's Hardware",
+          "url": "https://www.tomshardware.com/peripherals/wearable-tech/fi-ultra-becomes-first-dog-tracker-powered-by-starlink-satellites-the-fi-ultra-dog-tracker-makes-fido-trackable-via-satellite-onboard-gps-and-lte-connectivity"
+        },
+        {
+          "title": "你的下一副AI眼镜可能是王嘉尔设计的",
+          "summary": "明星与AI眼镜的合作形式正从单纯代言转向参与设计，由WHL原创、王嘉尔参与设计的时尚系列Magic AI Glasses通过影目在北美独家发售。",
+          "comment": "明星深度参与产品定义是否能打破AI眼镜’极客标签‘，真正打开大众消费市场？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545571.html"
+        },
+        {
+          "title": "《Pistol Whip》工作室正开发’无法忽视‘的多人VR游戏",
+          "summary": "知名VR工作室Cloudhead Games正在开发一款兼具VR与平面屏幕的多人联机新作，招聘信息显示其目标是打造’让人无法忽视‘的重磅作品。",
+          "comment": "在VR游戏生态承压的当下，跨屏多人玩法能否成为VR内容破圈的关键突破口？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/cloud-head-next-vr-game-report/"
+        },
+        {
+          "title": "NVIDIA与Hugging Face为LeRobot带来新模型和框架",
+          "summary": "Hugging Face的LeRobot开源机器人库新增了NVIDIA提供的模型和框架，旨在帮助开发者更便捷地训练、运行和分享机器人数据集与策略。",
+          "comment": "开源机器人模型生态的繁荣是否会加速人形机器人从实验室走向家庭和工厂的进程？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/"
+        },
+        {
+          "title": "真空蒸镀钙钛矿LED创效率纪录，为高分辨率XR显示铺路",
+          "summary": "研究人员在真空蒸镀钙钛矿LED领域创造了新的效率纪录，这一突破有望推动更高分辨率、更低功耗的微显示器在XR头显中的应用。",
+          "comment": "钙钛矿LED显示技术的突破能否真正解决AR眼镜亮度和分辨率的长期瓶颈？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141628"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI 发布 GPT-Live，全双工语音升级让 ChatGPT 更接近真人对话",
+          "summary": "OpenAI 推出 GPT-Live 语音模型，采用全双工架构，可同时听和说，如同真人交谈，并能在复杂任务时委托给 GPT-5.5。",
+          "comment": "全双工语音交互会彻底改变我们与 AI 的协作方式，还是仅仅是锦上添花的功能？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person"
+        },
+        {
+          "title": "SpaceX AI 发布 Grok 4.5：结合 Cursor 能力，价格仅为对手一半",
+          "summary": "SpaceX AI 发布 Grok 4.5，专为编程和自主 Agent 训练，集成 Cursor 技术，定价仅为竞品一半，性能追平 Opus 4.8。",
+          "comment": "Grok 4.5 的低价策略会引发 AI 模型价格战，还是迫使行业重新思考定价模型？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/spacexs-grok-4-5-launches-at-half-the-price-of-rivals-heres-why-that-could-rattle-anthropic-and-openai"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "腾讯云发布 Agent Bucket，为亿级智能体提供独立云空间",
+          "summary": "腾讯云推出 Agent Bucket（智能体桶），为海量 AI Agent 提供统一存储空间，支持 S3 接口，开发者无需自研多租户隔离等复杂功能。",
+          "comment": "腾讯云推出 Agent 专用存储，是否意味着云服务商正在为 Agent 原生时代重塑基础设施？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/471614"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-07-09T19:54:09.609590+08:00"
+}
