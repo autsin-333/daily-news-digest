@@ -1,0 +1,118 @@
+{
+  "date": "2026-07-10",
+  "time_window": "2026-07-09 19:00 ~ 2026-07-10 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "199美元、35克：VisionRay Flow Pro以四大升级重新定义AI太阳镜体验",
+          "summary": "DPVR在香港LEAP East 2026展会上发布海外子品牌VisionRay新产品Flow Pro AI太阳镜，该产品在影像、续航、佩戴和AI能力上实现四大升级，售价199美元，重量约35克。",
+          "comment": "当AI太阳镜价格降至199美元且重量仅35克，大众消费者的接受门槛是否已经降至临界点？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545581.html"
+        },
+        {
+          "title": "高校考场现AI眼镜作弊行为，多地强化考场穿戴设备监管",
+          "summary": "华南农业大学期末考试中发现学生使用AI眼镜作弊，该眼镜通过拍摄试卷并将答案以绿色文字投射在镜片上实现实时作弊，校方随即发布提示严禁携带AI眼镜等新型穿戴设备进入考场。",
+          "comment": "当AI眼镜具备实时投射答案的能力，传统的考场防作弊手段是否已经完全失效？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545579.html"
+        },
+        {
+          "title": "Meta推送强制固件更新：检测录制指示灯遭篡改即锁死摄像头",
+          "summary": "Meta推出智能眼镜强制固件更新，新增LED指示灯物理篡改检测机制，一旦识别录制提示灯被拆除或损毁，将直接禁用摄像头功能，以整治改装眼镜隐蔽偷拍的行业乱象。",
+          "comment": "硬件层面的强制锁定能否从根本上杜绝智能眼镜被改装用于偷拍，还是只会催生更隐蔽的破解手段？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/122903.html"
+        },
+        {
+          "title": "从AR光波导眼镜到5G算力单元，移远通信打包AI眼镜全链路方案",
+          "summary": "移远通信在深圳发布一站式XR整体解决方案，包括Hawk系列自研一体化光波导AI+AR眼镜参考设计、分体式BirdBath AR眼镜参考设计以及Dolphin系列AI+AR算力单元，打通从研发到量产的最后一公里。",
+          "comment": "移远通信作为物联网通信模组巨头入局XR，能否凭借其供应链整合能力推动AI眼镜的大规模普及？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545582.html"
+        },
+        {
+          "title": "据报道，Spotify正为Android XR眼镜开发Gemini驱动音乐交互",
+          "summary": "外媒在Spotify最新版本应用代码中发现相关线索，显示Spotify正在为Google Android XR智能眼镜开发适配方案，将融合Gemini能力打造XR音乐体验。",
+          "comment": "音乐流媒体平台切入智能眼镜生态，XR是否会成为继手机之后的下一个主流音乐消费终端？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545583.html"
+        },
+        {
+          "title": "Meta CTO重申公司仍致力于开发多款下一代头显",
+          "summary": "Meta的CTO再次强调公司仍在开发'多款下一代头显'，并暗示可能在9月的Connect大会上公布相关信息。",
+          "comment": "在Meta将大量资源转向智能眼镜后，VR头显业务在Meta内部未来将扮演怎样的角色？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/meta-cto-reaffirms-work-on-multiple-next-generation-headsets-hin/"
+        },
+        {
+          "title": "Meta内部仍在争论全天候开启AI眼镜的隐私问题",
+          "summary": "据《金融时报》报道，Meta内部仍在激烈讨论其即将推出的全天候录制AI眼镜的隐私LED指示灯处理方案，尚未达成一致。",
+          "comment": "全天候AI眼镜带来的隐私便利与伦理困境，科技公司是否有能力在没有监管的情况下找到平衡点？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/meta-still-internally-debating-privacy-of-always-on-ai-glasses/"
+        },
+        {
+          "title": "约翰·卡马克自掏100万美元悬赏id Software经典游戏官方VR移植版",
+          "summary": "前Oculus CTO兼id Software联合创始人约翰·卡马克宣布，他仍愿意从个人资金中拿出100万美元，以帮助制作id Software经典游戏系列的官方VR版本。",
+          "comment": "当VR行业传奇人物用真金白银推动经典游戏VR化，这是否反映了当前VR原生内容生态依然缺乏足够的吸引力？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/john-carmack-1m-guarantee-id-software-vr-games/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI 发布 GPT-5.6 系列模型：Luna、Terra、Sol",
+          "summary": "OpenAI 正式推出 GPT-5.6 系列，包含 Luna、Terra、Sol 三款模型，Sol 旗舰模型在编程、知识工作、网络安全和科学领域达到最先进水平。同时，OpenAI 将 Codex 整合为 ChatGPT Work，形成超级应用形态。",
+          "comment": "GPT-5.6 Sol 宣称在性能和成本上超越 Claude Fable 5，这能否真正改变企业级 AI 应用的选型逻辑？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
+        },
+        {
+          "title": "实测 GPT-5.6：跑分赢了，却输给了 Fable 5",
+          "summary": "中文媒体实测显示，GPT-5.6 在基准测试中表现领先，但在实际复杂任务和用户体验上仍逊于 Anthropic 的 Claude Fable 5，引发关于跑分与实用差异的讨论。",
+          "comment": "当模型跑分不再等同于真实体验，用户该如何理性评估 AI 模型的实用价值？",
+          "source": "夕小瑶科技说",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618492&idx=1&sn=b508ddf229dec832e71117fc90533020"
+        },
+        {
+          "title": "Anthropic 发现隐藏空间：Claude 会在其中“推敲”概念",
+          "summary": "Anthropic 开发了一种名为 Jacobian lens 的新技术，首次揭示了大型语言模型在回答问题时的内部推理空间，发现 Claude 会在其中主动推敲和组合概念，展现出令人不安的深度思考过程。",
+          "comment": "如果AI模型内部真的存在一个‘推敲空间’，这会如何改变我们对机器意识和可解释性的认知？",
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "OpenAI 二号人物 Fidji Simo 离职，领导层空缺引发关注",
+          "summary": "OpenAI 二号高管 Fidji Simo 在长期病假后正式辞去全职职务，仅保留兼职顾问身份。此举发生在 OpenAI 考虑 IPO 并在企业市场追赶 Anthropic 的关键时期，引发外界对领导层稳定的担忧。",
+          "comment": "在冲刺 IPO 和对抗 Anthropic 的关键节点，核心高管接连离职会给 OpenAI 的战略执行带来多大风险？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/"
+        },
+        {
+          "title": "芯片初创公司 Etched 累计融资近 60 亿，获台积电、辛顿、李飞飞押注",
+          "summary": "AI 芯片初创公司 Etched 宣布完成累计 8 亿美元融资（约 60 亿人民币），投资方包括台积电、图灵奖得主 Geoffrey Hinton 和 AI 学者李飞飞，专注于 Transformer 专用芯片的设计与量产。",
+          "comment": "当顶级科学家和芯片代工巨头同时押注专用AI芯片，这能否催生出超越GPU的新一代AI基础设施？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/fke9ApznCGrLefuE.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-07-10T19:47:45.514550+08:00"
+}
