@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-16",
+  "time_window": "2026-07-15 19:00 ~ 2026-07-16 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "EssilorLuxottica收购法国XR初创公司Lynx，R2头显发布存疑",
+          "summary": "全球眼镜巨头EssilorLuxottica收购了法国XR硬件初创公司Lynx，Lynx创始人兼CEO Stan Larroque通过公开邮件向支持者确认了这项收购，导致Lynx R2头显的未来发布变得不确定。",
+          "comment": "眼镜巨头收购XR初创公司，是否意味着AR/VR眼镜即将进入大众消费品的主流渠道？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/essilorluxottica-acquires-lynx-r2-headset-release/"
+        },
+        {
+          "title": "XREAL a01+ AR眼镜在美国上市，售价299美元",
+          "summary": "消费级AR眼镜厂商XREAL发布子品牌X By XREAL的首款产品a01+，定位轻量化大屏AR娱乐设备，重62克，售价299美元，支持手机、笔记本等设备即插即用。",
+          "comment": "299美元的AR眼镜能否像智能手机配件一样成为大众消费者的新选择？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545616.html"
+        },
+        {
+          "title": "韩国三大运营商7月22日开售Meta AI眼镜，滥用争议与市场扩张并行",
+          "summary": "Meta AI眼镜的全球市场版图持续扩张，韩国三大运营商计划于7月22日正式开售该产品，但同时也面临滥用争议。",
+          "comment": "在韩国作弊风波后，Meta AI眼镜如何平衡市场扩张与隐私滥用风险？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123084.html"
+        },
+        {
+          "title": "智能眼镜市场Q1出货量飙升83%，AR与AI眼镜成增长双引擎",
+          "summary": "据Counterpoint Research最新报告，2026年第一季度全球智能头戴设备市场整体出货量同比增长83%，AR眼镜和AI眼镜是主要增长动力。",
+          "comment": "智能眼镜出货量暴增，这是技术成熟的红利还是消费者泡沫的起点？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123072.html"
+        },
+        {
+          "title": "华泰证券：AI眼镜等终端有望成为消费新入口，盈利模式或向服务变现延伸",
+          "summary": "华泰证券报告指出，AI眼镜、智能穿戴、服务机器人等终端有望成为全新消费入口和场景载体，未来产品盈利逻辑可能从一次性硬件销售向持续服务变现延伸。",
+          "comment": "硬件低价卖、服务持续收费，AI眼镜会重演智能手机的商业模式吗？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123082.html"
+        },
+        {
+          "title": "国家管网集团招标AR眼镜",
+          "summary": "国家管网集团发布AR眼镜招标公告，将AR技术应用于工业场景，用于提升巡检、运维等环节的效率。",
+          "comment": "国企大规模招标AR眼镜，工业级AR设备能否借此迎来规模化落地？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141769"
+        },
+        {
+          "title": "大众携手n+打造智能骑行系统，智能眼镜实现AR导航与盲区预警",
+          "summary": "大众与电动自行车企业n+合作推出两款电动自行车，并构建智能安全骑行生态，其中搭载HUD功能的智能眼镜可实现AR导航与盲区预警。",
+          "comment": "大众入局智能骑行生态，AR眼镜会成为未来两轮出行标配吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545614.html"
+        },
+        {
+          "title": "Walden Robotics以11亿美元估值推出通用机器人",
+          "summary": "Walden Robotics从隐身状态中亮相，以11亿美元估值推出全栈物理AI通用机器人，已获得多家领先科技公司投资。",
+          "comment": "通用机器人估值11亿美元，物理AI时代的人形机器人离大规模商用还有多远？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/"
+        },
+        {
+          "title": "索尼用MR技术让VTuber“来到你身边”",
+          "summary": "索尼发布一项MR技术应用，通过混合现实设备将虚拟VTuber形象投射到用户现实空间中，实现与虚拟角色的沉浸式互动。",
+          "comment": "MR技术让VTuber走出屏幕，虚拟偶像会因此取代真人网红吗？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141783"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Thinking Machines开源首个多模态语言模型Inkling，主打低成本和抗审查",
+          "summary": "前OpenAI CTO Mira Murati创立的Thinking Machines公司开源了其首个多模态语言模型Inkling，采用Apache 2.0许可证，强调低成本和抗审查特性，适合企业将AI工作负载迁移至可定制、可私有化部署的开源模型。",
+          "comment": "低成本与抗审查能否成为开源模型在商业场景中对抗闭源模型的核心竞争力？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship"
+        },
+        {
+          "title": "OpenAI发布Codex专用键盘，售价230美元",
+          "summary": "在面临与苹果的硬件法律纠纷之际，OpenAI推出了一款专为编程智能体Codex设计的发光键盘，售价230美元，旨在提升与编码应用的交互体验。",
+          "comment": "硬件化AI工具是否会成为AI公司突破软件生态局限的新方向？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"
+        },
+        {
+          "title": "谷歌Genkit推出Agents API：支持分离式任务轮次与人机协同",
+          "summary": "谷歌开源AI框架Genkit发布预览版Agents API，将消息历史、工具执行、流式传输等功能封装在单一chat()接口中，支持多轮对话、人工确认暂停等复杂场景，并已支持TypeScript和Go。",
+          "comment": "统一抽象层能否解决多智能体系统在扩展到生产环境时的架构复杂性？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/ckLEtt7bN6AAURuEjfFF"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "微软被曝培训销售团队贬低OpenAI和Anthropic的模型",
+          "summary": "据TechCrunch报道，微软正在训练其销售团队，在向客户推销时强调自研AI模型比OpenAI和Anthropic的模型更高效、更具成本效益，反映出微软与其主要AI合作伙伴之间的竞争加剧。",
+          "comment": "微软一边投资OpenAI一边自研对抗性模型，这种双重身份会如何重塑AI行业的合作关系？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/"
+        },
+        {
+          "title": "阿里与百度因Apple AI合作股价大涨",
+          "summary": "受苹果AI合作消息刺激，阿里巴巴和百度在香港股市的股价大幅上涨，显示出中国互联网巨头在全球AI生态中日益增长的影响力。",
+          "comment": "苹果选择中国AI合作伙伴意味着其AI战略将如何平衡全球合规性与本土化需求？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/16/alibaba-baidu-shares-jump-apple-ai-partnership-.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-07-16T18:55:08.591086+08:00"
+}
