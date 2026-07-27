@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-27",
+  "time_window": "2026-07-26 19:00 ~ 2026-07-27 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta AI眼镜订阅收费引众怒",
+          "summary": "Meta 暂定对 Ray-Ban Meta 智能眼镜的\"Conversation Focus\"功能进行订阅测试，超出免费时长需每月支付 20 美元。用户强烈反对后，Meta 暂停该计划并重新免费开放此功能。",
+          "comment": "当智能眼镜的核心功能被转为订阅制，消费者对硬件产品\"可拥有\"的期待是否将彻底被打破？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141976"
+        },
+        {
+          "title": "彭博社：受Meta隐私信任危机拖累，苹果AI眼镜跳票至WWDC 27发布",
+          "summary": "据彭博社 Mark Gurman 报道，苹果原计划更早推出的首款智能眼镜（代号 N50）因希望以隐私保护作为核心差异化，推迟至 2027 年 WWDC 亮相，并争取年底前发货。",
+          "comment": "在 Meta 因摄像与隐私问题引发争议的背景下，苹果主打端侧隐私处理能否真正赢得消费者信任？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141994"
+        },
+        {
+          "title": "三星首款AI眼镜如何挑战日常佩戴极限：\"0.1克之战\"",
+          "summary": "三星正在开发其首款 AI 眼镜，计划于今年秋季开售。报道称三星将\"轻量\"置于\"智能\"之前，力求让用户愿意长期佩戴，背后还可能暗藏抢占机器人市场的战略意图。",
+          "comment": "当眼镜重量降低到极致，AI 功能和续航能否满足用户在真实场景中的交互需求？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123357.html"
+        },
+        {
+          "title": "三星智能眼镜今秋开售，背后暗藏抢占机器人市场战略？",
+          "summary": "三星智能眼镜将于今年秋季发售，报道分析认为该设备不仅瞄准可穿戴市场，还可能作为机器人领域布局的入口。",
+          "comment": "智能眼镜作为AI终端，是否可以成为连接人形机器人、服务机器人的自然交互界面？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141990"
+        },
+        {
+          "title": "高通芯片涨价在即，VR头显行业或迎来新一轮涨价周期",
+          "summary": "高通计划自9月起对骁龙芯片进行两位数百分比涨价，VR头显制造商成本压力骤增，Valve Steam Frame 预期售价可能突破 1000 美元。",
+          "comment": "芯片成本上涨会倒逼VR厂商提升产品创新力，还是让本就小众的市场进一步萎缩？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/141992"
+        },
+        {
+          "title": "Meta联手微软推出\"Xbox灵感\"限量版Quest头显，云游戏成核心纽带",
+          "summary": "Meta 宣布与微软合作开发一款 Xbox 灵感限量版 Meta Quest 头显，旨在通过云游戏将主机游戏体验带入 VR/AR 平台。",
+          "comment": "云游戏能否成为VR头显破圈的关键应用场景，还是仅限游戏玩家的尝鲜工具？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123367.html"
+        },
+        {
+          "title": "OpenAI计划向第三方智能眼镜开放AI模型",
+          "summary": "OpenAI 总裁 Greg Brockman 表示，公司正在开发 API 让智能眼镜等第三方硬件集成其 AI 模型，目标是构建跨设备生态。",
+          "comment": "当AI能力通过开放API注入各种眼镜终端，操作系统与硬件之间的\"护城河\"将如何重塑？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545678.html"
+        },
+        {
+          "title": "理想AI眼镜Livis迎来7月OTA大升级：直连OpenClaw打破算力边界，首家接入小红书Agent重塑生活体验",
+          "summary": "理想 AI 眼镜 Livis 获得 7 月 OTA 重大升级，新增个人 OpenClaw 终端（可远程操控电脑执行任务）以及小红书 Agent 接入功能，进一步扩展穿戴设备的 AI 任务调度能力。",
+          "comment": "当AI眼镜成为跨设备的超级调度入口，用户隐私和数据安全该如何平衡？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123355.html"
+        },
+        {
+          "title": "Meta“Puffin”计划曝光：超轻量化VR头显或将于2026年颠覆Quest形态",
+          "summary": "Meta 下一代 VR 头显内部代号\"Puffin\"，重量低于 110 克，采用外置计算模组，计划 2026 年亮相，从而彻底改变现有 Quest 块状外观设计。",
+          "comment": "超轻量化设计能否在硬件性能与佩戴舒适度之间找到平衡，超越 Apple Vision Pro 的用户体验？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/123369.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Anthropic的Claude Opus 5大幅削减系统提示词，AI使用方式需随之改变",
+          "summary": "Anthropic的Claude Opus 5砍掉了超过80%的系统提示词，引发业界对AI交互范式的重新思考。同时，该模型出现高错误率问题，服务状态页面显示异常。",
+          "comment": "更少的提示词是否意味着模型本身具备了更强的自主推理能力，还是单纯降低了使用门槛？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1673165"
+        },
+        {
+          "title": "智能体开始“自我进化”：能出题、会反思，还能自己长出新技能",
+          "summary": "腾讯技术工程团队展示了智能体（Agent）自我成长的研究进展，Agent能够自主生成任务、反思错误并学习新技能，标志着Agent能力的范式转变。",
+          "comment": "当智能体学会自主进化，人类的控制边界应该设在哪里？",
+          "source": "腾讯技术工程",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802932&idx=1&sn=7d3d0536a3433b8848942c2a58b945ca"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "英伟达、微软、SpaceX等数十家公司成立开放安全AI联盟，OpenAI、谷歌等缺席",
+          "summary": "英伟达联合微软、SpaceX、IBM等多家科技公司成立Open Secure AI Alliance，旨在开发开源AI安全工具，以应对前沿模型带来的网络攻击威胁。值得注意的是，OpenAI、谷歌和Anthropic并未加入该联盟。",
+          "comment": "OpenAI、谷歌等头部AI公司缺席安全联盟，是否意味着AI安全正在形成阵营割裂？",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+        },
+        {
+          "title": "OpenAI研究显示AI正在扩展员工工作边界，重塑职业角色",
+          "summary": "OpenAI发布最新研究，指出AI（如ChatGPT）正在帮助员工承担跨角色任务，重新定义传统的工作边界。研究基于用户数据，显示AI正在推动职业角色的扩展而非简单替代。",
+          "comment": "AI扩展工作边界是否会导致新的职业不平等，比如高级员工比初级员工更受益？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+        },
+        {
+          "title": "小米MiMo-V2.5登顶OpenRouter全球周榜、月榜双第一",
+          "summary": "小米AI模型MiMo-V2.5在开源模型平台OpenRouter上获得全球周榜和月榜双项第一，显示国产大模型在开源社区的竞争力持续提升。",
+          "comment": "MiMo-V2.5登顶是否意味着国产开源模型在性价比或特定任务上已具备全球领先水平？",
+          "source": "36氪",
+          "url": "https://36kr.com/p/3913320648971395"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-07-27T20:17:52.343187+08:00"
+}
