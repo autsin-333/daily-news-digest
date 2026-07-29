@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-29",
+  "time_window": "2026-07-28 19:00 ~ 2026-07-29 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta首款轻薄VR头显疑似在用户设置视频中泄露，或将于Connect大会亮相",
+          "summary": "一则用户设置视频疑似展示了Meta传闻中的轻薄VR头显，暗示其可能在9月Connect大会上正式发布。",
+          "comment": "这款轻薄VR头显能否成为Meta从Quest系列向下一代VR形态转型的关键产品？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/meta-thin-vr-headset-images-leak/"
+        },
+        {
+          "title": "Meta Ray-Ban Display V127固件重磅更新：搭载Muse Spark多模态AI，打通Threads社交生态",
+          "summary": "Meta发布Ray-Ban Display智能眼镜V127固件更新，集成自研Muse Spark多模态大模型，并深度打通Threads社交平台，优化镜片彩显、EMG神经腕带交互与多语言翻译功能。",
+          "comment": "当AI眼镜开始原生集成社交平台，用户的隐私边界与社交互动方式将如何被重塑？",
+          "source": "93913",
+          "url": "https://www.93913.com/123402.html"
+        },
+        {
+          "title": "智能眼镜打响AI终端争夺战，中国品牌全球份额逼近80%",
+          "summary": "中国智能眼镜品牌在全球市场份额已接近80%，AI眼镜正从影音设备升级为覆盖办公、出行、工业等场景的全天候AI助手。",
+          "comment": "中国智能眼镜在AI终端争夺战中能否凭借供应链和场景优势持续领先？",
+          "source": "93913",
+          "url": "https://www.93913.com/123412.html"
+        },
+        {
+          "title": "高通据报上调芯片价格，Valve Steam Frame VR头显或受影响",
+          "summary": "高通正计划提高VR处理器价格，这可能影响即将上市的Valve Steam Frame等VR头显的定价。",
+          "comment": "高通芯片涨价是否会成为VR头显普及率提升的新障碍？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/qualcomm-raises-chips-steam-frame-price/"
+        },
+        {
+          "title": "Valve认证“Great on Frame”游戏阵容曝光，Steam Frame发售在即",
+          "summary": "Valve新一代独立VR头显Steam Frame（代号Deckard）预计在夏季发售，配套的游戏生态认证工作正在加速。",
+          "comment": "Steam Frame能否凭借Valve的内容生态为用户带来更完整的VR体验？",
+          "source": "93913",
+          "url": "https://www.93913.com/123409.html"
+        },
+        {
+          "title": "依视路陆逊梯卡半年报：收入增近10%，智能穿戴成新引擎",
+          "summary": "智能眼镜制造商依视路陆逊梯卡上半年财报显示收入增长近10%，智能穿戴设备成为增长新动力。",
+          "comment": "传统眼镜巨头押注智能穿戴，这是否预示着AI眼镜将快速替代传统眼镜？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142036"
+        },
+        {
+          "title": "VITURE「五周年特别系列」新品定档8月6日发布",
+          "summary": "AR眼镜品牌VITURE宣布将于8月6日品牌成立五周年之际发布特别系列新品。",
+          "comment": "VITURE的新品能否在竞争激烈的AR眼镜市场中找到新的定位？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545693.html"
+        },
+        {
+          "title": "北大团队VR翅膀研究获突破，证实人脑可整合外部设备为身体部分",
+          "summary": "北京大学通过VR实验证明，人脑能将虚拟翅膀纳入身体图式，为脑机接口和智能外骨骼等具身智能领域提供了神经科学依据。",
+          "comment": "如果人脑可以“适应”虚拟翅膀，未来我们能否真正将AI外设感知为身体的延伸？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545692.html"
+        },
+        {
+          "title": "集成式驱动器如何改善人形机器人关节性能与系统集成",
+          "summary": "文章探讨了集成式驱动器在提升人形机器人关节性能和系统集成方面的关键技术作用。",
+          "comment": "集成式驱动器是否能成为人形机器人量产瓶颈的关键突破口？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "火山引擎上线豆包搜索服务，为AI Agent提供可信信息引擎",
+          "summary": "火山引擎近日正式上线豆包搜索服务，旨在为AI Agent提供实时、权威、可信的联网信息查询能力。",
+          "comment": "当AI Agent的‘信息源’被统一管控，这是提升了可靠性还是引入了新的集中风险？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316008"
+        },
+        {
+          "title": "OSWorld榜首换人，中国智能体跨过90%，实现关键突破",
+          "summary": "在OSWorld基准测试中，一款中国AI智能体突破90%的得分，首次登顶榜首，标志着在复杂操作系统任务上的重要进展。",
+          "comment": "这个突破是否意味着中国AI智能体在模拟人类操作复杂软件的能力上已领先全球？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316017"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "谷歌解散 AlphaFold 团队，将重心放在 Gemini",
+          "summary": "据报道，谷歌DeepMind已解散其获得诺贝尔奖的AlphaFold团队，大多数原始作者被重新分配到其他团队，以将战略重心转移至Gemini大模型。",
+          "comment": "当诺贝尔奖级别的科学突破在商业优先级面前被边缘化，这是否意味着AI巨头的‘基础研究’时代已经终结？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/482258"
+        },
+        {
+          "title": "扎克伯格反对美国政府封禁中国AI模型",
+          "summary": "扎克伯格在接受《纽约时报》和《金融时报》采访时明确表示，反对美国政府封禁中国AI模型的计划，批评这种做法会扼杀开放创新，与美国的价值观相悖。",
+          "comment": "扎克伯格力挺开源中国AI，是真心拥抱开放，还是为了对抗OpenAI和Anthropic的垄断地位而借力打力？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/482309"
+        },
+        {
+          "title": "美团，正在退到AI身后",
+          "summary": "文章分析了美团在AI浪潮中的战略定位，探讨其如何利用AI技术重构本地生活服务，以及在这种转变中公司角色可能发生的深远变化。",
+          "comment": "当美团将自己隐藏在AI之后，平台的服务本质会发生什么改变？我们是在与平台还是与AI交互？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8082998.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-07-29T19:21:57.460955+08:00"
+}
