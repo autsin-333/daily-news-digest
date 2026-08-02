@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-02",
+  "time_window": "2026-08-01 19:00 ~ 2026-08-02 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "特斯拉中国车机OTA更新，正式接入豆包大模型",
+          "summary": "特斯拉中国推送2026.14.13版本车机系统更新，覆盖全系车型，车机语音搭载字节跳动豆包大模型，与DeepSeek Chat组成双AI体系。",
+          "comment": "车企引入多套AI模型，是否会成为智能汽车差异化竞争的新方向？",
+          "source": "93913",
+          "url": "https://www.93913.com/123502.html"
+        },
+        {
+          "title": "全球最轻全彩碳化硅AI眼镜Nimbo X1亮相Kickstarter，49克机身瞄准开发者生态",
+          "summary": "中国香港厂商推出的智能眼镜新品Nimbo X1登陆Kickstarter众筹平台，以49克碳化硅机身主打轻量化，目标面向开发者生态。",
+          "comment": "49克的AI眼镜能否突破续航和散热瓶颈，支撑全天候佩戴场景？",
+          "source": "93913",
+          "url": "https://www.93913.com/123500.html"
+        },
+        {
+          "title": "政策技术双轮驱动，上半年智能眼镜等新型消费增势强劲",
+          "summary": "商务部数据显示，2026年上半年智能眼镜和智能外骨骼销售额分别实现151.7%和458.4%的同比增长，新型消费动能加速释放。",
+          "comment": "政策驱动下的高增长能否持续转化为智能硬件产品的技术迭代动力？",
+          "source": "93913",
+          "url": "https://www.93913.com/123506.html"
+        },
+        {
+          "title": "无需下载APP！STYLY WebAR推出纯国产VPS引擎，开启浏览器空间AR时代",
+          "summary": "WebAR发布平台STYLY WebAR正式提供基于Web浏览器运行的纯国产VPS引擎，无需下载APP即可在现实空间实现高精度AR内容叠加。",
+          "comment": "浏览器端AR技术的成熟是否会让AR眼镜等硬件的应用场景更快落地？",
+          "source": "93913",
+          "url": "https://www.93913.com/123513.html"
+        },
+        {
+          "title": "可穿戴显示器新选择：URXR One轻量化XR眼镜将于8月4日启动众筹",
+          "summary": "URXR One轻量化XR眼镜将于8月4日启动众筹，该产品专为长时间观看平面内容的用户设计，旨在成为可全天佩戴的显示器。",
+          "comment": "面向平面内容优化的XR眼镜，能否打开与头显不同的差异化市场？",
+          "source": "93913",
+          "url": "https://www.93913.com/123511.html"
+        },
+        {
+          "title": "Snap宣布9月16日举办专场活动，将首次深度展示下一代AR眼镜Specs",
+          "summary": "Snap公司宣布将于9月16日在美国加州洛杉矶举办专场活动，针对下一代增强现实眼镜Specs进行首次深度展示。",
+          "comment": "Snap这次能否通过Specs证明AR眼镜在消费市场的真正价值？",
+          "source": "93913",
+          "url": "https://www.93913.com/123517.html"
+        },
+        {
+          "title": "守门员模拟游戏《CleanSheet Soccer 2》将于9月登陆Meta Quest平台",
+          "summary": "VR体育游戏开发商Incisiv宣布，其守门员题材街机风格游戏《CleanSheet Soccer 2》将于9月17日正式登陆Meta Quest头显。",
+          "comment": "单一体育品类VR游戏的持续迭代，能否吸引更广泛的主机用户转入VR平台？",
+          "source": "93913",
+          "url": "https://www.93913.com/123515.html"
+        },
+        {
+          "title": "Meta Store每周新内容",
+          "summary": "Meta Store本周上新内容汇总，包括多款Quest平台最新游戏和应用。",
+          "comment": "VR内容生态的更新节奏，是否已经能支撑起头显设备的日常使用粘性？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142107"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "国产AI视频模型又卷起来了：Seedance 2.5和MiniMax H3谁更值得用",
+          "summary": "国产AI视频生成模型竞争加剧，字节跳动的Seedance 2.5与MiniMax H3成为焦点，文章对比了二者的性能与实用性。",
+          "comment": "在视频生成领域，国产模型能否在效果和成本上全面超越国际竞争对手？",
+          "source": "夕小瑶科技说",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247619086&idx=1&sn=bb4db3d1ede64792deb33f492ac025ad"
+        },
+        {
+          "title": "从翻译到桌面Agent，网易有道全线产品完成DeepSeek-V4-Flash正式版升级",
+          "summary": "网易有道已将DeepSeek-V4-Flash正式版接入其全线AI产品，包括办公助手LobsterAI、词典、翻译等，显著增强了Agent能力。",
+          "comment": "DeepSeek-V4-Flash的后训练优化能否让国产模型在Agent任务上达到OpenAI级别？",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/industrynews/2kEmhUVR27NJL1rC.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "法官驳回xAI请求，明尼苏达州‘脱衣’应用禁令生效",
+          "summary": "美国明尼苏达州对‘nudify’应用的禁令获法院支持，xAI的诉讼被驳回，该州可继续执行相关禁令。",
+          "comment": "AI生成图像的伦理边界是否应该由法律严格限定，而非靠企业自律？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/"
+        },
+        {
+          "title": "苹果在AI漏洞猎手面前疲于应对",
+          "summary": "苹果正在限制安全研究人员提交漏洞的数量，以应对由AI驱动的漏洞发现浪潮，凸显AI在网络安全中的双刃剑效应。",
+          "comment": "AI加速漏洞发现，是否会让科技巨头陷入‘漏洞越多、修复越慢’的恶性循环？",
+          "source": "Financial Times",
+          "url": "https://www.ft.com/content/4532122d-90f2-4433-9df6-ca99d8a141d2?syn-25a6b1a6=1"
+        },
+        {
+          "title": "Sam Altman仍在为‘用ChatGPT育儿’辩护",
+          "summary": "OpenAI首席执行官Sam Altman对将ChatGPT用作育儿工具表示兴奋，称其是‘酷用例’，但引发争议。",
+          "comment": "AI作为育儿助手，是否会削弱亲子之间的自然情感连接？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-02T18:37:02.798191+08:00"
+}
