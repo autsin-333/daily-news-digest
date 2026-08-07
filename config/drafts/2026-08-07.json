@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-07",
+  "time_window": "2026-08-06 19:00 ~ 2026-08-07 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "VITURE发布Pro 2 AR眼镜：63克机身+1600尼特亮度，售价300美元",
+          "summary": "VITURE推出其迄今最轻薄舒适的AR眼镜Pro 2，售价300美元，同时发布了更便携的USB-C扩展坞。该产品在中国市场售价1999元，已在天猫、京东等平台开售。",
+          "comment": "轻量化与高亮度能否成为AR眼镜进入主流消费市场的关键突破口？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/viture-pro-2-ar-glasses-launch-mobile-dock-mini/"
+        },
+        {
+          "title": "全球最小主动散热风扇问世：xMEMS XMC-1200专为智能眼镜“解热”",
+          "summary": "xMEMS推出面积仅46mm²、厚度1毫米的主动散热风扇XMC-1200，旨在解决AR、XR和AI智能眼镜的散热瓶颈，为设备性能释放提供新方案。",
+          "comment": "微型主动散热技术的成熟是否会加速AI智能眼镜算力升级？",
+          "source": "93913",
+          "url": "https://www.93913.com/123629.html"
+        },
+        {
+          "title": "谷东智能完成亿元级融资，加速光波导与AR智能终端产业化",
+          "summary": "谷东智能宣布2026年以来累计完成亿元级融资，资金将用于光波导材料研发、光学模组及AR智能终端迭代、规模制造能力建设及市场拓展，推动AR光学产业化。",
+          "comment": "光波导技术突破能否让AR眼镜真正走向消费级市场？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545750.html"
+        },
+        {
+          "title": "研究显示Apple Vision Pro可缩短眼科手术时间约19%",
+          "summary": "加州大学圣迭戈分校Shiley眼科研究所的研究显示，使用Apple Vision Pro辅助内镜泪道手术，平均用时34.4分钟，比传统显示器方案缩短约19%。",
+          "comment": "空间计算在医疗手术中的价值是否预示着专业级头显的刚需时代来临？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545757.html"
+        },
+        {
+          "title": "DuckDuckGo推出“反监控太阳镜”，直指AI眼镜隐私争议",
+          "summary": "DuckDuckGo推出一款售价35美元的讽刺性“反监控太阳镜”，以“无摄像头、无通知推送、无缝离线”为卖点，批评科技企业过度推广带拍摄功能的AI眼镜，产品上线一周即售罄。",
+          "comment": "隐私顾虑是否会成为AI智能眼镜大规模普及的绊脚石？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545755.html"
+        },
+        {
+          "title": "Caviar推出奢华版Ray-Ban Meta智能眼镜，全球限量24副售价超6000美元",
+          "summary": "奢侈品定制商Caviar推出限量版Odyssey系列智能眼镜，基于Ray-Ban Wayfarer II改造，融入24K黄金和22K纯银材质，全球限量24副，售价超过6000美元。",
+          "comment": "奢华定制能否为AI智能眼镜开辟高端细分市场？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545756.html"
+        },
+        {
+          "title": "HII与Path Robotics、GrayMatter Robotics签署高达9亿美元协议，扩展自主移动机器人应用",
+          "summary": "HII公司签署一项高达9亿美元的协议，扩大其HYPER计划，Path Robotics和GrayMatter Robotics今年早些时候已加入该计划，旨在推进自主移动机器人在材料处理等场景的应用。",
+          "comment": "工业机器人大规模部署能否真正解决制造业劳动力短缺问题？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/"
+        },
+        {
+          "title": "全球医疗AR/VR市场十年规模预计翻近六倍，临床与监管认可度持续提升",
+          "summary": "据预测，全球医疗AR/VR市场规模将从2023年的33亿美元增至2033年的约191亿美元，复合年增长率19.1%，FDA持续更新获批设备清单，认可度上升。",
+          "comment": "医疗AR/VR的快速增长是否会催生出临床级硬件的独角兽企业？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545746.html"
+        },
+        {
+          "title": "虚拟桌面Virtual Desktop Beta新增USB有线串流支持，Quest用户期待已久",
+          "summary": "Virtual Desktop最新测试版为Quest头显加入USB有线连接PC串流功能，此前仅支持无线，这一更新解决了用户对稳定有线连接的需求。",
+          "comment": "有线串流补全后，虚拟桌面会否成为PC VR体验的黄金标准？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/virtual-desktop-beta-adds-wired-usb-support-on-quest-headsets/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "阿里发布Wan 3.0视频生成大模型，支持文档直接转视频",
+          "summary": "阿里巴巴视频生成大模型Wan 3.0开启公测，单次可生成30秒视频，并首次支持doc、xls、ppt、pdf等文档格式输入，提升多模态能力和真实世界还原度。",
+          "comment": "文档直接转视频是否会改变内容创作的工作流？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/Wp4SCQ5wu1Lbhtr1.html"
+        },
+        {
+          "title": "千问大更新：Agent 已装入电脑和手机",
+          "summary": "千问模型迎来重大更新，将Agent能力集成到电脑和手机端，新功能可免费试用，进一步推动AI代理的普及。",
+          "comment": "端侧Agent能否真正替代云端AI的体验？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1674265?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "Liquid AI发布LFM2.5-2.6B模型，可在树莓派上运行AI Agent",
+          "summary": "Liquid AI推出开源权重模型LFM2.5-2.6B，专为Agent负载设计，无需云端或GPU即可在手机、笔记本甚至树莓派上运行，实现端侧AI推理。",
+          "comment": "端侧小模型能否承担复杂的Agent任务？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "AMD收购AI芯片创企Taalas，将模型权重直接刻进芯片",
+          "summary": "AMD宣布收购多伦多芯片初创公司Taalas，其技术将AI模型权重直接集成到硅片中，而非存储在内存中，以提升推理性能，交易预计2026年Q4完成。",
+          "comment": "将模型权重固化到芯片是否意味着AI硬件的新范式？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/489939/amd-acquires-ai-chip-startup-taala"
+        },
+        {
+          "title": "DeepSeek预告API大幅涨价，AI低价红利落幕",
+          "summary": "DeepSeek宣布将上调API价格，并预计涨幅较大，反映出Agent应用带来的算力消耗增长和成本压力，AI服务低价时代或将结束。",
+          "comment": "API涨价会如何影响中小AI开发者的生态？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8094414.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-07T18:30:50.891738+08:00"
+}
