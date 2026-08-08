@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-08",
+  "time_window": "2026-08-07 19:00 ~ 2026-08-08 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "MemoMind One Kickstarter众筹突破100万美元，无摄像头显示眼镜获市场认可",
+          "summary": "中国投影仪厂商XGIMI推出的首款智能眼镜MemoMind One在Kickstarter上众筹金额超过100万美元，该产品主打无摄像头设计的显示型智能眼镜，引发了消费者对隐私与显示体验平衡的关注。",
+          "comment": "无摄像头设计能否成为智能眼镜差异化竞争的新方向？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/memomind-display-smart-glasses-1m-kickstarter/"
+        },
+        {
+          "title": "2026年7月VR/AR与AI眼镜行业月报：11款新品发布，融资总额近57亿元",
+          "summary": "据VR陀螺月度报告，7月全球XR与AI眼镜产业发布11款新品，包括全球首款AI记忆眼镜李未可X-AI等，同时发生11起投融资事件，总额约56.93亿人民币，行业呈现投入与整合并行态势。",
+          "comment": "AI眼镜从信息交互工具向个人智能助理演进，未来是否会取代智能手机的部分核心功能？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545760.html"
+        },
+        {
+          "title": "美国加州学区拟先行禁止AI智能眼镜进校园，防作弊与偷拍",
+          "summary": "鉴于AI智能眼镜功能日益强大，美国加州部分学区正在考虑率先禁止学生佩戴AI智能眼镜进入校园，以防止考试作弊和偷拍等行为。",
+          "comment": "校园禁用AI眼镜是否会阻碍学生接触前沿技术的教育机会？",
+          "source": "93913虚拟现实",
+          "url": "https://www.93913.com/123669.html"
+        },
+        {
+          "title": "AI眼镜进入自然影像赛事：2026中国野生生物影像年赛开放智能眼镜创作",
+          "summary": "2026中国野生生物影像年赛启动，视频单元首次支持使用搭载高通处理器的智能眼镜进行创作，AI眼镜以第一视角记录方式为自然影像带来新可能，被视为AI眼镜影像价值得到认可的信号。",
+          "comment": "AI眼镜的第一视角记录能否真正替代传统相机在专业摄影领域的地位？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545762.html"
+        },
+        {
+          "title": "昀光科技12英寸硅基OLED生产基地启动建设，预计2027年投产",
+          "summary": "昀光科技在南京启动12英寸超高清硅基OLED生产基地建设，总投资12亿元，预计2027年建成投产，规划年产约6万片晶圆，可满足千万级AI/AR眼镜及百万级VR/MR近眼显示需求。",
+          "comment": "硅基OLED产能扩张能否有效降低未来AI眼镜的整机成本？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545763.html"
+        },
+        {
+          "title": "剑桥大学突破量子点显示制造工艺，助推AR/VR显示升级",
+          "summary": "剑桥大学团队提出裂纹辅助转移印刷（CATP）新工艺，成功制备纳米级超高分辨率量子点像素阵列，有望破解AR/VR设备显示画质瓶颈，推动沉浸式设备向更逼真视觉体验演进。",
+          "comment": "量子点显示技术的突破是否会成为下一代AR/VR头显的标配？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545761.html"
+        },
+        {
+          "title": "Tacta Systems推出TactaBot，瞄准高技能制造工作",
+          "summary": "Tacta Systems发布包含机器人手部在内的三部分系统，使用户能够教会机器人新的灵巧技能，旨在填补高技能制造领域的人力缺口。",
+          "comment": "机器人灵巧操作能力的提升，是否会导致制造业中高技能岗位的减少？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/tacta-systems-takes-aim-high-skilled-manufacturing-work-tactabot/"
+        },
+        {
+          "title": "Nomagic：构建能在仓库中生存的机器人",
+          "summary": "Nomagic公司认为其真正的护城河在于生产数据，因为真实仓库的混乱环境才是机器人证明自己或失败的地方，他们正致力于打造能适应真实仓库复杂性的机器人。",
+          "comment": "机器人在真实仓库中的适应性，是否会成为物流自动化规模化落地的关键？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/"
+        },
+        {
+          "title": "Valve 悄然降低 Steam Frame 原生 VR 游戏认证门槛",
+          "summary": "Valve 在未公开声明的情况下，降低了其独立 VR 头显 Steam Frame 原生游戏的 “Steam Frame Verified” 认证要求，这可能会扩大该平台可兼容的游戏范围。",
+          "comment": "降低认证标准是否会损害 Steam Frame 的游戏质量口碑？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/valve-lowers-steam-frame-verified-vr-badge-requirement/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Cloudflare 发布 Kitesurf：专为 AI Agent 设计的浏览器",
+          "summary": "Cloudflare 推出名为 Kitesurf 的云托管浏览器，专为 AI 智能体而非人类设计，相比 Chromium 在执行常见自动化任务时更省算力，帮助开发者更高效地构建基于浏览器的 AI 代理。",
+          "comment": "专为 AI 设计的浏览器是否会催生新的交互范式，甚至颠覆传统浏览器生态？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
+        },
+        {
+          "title": "OpenAI 称因安全顾虑放慢 Astra 模型开发，并发布初步安全评估",
+          "summary": "OpenAI 表示其尚在开发中的模型 Astra 已达到“关键网络安全阈值”，即能独立识别并攻击防护良好的真实世界系统，为此放慢开发并加强了安全防护措施，同时公布初步评估结果。",
+          "comment": "当 AI 具备攻击能力，放缓开发是否是唯一选择？行业是否需要一个统一的“安全刹车”机制？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
+        },
+        {
+          "title": "斯坦福用 37000 个 AI 智能体构建虚拟生物科技公司，其药物设计获默克独立验证",
+          "summary": "斯坦福大学研究团队运行着由 3.7 万个 AI 智能体组成的虚拟生物科技公司，其中一款药物设计已获得默克公司的独立验证。这预示着 AI 智能体从单兵作战迈向大规模协作的新前沿。",
+          "comment": "当成千上万个 AI 智能体协同工作成为常态，如何治理它们之间的协作，避免不可控的涌现行为？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "字节跳动拒绝走蒸馏捷径，张一鸣押注十万亿长期主义",
+          "summary": "据雷峰网报道，字节跳动在 AI 大模型研发上拒绝依赖蒸馏捷径，坚持自主创新，创始人张一鸣的长期主义战略引发关注。",
+          "comment": "拒绝蒸馏虽能保持技术自主，但在竞争激烈的 AI 赛道，这是否会拖慢字节的模型迭代速度？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/yanxishe/JR3ppBP5VOxND55d.html"
+        },
+        {
+          "title": "MiniMax H3 团队 Reddit AMA：2K 模型将开源，图像模型在路上，Apache-2.0 也在考虑",
+          "summary": "MiniMax H3 团队在 Reddit 上回应开发者关切，透露将开源 2K 版本模型，图像模型也在开发中，并考虑采用 Apache-2.0 协议。",
+          "comment": "如果 MiniMax 全面转向开源，会对国内闭源大模型生态产生多大冲击？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/9C3eK9tJqDXbabbBy3aj"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-08T18:30:50.486360+08:00"
+}
