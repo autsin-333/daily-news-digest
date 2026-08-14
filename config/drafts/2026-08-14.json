@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-14",
+  "time_window": "2026-08-13 19:00 ~ 2026-08-14 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "荣耀Robot Phone预售秒罄：首创四自由度云台，9999元起被导演和企业家抢购",
+          "summary": "荣耀Robot Phone凭借首创的四自由度钛合金灵巧云台，以9999元起售价在预售中迅速售罄，被用户称为“最具活人感”的智能手机。",
+          "comment": "手机形态的AI机器人能否成为未来个人助理的主流载体？",
+          "source": "93913",
+          "url": "https://www.93913.com/123855.html"
+        },
+        {
+          "title": "Meta Ray-Ban Display智能眼镜上线神经手写功能，实现无声AI交互",
+          "summary": "Meta为Ray-Ban Display智能眼镜的内测通道上线神经手写（Neural Handwriting）功能，用户可通过手写实现无声的AI交互。",
+          "comment": "神经手写输入会取代语音成为智能眼镜的下一个主流交互方式吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/123851.html"
+        },
+        {
+          "title": "面向盲人及视障成年人，Meta向爱尔兰捐赠1.5万副AI眼镜",
+          "summary": "Meta宣布向爱尔兰的盲人及视障成年人捐赠1.5万副AI眼镜，以支持辅助技术的应用与推广。",
+          "comment": "智能眼镜的捐赠项目能否真正解决视障群体的无障碍需求？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142358"
+        },
+        {
+          "title": "BioflexBot机器人手旨在复刻人类手部关键运动",
+          "summary": "研究人员开发出BioflexBot，该机器人手以简洁设计模拟甚至超越了人类手部的核心运动能力。",
+          "comment": "柔性机器人手在精细操作上的突破，是否预示着人形机器人将迎来新的应用场景？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/"
+        },
+        {
+          "title": "DPVR公布企业级VR一体机P1 Max商用落地时间表，定价549美元起",
+          "summary": "DPVR公布了企业级VR一体机P1 Max的商用落地时间表，该设备定价549美元起，主打教育培训、医疗仿真、工业实训等专业场景。",
+          "comment": "企业级VR设备能否在垂直行业中找到比消费级市场更稳固的商业模式？",
+          "source": "93913",
+          "url": "https://www.93913.com/123847.html"
+        },
+        {
+          "title": "睿显科技联手深度光影共推0.23英寸Micro OLED全彩AR眼镜落地",
+          "summary": "睿显科技与深度光影宣布合作，双方将联合开发基于0.23英寸Micro OLED的全彩显示AR智能眼镜。",
+          "comment": "更小的Micro OLED屏幕能成为AR眼镜轻量化的关键突破口吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/123857.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "DeepSeek Harness 开源，挑战 Claude Code，并推出 V4-Pro 模型",
+          "summary": "DeepSeek 发布了开源 Agent 框架 DeepSeek Harness v0.1，作为 Claude Code 的替代方案，同时推出了更新版旗舰模型 DeepSeek-V4-Pro，API 价格有所上调。",
+          "comment": "开源 Agent 框架能否打破现有闭源工具的生态垄断？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices"
+        },
+        {
+          "title": "谷歌发布 Gemini 3.7 Flash，主打编程与 Agent 能力并降价50%",
+          "summary": "谷歌推出新模型 Gemini 3.7 Flash，重点提升了编程和 Agent 工作流能力，并推出API价格限时减半的推广活动。",
+          "comment": "在激烈的模型价格战中，谷歌这一降价策略能持续多久？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut"
+        },
+        {
+          "title": "智谱发布GLM-5.3模型，编程与安全能力大幅跃升",
+          "summary": "智谱正式发布GLM-5.3，通过极致的后训练在编程基准测试（如Terminal-Bench 3.0）上得分大幅提升，宣称是编程能力最强的开源模型。",
+          "comment": "GLM-5.3在编程能力上的跃升，是否会重塑开源模型在AI编程工具领域的竞争格局？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316449"
+        },
+        {
+          "title": "OpenAI推出‘Ultrafast’模式，GPT-5.6 Sol运行速度提升14倍",
+          "summary": "OpenAI正在预览其最新、最强大模型GPT-5.6 Sol的加速版本‘Ultrafast’，旨在吸引企业用户。",
+          "comment": "快14倍的推理速度是否意味着质量的妥协，企业会更看重速度还是能力？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "谷歌不再追逐前沿，DeepMind 或大幅裁员",
+          "summary": "据爱范儿独家报道，谷歌似乎正在调整AI战略，不再盲目追求前沿技术，这可能导致其旗下AI研究机构DeepMind进行大规模裁员。",
+          "comment": "谷歌这样的巨头开始‘务实’，是否预示着整个AI行业将从疯狂扩张转向收缩和效率优先？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1675196?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "Databricks以1900亿美元估值融资50亿美元",
+          "summary": "AI数据公司Databricks完成了50亿美元融资，估值为1900亿美元，远超其最初10亿美元的目标，显示出投资人对AI基础设施的高涨热情。",
+          "comment": "如此高的估值是否意味着AI数据基础设施领域的泡沫风险正在累积？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+        },
+        {
+          "title": "百度搭子位列全球AI Agent增速第一，月访问量增长845%",
+          "summary": "根据最新数据，百度推出的AI Agent应用‘百度搭子’在全球范围内增长迅猛，月访问量环比增长845%，位居增速排行榜首位。",
+          "comment": "百度在AI Agent消费端的爆款应用上找到了突破口，这会成为国内大厂追赶的新风向吗？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316443"
+        },
+        {
+          "title": "OpenAI、Anthropic打响价格战，中国AI对手步步紧逼",
+          "summary": "据报道，因为来自中国AI竞争对手的挑战日益严峻，OpenAI和Anthropic等美国头部AI公司正纷纷发布更便宜的模型，以应对竞争。",
+          "comment": "中美AI模型的价格战会否导致整个行业的利润率被极限压缩？",
+          "source": "Financial Times",
+          "url": "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01?syn-25a6b1a6=1"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-14T18:30:45.694549+08:00"
+}
