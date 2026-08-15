@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-15",
+  "time_window": "2026-08-14 19:00 ~ 2026-08-15 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "莫界科技获6亿元融资，成为AI+AR眼镜产业链关键支点",
+          "summary": "莫界科技完成6亿元A轮及A+轮融资，并公开与OPPO、联想、中兴、软银等头部厂商的合作案例，展示其在AI+AR眼镜底层光学、产品共创和量产交付方面的积累。",
+          "comment": "上游光学模组厂商的集中受益，是否意味着AI眼镜行业的竞争焦点正从品牌端转向供应链能力？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545808.html"
+        },
+        {
+          "title": "京东Q2财报：AI眼镜引爆消费热潮，智能穿戴成核心引擎",
+          "summary": "京东集团发布的二季度财报显示，以AI眼镜为代表的AI趋势品类同比增长125%，智能穿戴设备正成为消费电子产业增长最强劲的驱动力。",
+          "comment": "电商平台的数据能否真实反映AI眼镜从尝鲜期迈入大众普及期的拐点已经到来？",
+          "source": "93913虚拟现实",
+          "url": "https://www.93913.com/123881.html"
+        },
+        {
+          "title": "2026年AI眼镜狂飙：大厂密集下场，上游“卖铲子”者成赢家",
+          "summary": "2026年上半年中国智能眼镜市场零售量达101.2万台，同比增长106%，大厂密集入场，而上游核心零部件供应商成为这波浪潮中的最大赢家。",
+          "comment": "当上游供应商赚得盆满钵满时，下游品牌方如何避免沦为硬件组装厂？",
+          "source": "93913虚拟现实",
+          "url": "https://www.93913.com/123877.html"
+        },
+        {
+          "title": "LetinAR获50亿韩元资助，打造3.5毫米超薄AI眼镜光学模组",
+          "summary": "AR光学方案商LetinAR获得50亿韩元资助，用于开发厚度仅3.5毫米的超薄AI眼镜光学模组，有望进一步推动智能眼镜形态的轻量化演进。",
+          "comment": "3.5毫米的超薄模组能否在保证显示效果的同时，解决AI眼镜长期佩戴的舒适度痛点？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142377"
+        },
+        {
+          "title": "Vuzix Q2营收111.3万美元，将继续加码光波导产能",
+          "summary": "AR眼镜及光波导厂商Vuzix发布2026年第二季度财报，营收111.3万美元，同比下降14%，但研发支出增至310万美元，公司表示将继续加码光波导产能。",
+          "comment": "在营收下滑的背景下持续加码光波导产能，Vuzix能否靠B端定制业务扭转业绩颓势？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545807.html"
+        },
+        {
+          "title": "美国对国外无人机及零部件征收最高100%关税，中国为主要目标",
+          "summary": "特朗普政府以国家安全为由，对国外制造的无人机及零部件征收最高100%的关税，旨在减少美国产业对海外特别是中国供应商的依赖。",
+          "comment": "关税壁垒会加速美国本土无人机产业链成熟，还是反而推高下游应用成本、延缓技术落地？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/drones/us-imposes-up-to-100-percent-tariffs-on-foreign-made-drones-and-components-china-remains-primary-target-as-washington-moves-to-reduce-reliance-on-overseas-suppliers"
+        },
+        {
+          "title": "Neros Technologies融资2.5亿美元，年底前部署防御无人机",
+          "summary": "Neros Technologies筹集2.5亿美元，计划在2026年底前部署其Archer AI和Bandit防御无人机平台，该平台具备多资产控制的硬件与计算能力。",
+          "comment": "融资到位后，Neros的AI无人机平台将如何应对实战测试中可能出现的自主决策可靠性挑战？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/"
+        },
+        {
+          "title": "《High on Life》官方VR移植版明年登陆Quest、PC VR和PSVR 2",
+          "summary": "在VR Games Showcase上，Flat2VR Studios宣布与Squanch Games合作，将喜剧科幻射击游戏《High on Life》官方移植到VR平台，预计明年发售。",
+          "comment": "热门平面游戏移植VR能否复制《生化危机》系列的成功，打破VR游戏内容匮乏的僵局？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/high-on-life-vr-quest-psvr-2-steam-release/"
+        },
+        {
+          "title": "《人类一败涂地》开发商公布VR新作《Tiny Flock》，年内登陆Quest和Steam",
+          "summary": "《人类一败涂地》开发商No Brakes Games在VR Games Showcase上公布全新VR益智游戏《Tiny Flock》，专为VR平台开发，计划2026年内登陆Meta Quest和Steam。",
+          "comment": "以物理益智玩法见长的工作室转向VR原生开发，是否会为VR解谜品类带来新的交互范式？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545806.html"
+        },
+        {
+          "title": "ThirdEye推出MIDAS Response与Industrial，拓展AR平台至急救与工业领域",
+          "summary": "ThirdEye发布MIDAS Response和Industrial两款新品，将其AR平台的应用场景从企业扩展到急救响应和工业作业等专业领域。",
+          "comment": "AR平台在急救和工业场景的落地，是否会像智能手机一样催生出一套全新的专业应用生态？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142375"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "阿里开源Qwen3.8，千问大模型全球下载超30亿次",
+          "summary": "阿里千问正式开源Qwen3.8系列模型，其中Qwen3.8-27B原生多模态稠密模型仅270亿参数，整体水平超越Qwen3.7-Plus，可在消费级显卡上流畅运行。截至目前，Qwen系列模型全球下载量已超30亿次，稳居全球第一开源模型。",
+          "comment": "Qwen3.8-27B能否成为端侧部署的‘主力模型’，从而真正改变AI应用的成本结构？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/GJAhmR3wyL91CzjO.html"
+        },
+        {
+          "title": "Kog公司深挖GPU推理潜力，挑战Agent工作流不适合GPU的固有认知",
+          "summary": "法国初创公司Kog认为，GPU不适合Agent工作流的观点可能是一种误解，他们正致力于从GPU中榨取更多的推理性能，以支撑更复杂的AI Agent应用。",
+          "comment": "如果GPU推理效率大幅提升，是否意味着基于Agent的复杂应用将迎来成本拐点？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "英伟达披露持有SpaceX 210亿美元股份，通过投资xAI实现",
+          "summary": "英伟达在监管文件中披露，其通过投资xAI间接持有SpaceX股份，截至第二季度末这笔投资价值约210亿美元。同时，英伟达还持有英特尔约300亿美元的股份，显示出其在AI产业链上下游的深度布局。",
+          "comment": "英伟达巨额押注xAI与SpaceX，是否意味着其正从卖铲人转向AI生态的深度参与者？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-15T18:30:51.526739+08:00"
+}
