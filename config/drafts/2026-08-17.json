@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-17",
+  "time_window": "2026-08-16 19:00 ~ 2026-08-17 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "美国警方悄然引入Meta智能眼镜，隐私与监控争议再起",
+          "summary": "美国执法机构正在悄然增加对Meta智能眼镜等消费级智能眼镜的使用，引发了公众对隐私和监控的担忧。",
+          "comment": "警方使用消费级智能眼镜，如何平衡执法效率与公民隐私？",
+          "source": "93913",
+          "url": "https://www.93913.com/123930.html"
+        },
+        {
+          "title": "Meta新专利曝光：智能眼镜拟用面部识别为晚宴自动生成“精彩集锦”，隐私担忧升级",
+          "summary": "Meta公开了一项新专利，展示其智能眼镜可能通过面部识别功能自动识别人物并生成媒体片段，引发对隐私的进一步担忧。",
+          "comment": "智能眼镜的面部识别功能一旦落地，会如何改变公共空间的隐私边界？",
+          "source": "93913",
+          "url": "https://www.93913.com/123932.html"
+        },
+        {
+          "title": "Meta分享：AI眼镜如何重新定义美食探索",
+          "summary": "Meta分享了AI眼镜在美食探索中的应用案例，展示了智能眼镜如何增强用户的餐饮体验。",
+          "comment": "AI眼镜是否会让美食探索变得过于依赖技术提示，从而削弱真实体验？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142397"
+        },
+        {
+          "title": "今天封号明天复活：Meta的AI审核管不住自家眼镜拍的骚扰视频？",
+          "summary": "Meta的AI审核系统对智能眼镜拍摄的骚扰视频治理不力，账号封禁后迅速复活，引发对内容监管的质疑。",
+          "comment": "AI审核的漏洞是否会让智能眼镜成为新的骚扰工具？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142417"
+        },
+        {
+          "title": "Meta新专利曝光AI眼镜人脸识别能力，或可自主判断拍摄重点",
+          "summary": "Meta公开了一项新专利，其AI眼镜或能自主识别人脸并判断拍摄重点，但这也加剧了隐私风险。",
+          "comment": "当眼镜能自主决定该拍什么时，用户对设备的控制感和隐私预期将如何调整？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545812.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "DeepSeek V4 Flash 实测翻车：榜单登顶，真实 Agent 任务完成率仅 53.8%",
+          "summary": "DeepSeek V4 Flash 在基准测试中登顶并被誉为\"怪兽\"，但真实世界测试显示其在 8 种不同 Agent 框架中仅完成了 53.8% 的复杂多步任务，与其定价飙升形成反差。",
+          "comment": "基准测试与实际 Agent 场景的鸿沟如此之大，行业到底该如何建立更可信的模型评估体系？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/orchestration/deepseeks-top-ranked-v4-flash-stumbles-on-real-agent-tasks-as-its-prices-surge"
+        },
+        {
+          "title": "拆解 RAG 推理成本：降低 6 倍开销的起点是决定什么永远不进入大模型",
+          "summary": "文章指出，高风险的 RAG 分类系统将每个模糊案例都交给大模型处理是常见的架构错误，通过预先筛选，将大量简单案例拦截在 LLM 之外，可将推理成本降低 6 倍。",
+          "comment": "当\"少用模型\"成为性能优化的核心策略，AI 系统的工程化思维是否应该从\"追求智能上限\"转向\"追求成本下限\"？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/orchestration/cutting-rag-inference-costs-6x-starts-with-deciding-what-never-reaches-the-llm"
+        },
+        {
+          "title": "Qwen 3.8 27B 评测：性能出色，但默认陷入过度思考的困境",
+          "summary": "阿里最新开源的 Qwen 3.8 27B 模型（Apache 2.0 许可）在笔记本电脑上表现优异，但西蒙·威利森指出该模型在默认情况下会过度思考简单问题，影响实用体验。",
+          "comment": "开源模型在追求极致推理能力时，如何平衡\"思考深度\"与\"响应效率\"，才能避免\"杀鸡用牛刀\"的尴尬？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+        },
+        {
+          "title": "阿里发布 AI 音乐模型 HappyShrimp：人人都能写好听的歌",
+          "summary": "阿里发布了新的 AI 音乐模型 HappyShrimp，旨在让每个人都能够创作出好听的歌曲，进一步降低音乐创作的门槛。",
+          "comment": "AI 音乐模型层出不穷，从\"听懂\"到\"写好听的歌\"，AI 是否正在重塑音乐创作的定义，而人类创作者的核心竞争力又将迁移至哪里？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316518"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "Stripe 拟以超 70 亿美元收购 AI 网关初创公司 OpenRouter",
+          "summary": "据多方报道，支付巨头 Stripe 将收购 AI 路由网关初创公司 OpenRouter，交易金额超过 70 亿美元。OpenRouter 的 CEO 曾将公司描述为\"AI 领域的 Stripe\"。",
+          "comment": "Stripe 收购 AI 网关，是看中了其技术互补性，还是意图掌控 AI 应用层的流量和数据入口？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-7b/"
+        },
+        {
+          "title": "OpenAI 据报已解散其模型安全预备团队",
+          "summary": "据《金融时报》报道，OpenAI 在上月底解散了其\"预备队\"（Preparedness Team），该团队此前负责评估模型是否构成严重风险并制定缓解措施。",
+          "comment": "在 AI 安全争议日益激烈的背景下，解散专门的安全团队是否是 OpenAI 商业化提速的信号，又将如何影响外界对其的信任？",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
+        },
+        {
+          "title": "周鸿祎发布全员信：360 启动 AI 时代组织变革，用领导力驱动 AI 原生转型",
+          "summary": "360 集团创始人周鸿祎发布全员信，宣布公司向 AI 原生（AI Native）组织转型，要求各级管理者成为推动创新的第一责任人，并称\"这是 360 用 AI 重新创业\"。",
+          "comment": "当\"All in Agent\"从口号变成组织级的深刻变革，传统大厂的管理者是否能真正适应从\"管人\"到\"带 AI 团队\"的角色转变？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/WjQLacGTcoSW4yTA.html"
+        },
+        {
+          "title": "阿里巴巴出售游戏业务给太盟投资，聚焦 AI 核心战略",
+          "summary": "阿里巴巴将其游戏子公司灵犀互娱出售给私募股权买家太盟投资（Trustar Capital），交易价值至少 15 亿美元。此举延续了阿里剥离非核心业务、聚焦最高优先级技术投资（AI）的模式。",
+          "comment": "出售游戏业务是否是阿里\"All in AI\"的又一关键落子，这是否意味着大型科技公司将更激进地收缩非 AI 业务版图？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8105947.html"
+        },
+        {
+          "title": "AI 时代的数据中心，正在被网络\"卡脖子\"",
+          "summary": "分析指出，AI 驱动的新一代数据中心中，芯片算力的增长速度已远超数据在芯片之间搬运的速度，网络互联成为制约整体性能的新瓶颈。",
+          "comment": "当算力不再是唯一瓶颈，网络技术（如光互联、硅光子）是否会成为下一轮 AI 基础设施投资和创新的核心焦点？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8105860.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-17T18:30:57.898312+08:00"
+}
