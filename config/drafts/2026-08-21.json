@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-21",
+  "time_window": "2026-08-20 19:00 ~ 2026-08-21 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "XREAL AURA全球预订量突破10000台，将于今秋上市",
+          "summary": "XREAL宣布其首款搭载谷歌Android XR操作系统的AR眼镜AURA，在全球的预订量已突破10000台。该产品计划于今年秋季正式发布。",
+          "comment": "作为首款Android XR AR眼镜，XREAL AURA的预订热潮能否真正撬动消费级AR市场？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/first-android-ar-glasses-xreal-aura-10k-reservations/"
+        },
+        {
+          "title": "首款“人类增强AI眼镜”发布，雷鸟iO首发价1996元起",
+          "summary": "雷鸟创新在8月21日的新品发布会上，正式推出全新产品系列——雷鸟iO，号称“首款人类增强AI眼镜”，首发价从1996元起。",
+          "comment": "雷鸟iO所强调的“人类增强”概念，在实际应用中能否区别于现有的AI眼镜体验？",
+          "source": "93913",
+          "url": "https://www.93913.com/124065.html"
+        },
+        {
+          "title": "传苹果大幅裁员VR团队，全力聚焦智能眼镜",
+          "summary": "有传闻称，苹果公司正在大幅裁减其VR（虚拟现实）团队，并将资源和重心全面转向智能眼镜的研发。",
+          "comment": "苹果这一战略转向，是否预示着Vision Pro产品线已被边缘化？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142519"
+        },
+        {
+          "title": "Rokid下一代AI眼镜将迎来全彩显示与定制摄像头升级",
+          "summary": "据业内消息，Rokid下一代一体式轻量化AI眼镜将在显示与影像方面大幅升级：显示将升级至全彩，摄像头也将采用针对眼镜形态定制的方案。",
+          "comment": "全彩显示对功耗和续航提出更高要求，Rokid将如何平衡性能与轻量化设计？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545848.html"
+        },
+        {
+          "title": "AI智能眼镜出货量暴涨776%",
+          "summary": "最新数据显示，与去年同期相比，AI智能眼镜的全球出货量实现了惊人的776%的同比增长，市场呈现爆发式增长态势。",
+          "comment": "出货量的激增究竟是由需求驱动，还是渠道铺货带来的短期繁荣？",
+          "source": "93913",
+          "url": "https://www.93913.com/124023.html"
+        },
+        {
+          "title": "英国影院全面限制Meta AI眼镜使用，防范盗版与隐私风险",
+          "summary": "继法院禁令之后，英国影院行业出台新规，开始限制甚至禁止场内使用Meta等带摄像功能的AI眼镜，以防盗版偷拍并保护观众隐私。",
+          "comment": "公共场所对AI眼镜的禁令，是否会成为该品类普及路上的最大障碍？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545849.html"
+        },
+        {
+          "title": "Steam Frame开箱及设置视频泄露，上市或临近",
+          "summary": "多个用户设置视频在网上泄露，展示了Valve首款独立VR头显Steam Frame的开箱和首次使用体验，这被视为该产品即将正式发布的强烈信号。",
+          "comment": "Steam Frame的推出，能否像Index一样再次定义PC VR的体验标杆？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/steam-frame-unboxing-setup-video-leak/"
+        },
+        {
+          "title": "Agtonomy发布自主多点转向新功能，提升农机作业效率",
+          "summary": "Agtonomy为其商用越野平台新增了自主多点转向功能，并增强了田间数据收集能力，旨在提升农业作业的自动化水平与效率。",
+          "comment": "这类自主功能是否会加速农业机器人的商业化落地进程？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/"
+        },
+        {
+          "title": "Rollme Proview智能眼镜以99.99美元搅动市场",
+          "summary": "Rollme Proview智能眼镜曝光，以99.99美元的价格提供了以往高端产品才有的配置组合，试图大幅降低消费者体验AI增强现实的门槛。",
+          "comment": "百元级AI眼镜能否在保证体验的同时，复制百元TWS耳机的市场成功路径？",
+          "source": "93913",
+          "url": "https://www.93913.com/124025.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "DeepSeek V4-Flash 补上视觉能力，多模态 Agent 接近 Opus 4.8",
+          "summary": "DeepSeek 发布了实验性模型 DeepSeek-V4-Flash-Vision-Exp，为 V4-Flash 补上了视觉能力，纯文本能力不降级，视觉能力大幅跃升。",
+          "comment": "DeepSeek 在视觉能力上的快速追赶，是否会进一步压缩闭源模型的市场空间？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502065"
+        },
+        {
+          "title": "Meta 开源智能体模型 Muse Glimmer，支持本地运行视觉与工具调用",
+          "summary": "Meta AI Research 推出 Muse Glimmer，这是一个 300 亿参数的开放权重模型，专为本地工作流设计，可直接在消费级 GPU 上运行自主智能体。",
+          "comment": "本地化开源智能体模型将如何改变依赖云 API 的 AI 应用开发范式？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "阿里财报：云收入增长45%创新高、利润暴增133%，模型发布全面提速",
+          "summary": "阿里巴巴最新财报显示，云业务收入同比增长45%创新高，利润暴增133%，同时大模型发布节奏全面提速。",
+          "comment": "阿里云收入和利润的高速增长，是否意味着其 AI 战略进入回报期，将成为国内 AI 基础设施的最大赢家？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316668"
+        },
+        {
+          "title": "OpenAI 在企业用户市场正赶超 Anthropic，新数据显示竞争格局生变",
+          "summary": "最新数据表明，随着各家实验室发布新模型，企业用户在 OpenAI 和 Anthropic 之间频繁切换，市场波动性值得投资者警惕。",
+          "comment": "企业用户对 AI 模型的高切换意愿，会否让 AI 公司的客户粘性成为新的商业难题？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
+        },
+        {
+          "title": "云大厂“亏钱卖”友商 AI 模型，重回 21 年恶性竞争老路",
+          "summary": "国内云厂商正以低至3折的价格销售智谱、DeepSeek、Kimi 等竞争对手的大模型，价格已击穿成本线，行业价格战加剧。",
+          "comment": "云厂商倒贴钱卖竞对模型，这种非理性竞争背后隐藏着怎样的战略意图？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/CorporateServices/2OndXI7BTP3zV3vO.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-21T18:30:35.911341+08:00"
+}
