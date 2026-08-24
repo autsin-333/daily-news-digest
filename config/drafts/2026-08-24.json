@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-24",
+  "time_window": "2026-08-23 19:00 ~ 2026-08-24 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "苹果智能眼镜：2026年最优雅的Vision Pro替代品？",
+          "summary": "据最新泄露消息，苹果智能眼镜（Apple Glass）可能于今年发布，其设计目标并非追求技术震撼，而是成为日常佩戴的自然组成部分。",
+          "comment": "苹果智能眼镜能否在功能与时尚之间找到平衡，从而真正打开消费市场？",
+          "source": "93913",
+          "url": "https://www.93913.com/124115.html"
+        },
+        {
+          "title": "传PICO Space Pro售价曝光：最高售价18499元",
+          "summary": "据XR开发者Antony Vitillo透露，PICO Space Pro国行价格可能高达16999元至18499元，折合约2380至2590美元，该信息来源于京东预约页面。",
+          "comment": "高昂的定价是否意味着PICO在高端XR设备市场将面临更激烈的竞争与更大的销售挑战？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545864.html"
+        },
+        {
+          "title": "荣耀机器人“闪电”百米跑出9秒32，刷新人类世界纪录",
+          "summary": "荣耀战队的机器人“闪电”在百米竞速备赛中跑出9秒32的成绩，峰值速度达14.5米/秒，超越了人类选手9秒58的世界纪录。",
+          "comment": "当机器人在运动速度上超越人类，未来竞技体育的定义和观赏性将发生怎样的改变？",
+          "source": "93913",
+          "url": "https://www.93913.com/124108.html"
+        },
+        {
+          "title": "人形机器人打破博尔特百米纪录，时速达38公里后撞上泡沫垫",
+          "summary": "在2026年世界人形机器人运动会上，天工Ultra和荣耀闪电两款机器人分别以9.39秒和9.47秒的成绩完成百米冲刺，打破了博尔特9.58秒的世界纪录。",
+          "comment": "机器人速度的突破是否意味着其在工业、救援等领域的实用价值也将随之大幅提升？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/robotics/humanoid-robots-shatter-usain-bolts-100m-record-hits-23-8-mph-before-crashing-into-foam-pads-video-shows-tiangong-ultra-logging-9-39-second-sprint-before-colliding-with-padded-wall"
+        },
+        {
+          "title": "JR九州采用智能眼镜远程作业支援系统“Atlas Remote”",
+          "summary": "JR九州铁路公司引入基于智能眼镜的远程作业支援系统“Atlas Remote”，旨在解决铁路电力设施维护中因人员移动和轮班制带来的效率与负担问题。",
+          "comment": "智能眼镜在工业维保场景的应用能否真正降低人力成本并提升作业安全性？",
+          "source": "93913",
+          "url": "https://www.93913.com/124106.html"
+        },
+        {
+          "title": "尼日利亚20岁青年自研AI眼镜，助力视障人群独立出行",
+          "summary": "尼日利亚20岁创业者哈利法·阿米努自主研发了一款专为视障人群设计的AI眼镜，集成了AI识别、GPS定位和语音交互等功能，已完成真人实测。",
+          "comment": "这款低成本的助盲设备能否获得规模化推广，为全球视障群体带来出行方式的革命？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545859.html"
+        },
+        {
+          "title": "大朋新品P1 PRO Max亮相，千万战略合作签约落地",
+          "summary": "大朋（DPVR）联合宽恒科技在广州举办游艺行业新品品鉴会，推出P1 PRO Max VR设备，并发布了百万适配扶持计划，同时达成千万订单战略采购。",
+          "comment": "商用VR游艺设备在解决成本与内容适配痛点后，能否迎来新一轮线下娱乐市场的爆发？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545863.html"
+        },
+        {
+          "title": "斯柯达推出混合现实看车应用，支持MR头显与手机沉浸式预览新车",
+          "summary": "斯柯达发布了名为“ŠKODA Virtual Experience”的MR应用，支持Vision Pro、Quest头显及手机，让消费者可在真实场景中1:1查看和配置电动车型。",
+          "comment": "汽车厂商布局MR看车是否会改变传统购车体验，成为主流销售渠道之一？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545862.html"
+        },
+        {
+          "title": "Lucyd AI眼镜接入Gemini，并新增AI个性化新闻播报",
+          "summary": "Innovative Eyewear为旗下Lucyd智能眼镜App新增多项AI功能，包括接入Google Gemini以及基于生成式AI的个性化新闻播报功能Newscast。",
+          "comment": "智能眼镜借助大模型实现个性化信息推送，是否会加剧用户的数字信息茧房效应？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545861.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI发布Codex开源Agent框架，开放三层开发者集成方案",
+          "summary": "OpenAI于8月19日发布Codex开源Agent框架，将Agent能力封装为可嵌入第三方产品的底层设施，与Anthropic的Claude Agent SDK形成直接竞争。",
+          "comment": "开源Agent框架能否复制开源大模型在开发者生态中的成功路径？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316717"
+        },
+        {
+          "title": "从“看”到“玩”：PixVerse R2 想打开互动娱乐的新入口",
+          "summary": "PixVerse R2利用世界模型重构互动娱乐体验，探索从内容观看到互动参与的新模式。",
+          "comment": "世界模型驱动的互动娱乐，会颠覆传统内容消费的形态吗？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/a/316690"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "字节跳动整合办公AI业务，豆包将推出独立AI办公产品",
+          "summary": "字节跳动将TRAE、扣子（Coze）团队整体并入豆包体系，整合旗下办公AI产品资源，以应对腾讯等竞争对手的挑战，并计划推出独立的AI办公产品。",
+          "comment": "字节跳动将办公AI整合进豆包超级App，是生态协同还是品牌稀释的冒险之举？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316721"
+        },
+        {
+          "title": "英伟达押注 Perplexity，但它真的值 300 亿美金吗？",
+          "summary": "英伟达对AI搜索公司Perplexity进行投资，引发对其高达300亿美元估值的讨论与质疑。",
+          "comment": "英伟达投资Perplexity，是看中其产品价值，还是为了巩固AI应用生态的话语权？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1676435?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "给快手和可灵算笔账",
+          "summary": "文章分析了快手及其AI视频生成模型可灵（Kling）的商业前景，认为可灵是快手在AI时代获得的一张确定性“船票”。",
+          "comment": "可灵能否在激烈的AI视频赛道中，为快手建立起持续且可观的商业化壁垒？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8114783.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-24T18:30:40.670459+08:00"
+}
