@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-25",
+  "time_window": "2026-08-24 19:00 ~ 2026-08-25 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta下一代头显Project Phoenix：目前已知的一切",
+          "summary": "Meta代号为Phoenix的下一代MR头显预计将于9月Connect大会亮相，这是一款轻薄型分体式头显，可能采用全新设计形态。",
+          "comment": "分体式设计的头显能否真正解决重量与算力的矛盾，成为下一代消费级MR的主流形态？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/phoenix-everything-we-know-so-far-meta-next-headset/"
+        },
+        {
+          "title": "PICO Space Pro发布延期至Q4，原定9月发布会取消",
+          "summary": "字节跳动旗下PICO突然宣布调整新品发布节奏，原定9月2日的PICO Space Pro发布会延期至第四季度，这款对标Apple Vision Pro的头显留下了更多悬念。",
+          "comment": "PICO延期发布是否意味着XR市场竞争策略的重新评估，还是产品本身遇到了技术瓶颈？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/pico-vision-pro-competitor-delayed-cancelled-event/"
+        },
+        {
+          "title": "小鹏机器人部门Dogotix融资9亿美元，估值达63亿美元",
+          "summary": "小鹏汽车旗下人形机器人公司Dogotix完成9亿美元融资，估值达到63亿美元，计划进行机器人规模化生产。",
+          "comment": "高估值背后，人形机器人距离真正的商业化落地还有多远？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
+        },
+        {
+          "title": "苹果研发带摄像头AirPods Pro：为何它比传统智能眼镜更实用？",
+          "summary": "苹果正在探索带摄像头的AirPods Pro，将AI视觉能力与音频设备结合，展示了与智能眼镜不同的可穿戴设备研发思路。",
+          "comment": "带摄像头的耳机形态是否会在隐私性和实用性上找到比智能眼镜更好的平衡点？",
+          "source": "93913",
+          "url": "https://www.93913.com/124130.html"
+        },
+        {
+          "title": "HTC与Innovative Eyewear达成合作，VIVE Eagle AI眼镜9月进军美国市场",
+          "summary": "HTC宣布与Innovative Eyewear达成战略合作，后者将负责VIVE Eagle AI智能眼镜在美国市场的商业化，包括处方镜片配装等服务，产品将于9月上市。",
+          "comment": "传统眼镜渠道的加入能否帮助AI眼镜突破极客圈层，真正走向大众消费者？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545867.html"
+        },
+        {
+          "title": "Meta向爱尔兰捐赠1.5万副AI眼镜，助视障人士提升独立生活能力",
+          "summary": "Meta宣布向爱尔兰视力损失公益机构Vision Ireland捐赠超过1.5万副Ray-Ban Meta AI眼镜，帮助视障用户利用AI能力获取环境理解和信息支持。",
+          "comment": "AI眼镜在助残领域的规模化应用，是否会成为智能硬件下一个重要的社会价值突破口？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545871.html"
+        },
+        {
+          "title": "Arm专利：用超声波刺激内耳前庭，缓解XR晕动症",
+          "summary": "Arm获得一项XR防晕动技术专利，通过头戴设备中的超声波传感器刺激内耳前庭系统，以平衡视觉与体感反馈，缓解佩戴XR头显时的眩晕不适。",
+          "comment": "物理性地干预人体感官来对抗晕动症，这条路会比软件优化走得更远吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545868.html"
+        },
+        {
+          "title": "Timekettle Babel OS 3.0落地RayNeo iO，实时翻译能力向第三方硬件开放",
+          "summary": "RayNeo iO AI眼镜的实时翻译功能由Timekettle的Babel OS 3.0提供，支持55种语言和109种口音，标志着Timekettle从翻译硬件厂商向AI技术平台转型。",
+          "comment": "实时翻译能力的系统级开放，能否让AI眼镜成为跨语言交流的标配工具？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545874.html"
+        },
+        {
+          "title": "AI终端需求拉动，碧云存储上半年营收增近300%",
+          "summary": "碧云存储发布2026年上半年财报，营收155.7亿元同比增长298%，AI新兴存储产品营收28.6亿元，已导入Meta、谷歌、Rokid、小米等厂商的AI/AR眼镜供应链。",
+          "comment": "AI眼镜等终端的大规模出货，能否持续支撑存储行业的下一个增长周期？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545873.html"
+        },
+        {
+          "title": "2026世界机器人大会闭幕，55.7万人次共绘具身智能新蓝图",
+          "summary": "为期五天的2026世界机器人大会在北京亦庄落幕，发布44项新技术新方案，现场参会达55.7万人次，全方位展现人形机器人与具身智能产业态势。",
+          "comment": "人形机器人产业热度持续升温，但距离成为普通家庭中的日常设备还需要多久？",
+          "source": "93913",
+          "url": "https://www.93913.com/124128.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Anthropic发布Claude Tag更新：Slack智能体可读取完整对话并无提示介入",
+          "summary": "Anthropic推出被称为“多人AI”的新功能，更新后的Claude Tag能让其Slack智能体读取完整对话上下文，并在无需用户明确提示的情况下主动介入协作，旨在推动企业AI从单人使用走向多人协同。",
+          "comment": "AI智能体主动“插话”是否会对人类团队的沟通节奏和决策权产生新的干扰？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted"
+        },
+        {
+          "title": "Meta发布首款内置NIC和通信卸载引擎的训练芯片MTIA 300",
+          "summary": "Meta介绍了其自研训练与推理加速器MTIA 300，该芯片是首款内置网络接口控制器和通信卸载引擎的训练芯片，专为训练排名和推荐模型优化，性能优于通用GPU。",
+          "comment": "Meta自研芯片从推理扩展到训练，这是否标志着大型科技公司对英伟达的依赖正在发生实质性转变？",
+          "source": "Engineering at Meta",
+          "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "印度AI数据中心公司订购9000套英伟达Vera Rubin系统",
+          "summary": "印度AI基础设施公司AM Intelligence向英伟达订购了9000套Vera Rubin系统，计划成为亚洲首批采用该先进计算平台的用户之一。",
+          "comment": "这笔大额订单是否预示着英伟达下一代平台在亚洲市场的需求将超出预期？",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-25/india-ai-data-center-firm-orders-9-000-nvidia-vera-rubin-systems"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-25T18:30:41.617053+08:00"
+}
