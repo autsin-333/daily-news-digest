@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-30",
+  "time_window": "2026-08-29 19:00 ~ 2026-08-30 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "优必选人形机器人半年销量激增268%，加速迈向盈利拐点",
+          "summary": "优必选科技发布2026年中期业绩报告，核心业务人形机器人呈现规模化增长态势，销量激增268%。",
+          "comment": "人形机器人销量激增背后，真正的规模化商用拐点还有多远？",
+          "source": "93913",
+          "url": "https://www.93913.com/124237.html"
+        },
+        {
+          "title": "Meta加固AI眼镜隐私防线：防篡改与“超级感知”的悖论",
+          "summary": "Meta近期推出强制固件更新，将AI眼镜的隐私LED指示灯保护从软件层面升级至硬件物理层面。",
+          "comment": "硬件级隐私保护能否真正消解公众对AI眼镜“超级感知”能力的担忧？",
+          "source": "93913",
+          "url": "https://www.93913.com/124247.html"
+        },
+        {
+          "title": "索尼XR专利双线爆发：1700余项新公开，6篇核心布局曝光",
+          "summary": "索尼公开1700余项专利，其中6篇核心XR专利被重点披露，展现其在光学显示硬件与软件算法双线推进的布局。",
+          "comment": "索尼在XR领域的专利密集布局，是否预示着下一代头显设备的重大革新即将到来？",
+          "source": "93913",
+          "url": "https://www.93913.com/124245.html"
+        },
+        {
+          "title": "Rock Gallery推出无人机与智能眼镜联动系统，提升灾害救援效率",
+          "summary": "Rock Gallery宣布其现场指挥支援系统“3rd-EYE”已实现与国产无人机的实时联动，为灾害救援和基础设施巡检提供新方案。",
+          "comment": "智能眼镜与无人机的联动，能否成为未来应急响应领域的标配装备？",
+          "source": "93913",
+          "url": "https://www.93913.com/124249.html"
+        },
+        {
+          "title": "Meta拆分Horizon Worlds：移动端游戏将独立为新应用“Eclipse”",
+          "summary": "Meta将Horizon Worlds中的移动端游戏拆分为独立应用“Eclipse”，以明确VR内容与移动游戏的界限。",
+          "comment": "拆分后的Eclipse是否会稀释Meta对VR核心体验的投入？",
+          "source": "93913",
+          "url": "https://www.93913.com/124251.html"
+        },
+        {
+          "title": "ABAL旗下VR体验设施日客流突破2000人，同步启动合作伙伴招募",
+          "summary": "ABAL宣布其基于XR平台“Scape”的VR体验服务在8月实现单日客流量超2000人的里程碑，并启动合作伙伴招募。",
+          "comment": "线下VR体验的客流新高，是否意味着沉浸式娱乐消费正在成为主流？",
+          "source": "93913",
+          "url": "https://www.93913.com/124242.html"
+        },
+        {
+          "title": "VITURE把《影之刃零》的“黑魔伤”做成了眼镜",
+          "summary": "VITURE在科隆游戏展上展示了与《影之刃零》合作的联名XR眼镜“幻影猛兽”，首发价4299元，已开启预购。",
+          "comment": "游戏IP联名能否成为XR眼镜从小众极客走向大众市场的破圈利器？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545902.html"
+        },
+        {
+          "title": "群机器人中的集中式与分散式供电差异",
+          "summary": "文章探讨了群机器人系统中集中式与分散式供电管理的差异，并提出混合方案可能兼具两者优势。",
+          "comment": "供电架构的选择将如何影响未来大规模机器人集群的自主性与续航能力？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/differences-between-decentralized-centralized-power-swarm-robotics/"
+        },
+        {
+          "title": "边缘AI之墙：具身智能为何需要新数学",
+          "summary": "文章指出计算过载并非特定规划器的缺陷，而是限制物理与具身AI发展的“边缘AI之墙”，需要新数学框架来突破。",
+          "comment": "当传统算法触及算力天花板，新的数学工具能否为具身智能开辟真正的出路？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/edge-ai-wall-why-embodied-ai-requires-new-mathematics/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "腾讯发布Hy4预览版：7700亿参数开源大模型",
+          "summary": "腾讯今日发布Hy4预览版，这是一个7700亿总参数、490亿激活参数的开源文本模型，拥有100万token上下文窗口，模型权重达1.56TB。相比7月份的Hy3模型，参数规模和上下文长度均有大幅提升。",
+          "comment": "腾讯7700亿参数的开源模型能否在性能上与DeepSeek等国内头部开源模型形成差异化竞争？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Aug/29/hy4/"
+        },
+        {
+          "title": "Meta推进数据中心机器人应用测试",
+          "description": "Meta正在测试机器人执行原本由技术人员完成的任务，探索机器人在数据中心运维中的实际应用。",
+          "comment": "Meta将机器人引入数据中心是出于人力成本的考虑，还是为了实现更高密度的AI算力部署？",
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "索尼音乐和华纳起诉Anthropic涉嫌大规模盗用版权音乐",
+          "summary": "索尼音乐和华纳起诉AI公司Anthropic，指控其存在\"肆无忌惮的\"知识产权盗窃行为。这起诉讼范围广泛，聚焦于非法盗版问题，将AI版权争议再次推向高潮。",
+          "comment": "唱片公司集体起诉Anthropic，是否会成为压垮AI公司\"合理使用\"抗辩的最后一根稻草？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+        },
+        {
+          "title": "G20峰会就债务、AI与全球增长议题出现分歧",
+          "summary": "G20财长会议在北卡罗来纳州举行，各国在主权债务和全球增长问题上分歧加大。科技会议将邀请马斯克、黄仁勋和奥特曼参与AI与新兴技术讨论，美国正推动更宽松的监管。",
+          "comment": "美国推动AI轻监管与欧盟的严格监管路线，会在G20框架下达成何种共识？",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video"
+        },
+        {
+          "title": "技术反弹声浪高涨：AI焦虑与社交媒体担忧交汇",
+          "summary": "随着数据中心问题成为选举热议话题、Meta在社交媒体案件中达成里程碑式和解，科技行业的反弹声浪正在加剧，科技巨头面临的公众和政治压力持续上升。",
+          "comment": "当AI焦虑成为选举议题，科技巨头是否正在失去对政策议程的掌控力？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-08-30T22:14:40.517320+08:00"
+}
