@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-02",
+  "time_window": "2026-09-01 19:00 ~ 2026-09-02 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "彭博社：苹果Vision Pro团队实际裁员范围超先前报道，新CEO对头显前景存疑",
+          "summary": "据映维网援引彭博社报道，苹果Vision Pro团队的实际裁员范围超过此前报道，新任CEO John Ternus对头显产品前景存疑，与此同时，苹果已将下一代硬件重心转向AI智能眼镜。",
+          "comment": "Vision Pro的受挫是否意味着苹果将彻底放弃高端头显路线，转而押注更轻量的AI眼镜？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142742"
+        },
+        {
+          "title": "苹果新CEO押注AI智能眼镜，无AR镜片，视觉智能重构Siri",
+          "summary": "苹果下一代硬件重心从Vision Pro转向消费级AI智能眼镜，新任CEO John Ternus主导该项目，产品代号N50，计划2027年上市，该眼镜不含AR镜片，而将采用视觉智能技术重构Siri交互。",
+          "comment": "苹果的AI眼镜不搭载AR镜片，这是否意味着它更侧重语音与视觉AI交互而非增强现实显示？",
+          "source": "93913",
+          "url": "https://www.93913.com/124316.html"
+        },
+        {
+          "title": "山姆·奥特曼公开表示不喜欢智能眼镜，认为摄像头和指示灯让人不舒服",
+          "summary": "OpenAI CEO山姆·奥特曼在近期发言中表示，他不喜欢智能眼镜产品，指出摄像头和指示灯会使用户和周围人感到不适，这一立场与当前AI眼镜热潮形成鲜明对比。",
+          "comment": "作为AI领域领军人物，奥特曼的反对意见会对智能眼镜的普及产生实质性影响吗？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/142728"
+        },
+        {
+          "title": "Stryker完成首例苹果Vision Pro辅助髋关节镜手术，医疗应用再突破",
+          "summary": "医疗设备巨头Stryker宣布依托Apple Vision Pro的SportSuite Vision应用，成功完成首例临床髋关节镜手术，同时计划收购ZuriMED以丰富肩关节修复产品线。",
+          "comment": "Vision Pro在医疗手术中的成功应用，是否会打开高级头显在专业领域的新市场？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545922.html"
+        },
+        {
+          "title": "Lumus授权广达量产新一代AR波导Z-30 2.0与A-Lens，加速AI眼镜商用",
+          "summary": "AR光学厂商Lumus宣布与广达电脑达成授权协议，广达将负责量产Lumus下一代轻量化光波导产品，包括Z-30 2.0及30°/50°视场角的A-Lens，双方合作已近十年，此举旨在推动AI眼镜的大规模商业化。",
+          "comment": "国际AR光学巨头授权中国代工厂量产，这是否意味着全球AI眼镜供应链将进一步向中国集中？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545923.html"
+        },
+        {
+          "title": "Bigscreen将Beyond 2头显价格降至959美元，Halo Mount恢复生产",
+          "summary": "Bigscreen宣布将其轻薄PC VR头显Beyond 2的起售价永久下调至959美元，同时备受期待的Halo Mount头带已恢复生产，预计近期开始发货。",
+          "comment": "在Meta和Valve等巨头加码VR市场时，小众轻量头显通过降价能否保住生存空间？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/bigscreen-beyond-2-price-drop-halo-mount/"
+        },
+        {
+          "title": "MemoMind One开启开发者计划，KiWear成为首个SDK合作伙伴",
+          "summary": "极米科技旗下AI眼镜品牌MemoMind宣布启动开发者访问计划，公开MemoMind One的蓝牙通信协议，并联合KiWear等合作伙伴推动AI眼镜开发者生态建设。",
+          "comment": "AI眼镜厂商开放底层协议，能否催生出类似手机应用商店的繁荣生态？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545925.html"
+        },
+        {
+          "title": "Valve新头显Steam Frame或将免费捆绑《半衰期：爱莉克斯》，定价成悬念",
+          "summary": "继Valve新头显Steam Frame曝光后，最新迹象表明V社可能为设备配备《半衰期：爱莉克斯》作为首发福利，但最终定价仍未公布，成为市场关注焦点。",
+          "comment": "捆绑神作是否足以说服VR老玩家升级新一代头显？",
+          "source": "93913",
+          "url": "https://www.93913.com/124326.html"
+        },
+        {
+          "title": "AI眼镜处消费端导入期，产业进入关键验证阶段",
+          "summary": "行业分析指出，当前AI眼镜在消费端仍处于早期采用阶段，企业业绩兑现存在时滞，市场正进入技术验证与商业模式探索的关键期。",
+          "comment": "AI眼镜的杀手级应用尚未出现，当前的消费热潮能否支撑起产业预期？",
+          "source": "93913",
+          "url": "https://www.93913.com/124317.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Anthropic发布Claude Fable 5.1和Mythos 5.1，缓存读取成本降低75%",
+          "summary": "Anthropic推出了其最新的强大语言模型Claude Fable 5.1（即Mythos 5.1），该模型在编码、知识工作和长期问题解决任务上树立了新标准，并大幅降低了Fable缓存读取的成本。",
+          "comment": "模型能力大幅提升的同时降低成本，这是否会加速企业级AI应用的全面普及？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads"
+        },
+        {
+          "title": "前沿模型可通过更长思考时间恢复高达65%的无法直接回忆的事实",
+          "summary": "Google Research和Technion的一项新研究表明，大语言模型的幻觉问题往往不是由于知识缺失，而是信息提取失败。通过让模型进行更长时间的推理，它们可以恢复至多65%直接提问无法回忆的事实。",
+          "comment": "如果延长推理时间能显著提升事实召回能力，未来模型设计是否会偏向于更深的推理而非更大的参数规模？",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/orchestration/frontier-models-can-recover-up-to-65-of-facts-they-cant-directly-recall-just-by-thinking-longer"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "独家解读：字节跳动Seed大调整，新设四大一级部门，数据和RL团队开始集中",
+          "summary": "字节跳动旗下Seed基础模型团队进行了重要组织调整，新设预训练数据、强化学习、办公场景后训练和对话场景后训练四个一级部门，反映出公司对提升模型能力和强化应用场景的战略意图。",
+          "comment": "国内大厂将重心从模型架构创新转向数据和强化学习，这预示着什么新的行业竞争焦点？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/75DZ3yfWSLnIppDb.html"
+        },
+        {
+          "title": "OpenAI预览新模型Astra，具备高超的计算机系统入侵能力",
+          "summary": "OpenAI发布了关于其新模型Astra的预告，这是首个达到其预备框架下“严重网络安全能力”门槛的模型，因此OpenAI加强了对其发布的安全防护措施。",
+          "comment": "当AI的攻防能力触及关键基础设施时，我们该如何平衡其潜在破坏力与巨大价值？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/"
+        },
+        {
+          "title": "谷歌推出AI设计工具Google Pics，整合Workspace生态",
+          "summary": "谷歌正式进军创意设计领域，推出了由Nano Banana模型驱动的AI图像创作与编辑工具Google Pics，该工具将面向Workspace企业客户及AI Pro/Ultra订阅用户开放。",
+          "comment": "谷歌将AI设计能力深度整合进办公生态，这会对Adobe等传统创意软件巨头构成多大威胁？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/316998"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-02T21:10:57.478459+08:00"
+}
