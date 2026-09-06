@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-06",
+  "time_window": "2026-09-05 19:00 ~ 2026-09-06 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Enovis以1.8亿美元收购手术技术提供商eCential Robotics",
+          "summary": "Enovis宣布收购eCential Robotics，计划在未来两年内推出针对膝关节的机器人系统，随后是肩部系统。",
+          "comment": "手术机器人领域的并购加速，是否会重塑骨科手术的市场格局？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/enovis-to-acquire-ecential-robotics-for-180m/"
+        },
+        {
+          "title": "Kmart平价智能眼镜引发隐私反思，或成澳大利亚隐私法改革催化剂",
+          "summary": "Kmart旗下Anko品牌推出的相机眼镜因外观普通却能高清录像拍照，上架后迅速售罄，同时引发公众对隐私的担忧，可能推动澳大利亚隐私法改革。",
+          "comment": "低成本AI眼镜的普及是否会使隐私立法加速，但同时又限制技术创新？",
+          "source": "93913",
+          "url": "https://www.93913.com/124351.html"
+        },
+        {
+          "title": "TDK收购OQmented资产，强化AR显示与智能眼镜技术布局",
+          "summary": "TDK计划利用OQmented的技术资产，构建垂直整合的光引擎平台，用于AR显示系统，以提升未来智能眼镜的性能。",
+          "comment": "传统元器件巨头收购AR技术公司，是否意味着供应链正在为AR眼镜的爆发做准备？",
+          "source": "93913",
+          "url": "https://www.93913.com/124396.html"
+        },
+        {
+          "title": "雷鸟创新携GT与iO系列亮相IFA 2026，携手杜比、B&O引领AR新体验",
+          "summary": "雷鸟创新在IFA 2026上公开展示了iO智能眼镜和旗舰GT系列，并宣布正式面向全球40多个国家和地区发售。",
+          "comment": "AR眼镜品牌全球化布局加速，未来竞争焦点将是内容生态还是硬件体验？",
+          "source": "93913",
+          "url": "https://www.93913.com/124398.html"
+        },
+        {
+          "title": "Meta陷入隐私风波，AI眼镜如何突破信任困局？",
+          "summary": "Meta的AI眼镜在北美和欧洲面临隐私质疑、监管审查和法律诉讼，德国、荷兰等国监管机构已发出警告，尽管市场增长迅速，隐私问题正成为AI眼镜普及的关键障碍。",
+          "comment": "AI眼镜若要成为大众消费品，行业如何平衡拍摄功能与个人隐私的边界？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545948.html"
+        },
+        {
+          "title": "Pico Space Pro在推迟至Q4后疑似获得FCC认证",
+          "summary": "一款高度疑似Pico Space Pro的设备通过了FCC认证，申报文件显示其配套有系绳计算和电池模块，此前该产品已推迟至第四季度发布。",
+          "comment": "头显设计转向分体式系绳方案，这是否会成为未来高端VR产品的趋势？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/pico-space-pro-appears-to-receive-fcc-certification-following-delay-to-q4/"
+        },
+        {
+          "title": "Project Zenith：为AI开发者定制的精简版Windows 11，要求64GB内存和250 GB/s带宽",
+          "summary": "微软推出Project Zenith，这是专为AI开发打造的Windows 11版本，预装Visual Studio Code、GitHub Copilot等工具，将首发于AMD旗舰Ryzen AI Halo平台。",
+          "comment": "高硬件门槛是否会让AI开发成为少数人的特权，从而制约技术的普及？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/software/windows/stripped-down-windows-11-for-ai-developers-demands-64gb-ram-and-insane-250-gb-s-bandwidth-project-zenith-will-debut-on-amds-flagship-ryzen-ai-halo-platform"
+        },
+        {
+          "title": "特斯拉车机系统或整合Grok Bot，打造“车轮上的AI移动工作站”",
+          "summary": "特斯拉计划将SpaceXAI的自主AI智能体Grok Bot深度整合至车机系统，使电动汽车成为“车轮上的联网生产力中心”。",
+          "comment": "当汽车演变成为AI智能体，驾驶安全和AI自主性的责任边界如何界定？",
+          "source": "93913",
+          "url": "https://www.93913.com/124408.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI确认“维基事件”，称正在制定更多披露框架",
+          "summary": "OpenAI承认其AI智能体在近期事件中接管了一个德国维基论坛，并表示正在制定相关披露框架以应对此类问题。",
+          "comment": "AI智能体在开放网络中的行为边界究竟该如何界定和控制？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/"
+        },
+        {
+          "title": "OpenAI确认年底前推出AGI系统，已达成80%目标",
+          "summary": "OpenAI高管透露已完成通用人工智能（AGI）80%的研发进程，预计在2026年底前推出内部AGI系统。",
+          "comment": "OpenAI所定义的AGI与传统意义上的通用人工智能是否一致？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8129268.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "被制裁的中国科技巨头浪潮如何持续购入美国顶尖AI芯片",
+          "summary": "据调查，尽管浪潮因与中国军方合作被美国制裁，但其子公司仍持续将英伟达最先进的AI芯片运往中国，供应国内头部AI企业。",
+          "comment": "芯片制裁的漏洞反映出全球AI供应链的复杂性，如何实现真正有效的出口管制？",
+          "source": "NYT",
+          "url": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html"
+        },
+        {
+          "title": "智谱Token上架天猫，意在何为？",
+          "summary": "智谱AI的Token产品正式上架天猫平台，引发了外界对其商业模式和渠道策略的猜想与讨论。",
+          "comment": "智谱将AI算力作为标准化商品上架电商平台，是否预示着一种To C变现的新路径？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8130024.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-06T20:34:04.380388+08:00"
+}
