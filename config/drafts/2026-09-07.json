@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-07",
+  "time_window": "2026-09-06 19:00 ~ 2026-09-07 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Agility Robotics在人形机器人SPAC上市前报告180万美元营收",
+          "summary": "Agility Robotics的S-4文件显示2025年营收180万美元，运营亏损1.4亿美元，并计划扩大其Digit人形机器人业务。",
+          "comment": "人形机器人企业如此高额亏损与低营收并存，其SPAC上市估值如何支撑？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
+        },
+        {
+          "title": "GOSIGHT发布P1全彩AI+AR眼镜，双目Micro-OLED支持热插拔续航",
+          "summary": "GOSIGHT在IFA 2026上展示了P1一体式双目全彩AI+AR眼镜，采用双目Micro-OLED显示方案，约69g轻量化设计并集成了摄像头、开放式音频和AI功能。",
+          "comment": "69克的一体式全彩AR眼镜在散热与续航上能否支持长时间高负载AI场景？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545952.html"
+        },
+        {
+          "title": "AREX发布AR潜水面镜，将潜水数据直接显示在视野中",
+          "summary": "AREX在IFA柏林活动上发布AR潜水面镜AREX ONE，采用Micro-LED加光波导方案，将深度、气体信息等数据直接投射在潜水员视野中。",
+          "comment": "水下AR显示在光学设计与防水性能上会面临哪些不同于空中环境的特殊挑战？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545954.html"
+        },
+        {
+          "title": "乐奇Rokid在IFA 2026发布AIUI Studio，进一步开放AI眼镜生态",
+          "summary": "Rokid面向全球发布AIUI Studio，一款专为Rokid Glasses设计的一站式智能体创作平台，开发者可在浏览器内完成智能体设计、编码、调试及发布。",
+          "comment": "开放生态后，第三方智能应用能否成为AI眼镜超越手机依赖的核心杀手锏？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545951.html"
+        },
+        {
+          "title": "PICO Space Pro获FCC认证，分体式MR头显预计2026年第四季度发布",
+          "summary": "PICO新旗舰MR头显Space Pro已现身FCC认证列表，该设备采用4000PPI Micro-OLED屏幕和双芯片架构，此前的发布因重大软件升级推迟至第四季度。",
+          "comment": "双芯片架构与推迟发布的“重大软件升级”能否让PICO Space Pro在高端MR市场建立真正的差异化优势？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/142812"
+        },
+        {
+          "title": "BleeqUp Rover发布：一款能拍3K视频的AI骑行眼镜",
+          "summary": "BleeqUp Rover在IFA期间发布，将运动相机、耳机、对讲机和智能助手整合进一副仅重53克的眼镜中，可拍摄3K视频。",
+          "comment": "骑行眼镜集成拍摄功能后，在公共道路上如何平衡记录便利与路人隐私权？",
+          "source": "93913",
+          "url": "https://www.93913.com/124454.html"
+        },
+        {
+          "title": "Steam Frame后台加入预约系统，上市准备再进一步",
+          "summary": "Valve被发现为其Steam Frame头显的两组SKU在后台加入了预约机制，外界推测这可能对应此前曝光的256GB和1TB存储版本，被视为临近正式上市的迹象。",
+          "comment": "Valve在VR市场长期静默后，Steam Frame的预约模式能否复刻Steam Deck的爆款路线？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545955.html"
+        },
+        {
+          "title": "《加拉帕戈斯：最后的伊甸园》：一部由玛格特·罗比旁白的Android XR互动自然体验",
+          "summary": "该互动自然体验基于XREAL Aura设备运行，未来确认将在更广泛的Android XR设备上发布，由玛格特·罗比担任旁白。",
+          "comment": "名人旁白的高预算内容是否能有效推动XR设备从工具向沉浸式文化消费平台的转型？",
+          "source": "93913",
+          "url": "https://www.93913.com/124468.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "AWS 开源 Kiro Crew，让 Coding Agent 异步跑起来",
+          "summary": "Amazon 宣布推出开源系统 Kiro Crew，允许开发者在不在电脑前时，将代码任务交给多个 AI Agent 跨会话、工具异步执行，支持持久化工作、共享记忆和子 Agent 委派。",
+          "comment": "异步 Coding Agent 是否会彻底改变开发者与 AI 协作的工作节奏，甚至重新定义软件开发的“工时”概念？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/uTRvjxweSGdp2kzlhPiV"
+        },
+        {
+          "title": "GT-6 发布后，OpenAI 又自曝「外星思维」，AGI 真的来了？",
+          "summary": "文章探讨了 OpenAI 在发布 GPT-6 后，其首席科学家 Jakub Pachocki 发表名为《An Alien Mind》的文章，谈及“递归自我改进”（RSI）以及AGI 的实现路径，引发外界对 AGI 时刻是否到来的讨论。",
+          "comment": "若 AGI 的核心是“外星思维”的递归自我改进，我们现有的安全框架是否还能约束一个我们无法完全理解的智能？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1678637?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "AI视频生成跨越实时门槛，可支持连续流与交互式故事",
+          "summary": "以 MiniMax H3 Max 为代表的模型已实现快于播放速度的视频生成，AI视频正从批量生产转向连续、交互式的媒体形态，早期实验展示了AI驱动的无限直播和近乎零延迟的叙事游戏，但一致性、成本和安全性仍是限制因素。",
+          "comment": "这种交互式AI视频一旦成熟，除了娱乐游戏，它会在教育、训练、虚拟陪伴等场景中带来哪些颠覆性的应用，将如何改变内容消费方式？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8131491.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "字节跳动创始人加入AI精英赛，竞逐完美世界模型",
+          "summary": "据彭博社报道，字节跳动正在准备一个面向实时空间视频生成的AI模型，此举将直接对标 Meta 和 Alphabet，角逐在机器人及自动驾驶系统等领域的应用机会。",
+          "comment": "当巨头们纷纷押注“世界模型”作为 AI 的下一个高地，这会如何重塑具身智能与数字孪生赛道的竞争格局？",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/bytedance-founder-joins-ai-elite-in-race-to-perfect-world-models"
+        },
+        {
+          "title": "OpenAI 首席科学家警告：没有人对AI的后果做好准备",
+          "summary": "在 OpenAI 发布其声称最强大的产品 GPT-6 Astra之际，这家公司的首席科学家发出公开警告，指称外界对人工智能发展带来的后果尚未做好准备。",
+          "comment": "一边是史上最强AI产品的发布，另一边是自家首席科学家的“无人准备好”论，这中间传递出怎样的严肃信号，又是否意味着前沿AI企业的内外逻辑已完全割裂？",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwyzrrd0kp7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "AI人才3次大迁徙：百度先行、六小虎分化、腾讯「腾笼换鸟」",
+          "summary": "文章梳理了过去三年半国内AI人才流动的三大浪潮：从早期百度向大模型创业公司输送人才，到“六小虎”等创业公司内部发生路线分歧与人员流动，再到现在腾讯等大厂通过策略性调整招揽并重置团队。",
+          "comment": "在国内 AI 人才“腾笼换鸟”的循环中，初创公司如何才能真正留住顶尖技术人才，避免沦为为大厂培养人才的“黄埔军校”？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/IfTsnhdqbaxeTEu6.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-07T22:43:23.591894+08:00"
+}
