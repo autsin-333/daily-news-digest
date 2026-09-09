@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-09",
+  "time_window": "2026-09-08 19:00 ~ 2026-09-09 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "微信支付推出智能眼镜SDK：看一眼即可扫码付款",
+          "summary": "微信官方正式宣布上线微信支付智能眼镜SDK，标志着移动支付进入全新的“可穿戴”时代，支持用户通过智能眼镜直接扫码完成支付。",
+          "comment": "支付功能嵌入智能眼镜后，如何平衡便捷性与用户的隐私安全之间潜在的风险？",
+          "source": "93913",
+          "url": "https://www.93913.com/124516.html"
+        },
+        {
+          "title": "影目科技完成近10亿元C轮融资，正式启动上市筹备工作",
+          "summary": "全球智能眼镜品牌影目科技完成C3轮融资，C轮累计融资额接近10亿元，资金将用于空间智能硬件产品线研发及INMO AIOS系统迭代，并已正式启动上市筹备。",
+          "comment": "智能眼镜赛道融资热度持续攀升，什么核心壁垒能让这些创业公司最终在巨头环伺的市场中站住脚？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545967.html"
+        },
+        {
+          "title": "亮亮视野完成超3亿元C+轮融资，北京产业资本加码AR眼镜赛道",
+          "summary": "AR+AI科技企业亮亮视野宣布完成超3亿元C+轮融资，投资方包括北京信息产业发展投资基金等，近一年累计融资规模约5亿元。",
+          "comment": "继影目科技之后又有AR厂商获得大额融资，产业资本如此密集地加注AR眼镜赛道，看中的是短期的出货量还是长远的生态卡位？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545966.html"
+        },
+        {
+          "title": "首家AI眼镜4S旗舰店落子东莞，全球每两副AI眼镜一副“东莞造”",
+          "summary": "全国首家AI眼镜4S旗舰店在东莞正式落成，并同步首发KRETA Poseidon盲人导航眼镜，展现了产业升级与民生关怀的深度融合。",
+          "comment": "“AI眼镜4S店”模式的出现，是否意味着智能眼镜正从极客尝鲜的电子产品走向大众化的日常消费品？",
+          "source": "93913",
+          "url": "https://www.93913.com/124493.html"
+        },
+        {
+          "title": "Meta遭集体诉讼，被指利用社交平台照片训练AI眼镜人脸识别系统",
+          "summary": "Meta在美国面临一项全国性集体诉讼，原告指控其未经用户同意，利用Facebook和Instagram上的照片提取生物识别信息，用于开发面向智能眼镜的人脸识别系统。",
+          "comment": "当智能眼镜的视觉能力与社交平台的海量数据结合，个人生物识别信息的保护边界应该如何重新界定？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545965.html"
+        },
+        {
+          "title": "中国VR作品《鸽环》亮相威尼斯电影节，以家庭叙事获国际关注",
+          "summary": "在第83届威尼斯国际电影节“威尼斯沉浸单元”展映区，来自中国的VR作品《鸽环》以家庭叙事结合前沿技术亮相，获得国际关注。",
+          "comment": "中国VR作品不断在国际电影节获奖，技术之外的内容叙事和情感表达是否会成为VR硬件普及的下一个突破口？",
+          "source": "93913",
+          "url": "https://www.93913.com/124514.html"
+        },
+        {
+          "title": "波士顿动力资深员工创立 Dynamic Creatures，用机器人给角色赋予生命",
+          "summary": "波士顿动力公司资深员工成立了名为Dynamic Creatures的初创企业，旨在通过机器人技术创造自己的角色形象，并为特定品牌和环境重新塑造角色。",
+          "comment": "波士顿动力老兵打造的娱乐机器人，能否将人形机器人从工业场景带向普通消费者的情感陪伴领域？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/"
+        },
+        {
+          "title": "小派科技加入觅蜂数据联盟，切入具身数据新基建",
+          "summary": "小派科技正式加入觅蜂数据联盟，双方将在空间计算与数据采集领域展开深度合作，共同建设面向具身智能的下一代数据采集基础设施。",
+          "comment": "VR头显厂商切入具身智能数据赛道，是否意味着空间计算能力将成为机器人智能化的关键数据入口？",
+          "source": "93913",
+          "url": "https://www.93913.com/124551.html"
+        },
+        {
+          "title": "VRChat沉浸式戏剧《怪诞小巷》首获艾美奖",
+          "summary": "基于VRChat平台打造的沉浸式戏剧作品《怪诞小巷：新的一天》获得本年度艾美奖杰出新兴媒体节目奖，这是VRChat平台内容首次获此殊荣。",
+          "comment": "VR平台获得主流电视大奖认可，会不会激励更多传统影视公司和创作者把预算投向沉浸式叙事？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/vrchat-wins-its-first-emmy-with-uncanny-alley-a-new-day-immersive-theatre-production/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI 宣布攻克数学“千禧年难题”",
+          "summary": "OpenAI 宣称其未发布模型解决了困扰数学界多年的 Navier-Stokes 千禧年大奖难题，这是AI在基础科学领域取得的里程碑式突破，也被认为是AI彻底改变高等数学研究的信号。",
+          "comment": "当AI能够攻克人类百年未解的数学难题时，数学家的核心价值将发生怎样的根本性转移？",
+          "source": "NYT",
+          "url": "https://www.nytimes.com/2026/09/08/science/openai-proof-millennium-problem.html"
+        },
+        {
+          "title": "OpenAI 发布图像生成模型 ChatGPT Images 2.5，主打精确编辑",
+          "summary": "OpenAI 正式推出 ChatGPT Images 2.5，该版本不再单纯堆砌参数量，而是重点强化了参考图稳定性和精确编辑能力，据称每周生成的图像数量已达到30亿张。",
+          "comment": "当AI图像生成从“无中生有”转向“精修细改”，这是否意味着创意工具的价值重心正在从生成能力转移到了对用户意图的深度理解上？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502393/openai-chatgpt-images-2-5"
+        },
+        {
+          "title": "Meta 发布个人 AI 智能体 Muse，主打后台自动执行任务",
+          "summary": "Meta 推出定位为“Agent”而非聊天机器人的个人AI智能体 Muse，它可以在用户关闭App后继续在虚拟机中运行，自主完成如监控天气等持续性任务。",
+          "comment": "如果AI Agent能在后台主动替你执行任务，我们与智能设备的交互范式是否会从“人找服务”彻底演变为“服务找人”？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502392/meta-ai-muse"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "DeepSeek 将 V4 Pro 请求静默路由至 V4.1 Flash，引发用户抵制",
+          "summary": "DeepSeek 决定在 V4.1 Pro 上线前，将所有 V4 Pro 的请求静默切换到性能更好、成本更低的 V4.1 Flash，并按低价计费，但这一策略引发开源社区用户的强烈反对。",
+          "comment": "当模型能力升级与用户预期产生冲突时，采用“静默路由”这种技术性策略是否是处理模型迭代与用户体验之间矛盾的适宜方式？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502395"
+        },
+        {
+          "title": "Anthropic 预训练研究员离职，指责AI实验室“拿人类生命做赌注”",
+          "summary": "Anthropic 研究员 Jacob Coxon 宣布离职，并在社交媒体上公开批评OpenAI和Anthropic两家公司正“直奔自我改进的超级智能”，未负责任地处理AI安全风险，此言论引发广泛关注。",
+          "comment": "核心研究人员的公开出走与严厉批评，是否正预示着AI行业内部关于安全与速度的根本性分歧已到了无法调和的地步？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502394"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-09T21:20:49.733271+08:00"
+}
