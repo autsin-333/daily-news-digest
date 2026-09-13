@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-13",
+  "time_window": "2026-09-12 19:00 ~ 2026-09-13 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Linus Tech Tips 泄露 Steam Frame 开箱与上手视频，官方发布在即",
+          "summary": "Linus Tech Tips 旗下频道 ShortCircuit 疑似提前发布了 Valve Steam Frame 头显的开箱与初体验视频，暗示这款设备距离正式发售已非常临近。",
+          "comment": "当头部科技博主的'失误泄露'越来越像精心策划的营销，我们还能相信自己的期待是自发的吗？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/valve-steam-frame-unboxing-leak-price-release-date/"
+        },
+        {
+          "title": "三星 AI 智能眼镜年底首发无屏版，带屏版预计 2027-28 年登场",
+          "summary": "三星计划年底前发布首款 AI 智能眼镜，与 Google、Gentle Monster 和 Warby Parker 联合开发，具备摄像头和语音控制但无屏幕，带屏版本预计 2027 至 2028 年推出。",
+          "comment": "当巨头们先推'无屏'试水再上'带屏'旗舰，消费者会不会沦为两代产品的付费测试员？",
+          "source": "93913",
+          "url": "https://www.93913.com/124610.html"
+        },
+        {
+          "title": "苹果新 CEO 回应 AI 眼镜隐私争议：被问'变态眼镜'时笑了",
+          "summary": "苹果新任 CEO 约翰·特努斯在采访中被问及如何看待 Meta AI 眼镜引发的隐私反弹及'变态眼镜'贬称，他以微笑回应。",
+          "comment": "当智能眼镜的隐私争议被一笑带过，科技公司是否低估了公众对'被观看'的深层恐惧？",
+          "source": "93913",
+          "url": "https://www.93913.com/124608.html"
+        },
+        {
+          "title": "影目科技完成近 10 亿 C 轮融资，外滩大会宣布瞄准'空间智能'",
+          "summary": "影目科技宣布 C 轮融资累计近 10 亿元，并在外滩大会宣布与蚂蚁集团围绕灵影 AOS 深度合作，重点押注下一代空间智能终端和自研 AIOS。",
+          "comment": "当 AI 眼镜厂商融资近 10 亿后转向'空间智能'，这究竟是技术演进的必然还是资本故事的新包装？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545988.html"
+        },
+        {
+          "title": "iPhone Duo 疑似无法拍摄空间照片或视频",
+          "summary": "苹果 iPhone Duo 虽配备两颗后置摄像头，但似乎无法拍摄用于 Apple Vision Pro 观看的空间照片或空间视频。",
+          "comment": "当苹果自家的手机都无法为自家头显生产空间内容，空间计算的内容生态靠谁来撑起？",
+          "source": "93913",
+          "url": "https://www.93913.com/124622.html"
+        },
+        {
+          "title": "超声波为物理 AI 提供可扩展的触觉智能路径",
+          "summary": "UltraSense 认为超声波传感可为机械手提供触觉感知，同时避免磨损和损耗，为物理 AI 的规模化应用提供方案。",
+          "comment": "如果触觉智能可以像视觉一样被规模化复制，机器人与人类的交互边界将如何被重新定义？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/ultrasound-offers-scalable-path-tactile-intelligence-physical-ai/"
+        },
+        {
+          "title": "自主农机车队正在改变美国农业的可能性",
+          "summary": "ASI 与美国糖业及 Everglades Equipment 合作，展示自主拖拉机等自动驾驶车队如何助力美国农业生产。",
+          "comment": "当无人驾驶农机大规模替代人工，农业劳动者是会被解放还是被边缘化？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/"
+        },
+        {
+          "title": "Exoshock 公开测试下周开启，登陆 Quest 与 PC VR",
+          "summary": "开发商 PolarityOne 宣布科幻 VR 射击游戏 Exoshock 的公开测试将于下周启动，登陆 Quest 和 PC VR 平台。",
+          "comment": "在 VR 游戏开发商接连关闭的当下，新作的公开测试是市场回暖的信号还是最后的挣扎？",
+          "source": "93913",
+          "url": "https://www.93913.com/124614.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Perplexity 借助 GPT-6 Astra 实现端到端系统自动化",
+          "summary": "Perplexity 使用 GPT-6 Astra 来撰写通信内容、修改软件并监控生产系统，检查频率比此前模型大幅降低。这展示了 AI 模型在真实企业工作流中从'辅助'走向'自主执行'的进展。",
+          "comment": "当 AI 能端到端接管系统运维时，人类工程师的角色会变成什么？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+        },
+        {
+          "title": "让 AI 真正'住进家里'：后摩智能 × 绿联 HomeAgent 探索家庭智能新形态",
+          "summary": "绿联发布与后摩智能合作的 UGREEN HomeAgent HA100 Pro，以后摩 M50 本地 AI 算力打造家庭 AI 中枢，解决数据分散与隐私安全问题。这代表端侧 AI 在家庭场景的落地尝试。",
+          "comment": "当家庭 AI 中枢本地处理所有隐私数据时，用户是否愿意为'隐私安全'付出更高的硬件成本？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/chips/OWi6OEGUYbDYwZof.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "Anthropic CEO 呼吁放缓 AI 开发，多名内部人士对 AI 风险表示担忧 ★",
+          "summary": "Anthropic CEO Dario Amodei 发表文章呼吁全行业加强安全控制并放缓前沿 AI 开发节奏，同时有前 Anthropic 研究员向 BBC 表示 AI 员工'真切地恐惧'人类未来。多家媒体将此解读为 AI 安全争论升级的信号。",
+          "comment": "当 AI 公司自己呼吁'刹车'时，这是负责任的信号还是竞争策略的另一种形式？",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o"
+        },
+        {
+          "title": "OpenAI 的 Sam Altman 称 2026 年上市'不明智'",
+          "summary": "尽管 OpenAI 已秘密提交 IPO 申请，但 CEO Sam Altman 表示公司今年不会上市，认为此时上市'不明智'。与 Amodei 的放缓呼吁相呼应，这一周成为 AI 巨头密集释放安全信号的时期。",
+          "comment": "OpenAI 推迟 IPO 是因为市场环境，还是因为 Altman 想先解决 AI 安全治理问题？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/"
+        },
+        {
+          "title": "习近平表示中国将牵头推动金砖国家 AI 与技术合作",
+          "summary": "中国国家主席习近平表示，中国将率先帮助促进发展中经济体之间的人工智能协作与发展。这是中国在国际 AI 治理领域的最新表态，可能影响全球 AI 合作格局。",
+          "comment": "中国牵头金砖国家 AI 合作，会形成与欧美不同的 AI 治理范式吗？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-13T21:36:13.127037+08:00"
+}
