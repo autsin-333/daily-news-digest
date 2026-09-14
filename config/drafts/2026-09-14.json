@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-14",
+  "time_window": "2026-09-13 19:00 ~ 2026-09-14 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta Ray-Ban Display与Quest迎来Threads应用及一系列智能眼镜更新",
+          "summary": "Threads正式登陆Quest头显与Meta Ray-Ban Display，Meta同步为旗下智能眼镜推送了多项功能更新。",
+          "comment": "当社交平台成为智能眼镜的默认入口，我们是在解放双手，还是把注意力经济直接装进了镜框？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/threads-apps-arrived-on-quest-meta-ray-ban-display/"
+        },
+        {
+          "title": "依视路陆逊梯卡在Lynx清算后收购该公司，R2头显上市恐无望",
+          "summary": "法国XR初创公司Lynx在强制清算后被眼镜巨头依视路陆逊梯卡收购，其R2头显的未来变得不明朗。",
+          "comment": "传统眼镜巨头接连吞并XR初创企业，这是技术融合的开始，还是独立创新空间的收窄？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/essilorluxottica-acquired-lynx-after-liquidation-leaving-r2-launch-unlikely/"
+        },
+        {
+          "title": "苹果裁员约百名Vision Pro团队成员，空间游戏团队几乎关停",
+          "summary": "据彭博社Mark Gurman报道，苹果裁撤约100名Vision Pro相关员工，空间游戏团队基本关停，沉浸式视频团队也被缩减。",
+          "comment": "当最激进的头显厂商开始收缩内容团队，空间计算的『杀手级应用』是否仍未找到？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/apple-vision-pro-layoffs-2026-gaming-immersive-video/"
+        },
+        {
+          "title": "Ray-Ban Meta Wayfarer Gen2智能眼镜发布：续航翻倍，配备1200万像素超广角摄像头",
+          "summary": "Meta与雷朋推出第二代Wayfarer智能眼镜，核心升级集中在续航能力翻倍与影像能力提升至1200万像素超广角。",
+          "comment": "当智能眼镜的影像能力持续逼近手机，隐私边界该由硬件设计还是社会规范来划定？",
+          "source": "93913",
+          "url": "https://www.93913.com/124641.html"
+        },
+        {
+          "title": "三星下一代AI眼镜或将搭载内置微型显示屏，尺寸小于0.2英寸",
+          "summary": "据The Elec报道，三星正研发第二代AI眼镜，计划在镜框内加入小于0.2英寸的微型显示屏，评估OLEDoS与LEDoS方案，优先考虑白色OLEDoS。",
+          "comment": "当AI眼镜把显示面积压缩到0.2英寸以下，信息呈现的极致微型化是否真的等同于体验提升？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545995.html"
+        },
+        {
+          "title": "苹果新任CEO回应AI可穿戴隐私争议：要让用户和周围的人都感到安心",
+          "summary": "苹果新任CEO John Ternus回应AI硬件隐私争议，表示苹果希望以让使用者和周围人都感到舒适的方式设计功能。",
+          "comment": "如果隐私保护的核心是让『周围的人』也感到安心，那么设备本身是否应该主动发出可被感知的信号？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545991.html"
+        },
+        {
+          "title": "星无xcoming发布Feather 1 AI眼镜，23g起并支持镜框模块化适配",
+          "summary": "星无xcoming发布AI眼镜新品Feather 1，整机重量23g起，采用标准化智能转轴设计，可适配市面上50%以上传统眼镜前框，功能以实时翻译、录音及会议纪要等AI音频能力为主。",
+          "comment": "模块化镜腿设计让用户保留原有镜框，这种『去硬件化』思路能否真正降低智能眼镜的普及门槛？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545996.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "小红书开源 Search Agent「Iris」：35B 模型逼近万亿参数搜索能力",
+          "summary": "小红书 AllSpark 团队开源了 Search Agent 模型 Iris，仅 35B 参数在 BrowseComp 基准上取得 82.2 分，逼近 Kimi-K2.6 等万亿参数模型的搜索能力。该模型专注于在真实网络环境中边搜边读边推理，并能自主判断何时停止搜集证据。",
+          "comment": "当小参数模型通过 Agent 架构逼近大模型能力时，'参数规模即正义'的信条是否正在被工程范式创新所瓦解？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502468"
+        },
+        {
+          "title": "豆包手机助手消费者版本发布，首款新机 9 月 16 日开售",
+          "summary": "豆包手机助手消费者版本正式发布，以豆包 App 为基础与手机厂商在系统层面合作，支持语音和 AI 键唤醒、屏幕问答、本地记忆与检索等功能，相比技术预览版更强调稳定性和日常可用性。",
+          "comment": "当手机助手从'问答工具'进化为能跨应用执行任务的'行动终端'时，手机操作系统的入口价值是否将被重新定义？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/p1zBbVMbsyYNHOJ4.html"
+        },
+        {
+          "title": "实测 5 款国产世界模型，看清「生成世界」走到了哪一步",
+          "summary": "夕小瑶科技说对 5 款国产世界模型进行了实测对比，评估当前世界模型在生成一致性、物理规律理解、长时序预测等方面的真实水平。",
+          "comment": "世界模型若要从'生成视频'跨越到'理解物理世界'，最关键的缺失环节究竟是数据、架构还是评估体系？",
+          "source": "夕小瑶科技说",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247621654&idx=1&sn=87336c892e7d08112d9c1986ba65305f"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "全球 AI 大厂集体呼吁「限速」，特朗普明确反对",
+          "summary": "Anthropic CEO Dario Amodei 发表长文呼吁前沿 AI 公司放慢模型能力推进速度，Sam Altman、Elon Musk 等随后表态支持，但特朗普公开反对并称美国需保持对中国的领先。美国 AI 相关股票应声下跌。",
+          "comment": "当 AI 公司一边呼吁监管一边加速竞争时，'自我约束'究竟是真诚的安全关切，还是争夺话语权的竞争策略？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+        },
+        {
+          "title": "蚂蚁发布大模型内生式安全护栏 SingProbe",
+          "summary": "蚂蚁 AI 安全实验室发布大模型内生式安全护栏 SingProbe，将安全检测融入模型生成过程，让 AI 在生成回答的同时输出风险信号，以较低额外计算开销实现更及时的安全防护。",
+          "comment": "将安全能力'内生'到模型生成过程中，是否意味着未来 AI 安全将从'外挂过滤'走向'免疫系统'式的架构设计？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/pvwJSKM5MEEd1H5N.html"
+        },
+        {
+          "title": "微软设定未来 AI 模型限制，配合行业放缓前沿开发",
+          "summary": "微软宣布将对其未来 AI 模型设定能力上限和限制，以配合行业对前沿 AI 开发的放缓趋势，同时继续与 Anthropic 和 OpenAI 合作推进模型开发。",
+          "comment": "当微软等巨头主动给自家模型'设限'时，这是负责任的安全治理，还是为后来者设置的能力天花板？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html"
+        },
+        {
+          "title": "Superhuman 收购 YC 背景的 AI 笔记工具 Fathom",
+          "summary": "生产力平台 Superhuman 宣布收购 YC 支持的 AI 笔记工具 Fathom，后者拥有超过 40 万月活用户。此次收购反映了生产力平台向 Agentic 工作流方向发展的行业趋势。",
+          "comment": "当生产力平台纷纷通过收购补齐 AI Agent 能力时，独立 AI 工具创业者的终局是否注定是被并购？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-14T23:36:23.011766+08:00"
+}
