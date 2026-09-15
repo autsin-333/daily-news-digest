@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-15",
+  "time_window": "2026-09-14 19:00 ~ 2026-09-15 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Valve Steam Frame 正式开启预购：1059 美元起，搭载独立版《半衰期：爱莉克斯》",
+          "summary": "Valve 公布独立 VR 头显 Steam Frame 的售价与发售计划，256GB 版 1059 美元起，首发将包含至少 70 款认证 VR 游戏，并确认《半衰期：爱莉克斯》独立移植版正在开发但赶不上首发。",
+          "comment": "当一款 VR 头显以高于主流游戏机的价格进入市场，它靠的是独占内容还是纯粹的性能优势来吸引用户？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/valve-steam-frame-price-release-pre-orders/"
+        },
+        {
+          "title": "Valve Steam Frame 评测出炉：独立 VR 表现合格，无线串流仍是核心",
+          "summary": "多家媒体发布 Steam Frame 上手评测，认为其作为独立 VR 设备表现称职，但无线串流 PC 游戏才是该设备真正的核心卖点与差异化优势。",
+          "comment": "如果串流体验才是 VR 头显的终极形态，那独立运算模块的存在是否只是为了过渡？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/virtual-reality/valve-steam-frame-review"
+        },
+        {
+          "title": "Valve 确认《半衰期：爱莉克斯》将推出 Steam Frame 独立版，但首发暂不搭载",
+          "summary": "Valve 在公布 Steam Frame 定价时正式确认正在开发《半衰期：爱莉克斯》的独立移植版本，该版本将摆脱对 VR-Ready PC 的依赖，但不会随头显首发推出。",
+          "comment": "一款五年前的 VR 游戏被当作新硬件的核心卖点，这究竟是经典的长尾效应还是 VR 内容生态的停滞？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545999.html"
+        },
+        {
+          "title": "Steam Frame 对比 Quest 3：更好的 PC 串流、性能与可折腾性",
+          "summary": "评测指出 Steam Frame 在 PC 串流质量、性能表现和系统开放性方面优于 Meta Quest 3，但在独立内容生态和价格上仍面临挑战。",
+          "comment": "当硬件开放性与内容生态丰富度发生冲突时，消费者最终会用钱包投票给哪一边？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/steam-frame-vs-quest-3-specs/"
+        },
+        {
+          "title": "Valve 工程师谈 Steam Frame：最高 1300 美元定价、骁龙芯片与 10 倍注视点串流技术",
+          "summary": "Valve 工程师解释 Steam Frame 定价策略，透露其采用骁龙芯片驱动独立模式，并实现最高 10 倍效率的注视点串流方案，同时坦言全球内存与存储供应紧张影响了成本。",
+          "comment": "在供应链危机背景下，VR 硬件的涨价是否会让本就小众的市场进一步萎缩？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/virtual-reality/valve-steam-frame-interview-why-it-costs-up-to-usd1-300-snapdragon-power-and-10x-foveated-streaming"
+        },
+        {
+          "title": "苹果推送 visionOS 27 正式版：Siri AI 进入 Vision Pro，可理解用户所见内容",
+          "summary": "苹果正式向 Apple Vision Pro 推送 visionOS 27，新版 Siri AI 可结合用户正在观看的现实环境与数字内容提供交互，Visual Intelligence 与空间体验也获升级。",
+          "comment": "当 AI 助手开始实时理解你眼前的世界，隐私的边界应该由谁来定义？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546002.html"
+        },
+        {
+          "title": "Counterpoint：2026 年 Q2 全球 VR 头显出货量同比下降 18%，AR 设备增长 138%",
+          "summary": "Counterpoint Research 数据显示，2026 年第二季度全球 VR 头显出货量同比下滑 18%，而 AR 设备出货量同比增长 138%，XR 市场呈现明显分化。",
+          "comment": "VR 遇冷而 AR 暴涨，是否意味着消费者更愿意为'增强现实'而非'替代现实'买单？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546003.html"
+        },
+        {
+          "title": "三星下一代 AI 眼镜或搭载内置微型显示屏，尺寸小于 0.2 英寸",
+          "summary": "据 The Elec 报道，三星正在研发第二代 AI 眼镜，计划加入镜框内置微型显示屏，正在评估 OLEDoS 与 LEDoS 方案，产品仍定位为手机配套设备。",
+          "comment": "当 AI 眼镜的显示模组越做越小，它离真正取代手机屏幕还有多远？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/545995.html"
+        },
+        {
+          "title": "Agility 发布 Digit 5 人形机器人：新腿部、升级电池与安全架构",
+          "summary": "Agility Robotics 发布第五代 Digit 人形机器人，配备新设计的膝关节、升级版电池以及更全面的安全架构，进一步面向物流与仓储场景。",
+          "comment": "当人形机器人开始强调'安全架构'而非单纯的运动能力，是否意味着行业正从炫技转向落地？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "阶跃星辰发布 StepAudio 3 系列语音模型，多款登顶全球榜单",
+          "summary": "阶跃星辰一次性推出五款语音大模型 StepAudio 3 Realtime、ASR、TTS、Gen 和 Music，覆盖实时语音交互、语音识别、真人级语音生成和音乐创作等场景，多款模型在 Artificial Analysis 榜单中位列全球第一。",
+          "comment": "语音大模型的竞争从'念出文字'转向'理解声音'，这是否意味着语音交互将成为下一阶段 AI 入口的核心战场？",
+          "source": "OSCHINA / 雷峰网",
+          "url": "https://www.oschina.net/news/502502/step-audio-3"
+        },
+        {
+          "title": "Salesforce 与英伟达联合发布推理模型 Koa，剑指垂直场景",
+          "summary": "Salesforce Koa 基于英伟达开源权重模型 Nemotron 构建，专门训练用于销售、营销和客户支持等企业任务，被认为可能对通用 AI 实验室构成威胁。",
+          "comment": "当行业巨头用开源底座加垂直数据就能做出'够用'的推理模型，通用大模型厂商的护城河是否正在被侵蚀？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/"
+        },
+        {
+          "title": "英伟达开源 IMO 金牌配方，1.5TB 显存引发 AI 推理新思考",
+          "summary": "英伟达公开了其在国际数学奥林匹克竞赛中取得金牌的技术方案，涉及大规模显存使用和推理优化策略，引发业界对'人海战术'与模型效率之间平衡的讨论。",
+          "comment": "当解题能力可以通过堆算力实现，AI 推理的真正突破究竟在于规模还是架构创新？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/ai/A3z1I1E1p15O83NO.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "豆包工作联合飞书，把中国首个团队 Agent 拉进工作群",
+          "summary": "豆包工作与飞书深度整合，推出面向团队协作的办公 Agent，可直接进入工作群参与任务协同，飞书披露超九成新增客户同步采购其 AI 产品。",
+          "comment": "当 AI Agent 成为团队'成员'，组织协作的边界和人类同事的角色将如何被重新定义？",
+          "source": "爱范儿 / 钛媒体",
+          "url": "https://www.ifanr.com/1680138?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "华为发布全球首个 3D 数据中心，携手产业共建 AIDC 新范式",
+          "summary": "华为在芜湖 AIDC 产业发展大会上正式发布全球首个 3D 数据中心，并开放设计图库，旨在解决大型 AI 算力中心的安全性和跨代际 AI 芯片兼容性问题。",
+          "comment": "在 AI 算力需求爆发的背景下，数据中心架构的创新是否会成为中国突破芯片限制的关键路径？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502507"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-15T22:06:47.683062+08:00"
+}
