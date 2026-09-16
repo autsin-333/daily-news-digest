@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-16",
+  "time_window": "2026-09-15 19:00 ~ 2026-09-16 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta 据报将在 Connect 大会发布下一代 MR 头显，并推出全息式通话体验",
+          "summary": "Meta 据传将在下周 Connect 大会上发布下一代混合现实头显 Project Phoenix，同时展示基于最新虚拟形象的全息式通话功能。",
+          "comment": "当虚拟形象逼真到可以'全息通话'时，我们还需要真实视频通话吗？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/meta-project-phoenix-connect-unveiling-codec-avatar/"
+        },
+        {
+          "title": "Meta 据报因公众反弹正在开发无摄像头智能眼镜",
+          "summary": "在公众对隐私问题持续反弹后，Meta 据报正在准备一系列取消摄像头的智能眼镜新品。",
+          "comment": "去掉摄像头就能真正解决智能眼镜的隐私争议吗？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/meta-smart-glasses-without-cameras-report/"
+        },
+        {
+          "title": "Meta 据悉今秋推出无摄像头 AI 眼镜 Luna，明年发货",
+          "summary": "据报道 Meta 计划今年秋季推出无摄像头 AI 眼镜 Luna，并预计明年开始发货。",
+          "comment": "无摄像头版 AI 眼镜是妥协还是更明智的产品定位？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/143014"
+        },
+        {
+          "title": "Valve Steam Frame 正式开启预购：1059 美元起，内置独立版《半衰期：爱莉克斯》",
+          "summary": "Valve 正式开放 Steam Frame 预约，256GB 版售价 1059 美元，1TB 版 1299 美元，并附带可独立运行的《半衰期：爱莉克斯》。",
+          "comment": "独立运行 3A 大作的能力，能否成为 VR 头显的下一代标配？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546005.html"
+        },
+        {
+          "title": "PICO CLI 0.5.0 正式发布：支持一句自然语言完成空间应用开发",
+          "summary": "PICO 发布面向 AI 开发的命令行工具 PICO CLI 0.5.0，开发者可通过自然语言描述需求，由 AI 配合完成空间应用的创建、编码、构建与调试。",
+          "comment": "当开发门槛低到一句话就能建应用，XR 内容生态会迎来爆发吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546007.html"
+        },
+        {
+          "title": "秋果计划首款自研全彩 AI 眼镜 Wigain Flow 将于 9 月 23 日全球首发",
+          "summary": "专注 AI 交互与 XR 硬件的秋果计划宣布，其首款全彩 AI 智能眼镜 Wigain Flow 将在第五届全球数字贸易博览会上全球首发，主打 AI 主动协同与全彩沉浸体验。",
+          "comment": "全彩显示会成为 AI 眼镜下一个真正拉开差距的卖点吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546009.html"
+        },
+        {
+          "title": "ENGO 推出骑行专用 AR 眼镜 engo3 Cyclist，支持 HUD 显示与来车预警",
+          "summary": "AR 运动眼镜厂商 ENGO 发布 engo3 Cyclist 智能骑行眼镜，搭载 ActiveLook 抬头显示技术，可显示超 40 项骑行数据并支持来车预警。",
+          "comment": "当 AR 眼镜切入专业运动场景，它会比通用 AI 眼镜更快普及吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546006.html"
+        },
+        {
+          "title": "Verizon 扩展 6G 论坛，瞄准 AI 与智能眼镜",
+          "summary": "Verizon 通过边缘网络处理 Meta 智能眼镜的语音请求，以减少延迟并扩展 6G 论坛布局。",
+          "comment": "智能眼镜的体验瓶颈，最终会由网络能力还是硬件能力决定？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/124698.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "谷歌发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音模型",
+          "summary": "谷歌推出两款全新语音到语音模型 Gemini 3.8 Live 和 3.8 Live Extended Thinking，形态上与 OpenAI 的 GPT-Live 系列类似，主打实时对话与扩展推理能力。",
+          "comment": "语音到语音模型纷纷加入'扩展思考'能力，实时对话与深度推理的矛盾真的能被调和吗？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Sep/15/gemini-live/"
+        },
+        {
+          "title": "阿里 Qoder Cloud Agents 发布：Agent 经济账不能只算 Token",
+          "summary": "阿里推出 Qoder Cloud Agents，针对 Agent 进入生产环境后的任务调度、资源分配、可观测性与故障恢复等工程难题给出云端托管方案，强调 Agent 成本不能仅以 Token 衡量。",
+          "comment": "当 Agent 从 Demo 走向生产，企业为'可观测性'和'失败恢复'付出的成本，会不会最终超过模型推理本身？",
+          "source": "InfoQ 推荐",
+          "url": "https://www.infoq.cn/article/8leHq71KkbQfo930ptvc"
+        },
+        {
+          "title": "努比亚 NaviX Ultra 上市：全球首款 AI 智能体手机，5499 元起",
+          "summary": "努比亚发布号称全球首款 AI 智能体手机 NaviX Ultra，售价 5499 元起，将 AI Agent 能力作为手机核心卖点。",
+          "comment": "把 AI Agent 装进手机成为核心卖点，用户真正需要的究竟是'智能体'还是更流畅的日常体验？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/317494"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "字节跳动挖来前 Coatue 高管蒋恺，AI 成重点投资方向",
+          "summary": "前 Coatue 高管蒋恺加入字节跳动，负责一级市场投资业务，AI 被明确为其重点投资方向，字节在沉寂 1700 天后重新杀回一级市场。",
+          "comment": "字节此时重返一级市场并押注 AI，是看到了泡沫前的机会，还是不得不为 AI 军备竞赛补上资本杠杆？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8142045.html"
+        },
+        {
+          "title": "Google 向全体工程师开放 Claude，Gemini 仍是默认模型",
+          "summary": "谷歌向全体工程师开放 Anthropic 的 Claude 模型使用权限，但 Gemini 仍为公司默认模型，显示谷歌在内部 AI 工具策略上采取多模型并行。",
+          "comment": "谷歌一边对外与 Anthropic 竞争、一边对内开放 Claude，这种'竞合'会倒逼 Gemini 进步还是动摇其生态根基？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1680293?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "亚马逊 Alexa+ 登陆印度并支持印地语",
+          "summary": "亚马逊在印度推出 Alexa+ 助手并支持印地语，早期访问阶段向所有客户开放，加速 AI 助手在新兴市场的本地化落地。",
+          "comment": "AI 助手的全球化竞争，究竟拼的是模型能力还是对本地语言与场景的理解深度？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-16T21:59:24.704760+08:00"
+}
