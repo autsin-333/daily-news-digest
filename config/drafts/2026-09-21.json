@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-21",
+  "time_window": "2026-09-20 19:00 ~ 2026-09-21 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "千问AI眼镜与AI耳机将亮相2026云栖大会，展示全新产品与AI交互能力",
+          "summary": "千问官方宣布，千问AI眼镜与千问AI耳夹式耳机将亮相9月22日至24日举行的2026云栖大会，现场将展示全新产品、前沿AI能力与创新交互。今年7月WAIC期间千问团队曾发布新一代AI眼镜及AI耳机。",
+          "comment": "阿里千问把AI眼镜的首发放在云栖大会而非独立发布会，是否意味着AI眼镜正被定位为云服务的入口而非独立硬件产品？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546039.html"
+        },
+        {
+          "title": "Meta将推出无摄像头智能眼镜，隐私争议持续升温",
+          "summary": "据The Information报道，Meta将在Connect大会上推出一款更便宜的无摄像头智能眼镜，以应对公众对该形态产品日益增长的隐私反弹。",
+          "comment": "去掉摄像头能真正缓解隐私焦虑，还是只是把争议推迟到了下一代产品？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/meta-to-launch-smart-glasses-without-camera-as-privacy-backlash-grows/"
+        },
+        {
+          "title": "Snap Specs搭载跨平台AI Agent与可选蜂窝充电盒",
+          "summary": "Snap宣布其即将于今秋发售的Specs AR眼镜将配备跨平台AI Agent，以及可在移动中提供连接能力的可选蜂窝充电盒。",
+          "comment": "当AR眼镜开始内置蜂窝连接和AI Agent，它究竟还是手机配件，还是正在取代手机？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/snaps-specs-have-a-cross-platform-ai-agent-optional-cellular-charging-case/"
+        },
+        {
+          "title": "HTC扩大Vive Eagle AI眼镜海外销售，正式进入澳大利亚市场",
+          "summary": "HTC进一步扩大Vive Eagle AI智能眼镜的海外销售范围，在北美和欧洲之外正式进入澳大利亚，已在Harvey Norman开放预订，售价799澳元。该产品采用无显示AI眼镜形态，集成摄像头、开放式音频与生成式AI能力。",
+          "comment": "无显示AI眼镜在海外市场的定价普遍高于同类产品，消费者会为品牌与AI体验买单吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546041.html"
+        },
+        {
+          "title": "大朋旗下VisionRay Flow Echo AI太阳镜海外开售，支持4K拍摄与80+语言实时翻译",
+          "summary": "大朋（DPVR）旗下海外AI太阳镜品牌VisionRay宣布Flow Echo正式面向海外市场开售，起售价149美元，提供Pilot飞行款与Crystal运动款两种造型，支持4K拍摄、80多种语言实时翻译及光致变色镜片。",
+          "comment": "中国AI眼镜厂商以低价策略出海，会否重演智能手机时代的性价比打法？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546040.html"
+        },
+        {
+          "title": "HTC Vive Eagle AI眼镜支持Gemini与ChatGPT，可用性因地区而异",
+          "summary": "HTC Vive Eagle AI眼镜现已支持Google Gemini和OpenAI GPT的AI服务，具体可用性取决于用户所在地区和设备设置。该产品被描述为支持语音控制、实时翻译和AI笔记的免手操作可穿戴设备。",
+          "comment": "AI眼镜的AI能力因地区而异，这是否意味着AI硬件的全球化体验正被地缘政治割裂？",
+          "source": "93913",
+          "url": "https://www.93913.com/124821.html"
+        },
+        {
+          "title": "字节PICO应用商店负责人姚帅被曝离职，团队转入视频业务",
+          "summary": "字节跳动PICO应用商店负责人姚帅被曝近日离职，其团队成员已转至PICO视频团队，并向PICO视频业务负责人熊俊杰汇报。PICO官方尚未对此消息作出公开回应。",
+          "comment": "PICO应用商店团队并入视频业务，是否意味着字节对XR的定位正从平台生态收缩为内容分发？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546045.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "华为云码道上线鸿蒙编码大模型，打造全球首个专为鸿蒙生态的AI编码智能体",
+          "summary": "华为云CodeArts代码智能体面向鸿蒙开发者全面升级，上线鸿蒙编码大模型、码道鸿蒙智能体与鸿蒙开发者实践中心三大核心能力，一站式打通从想法到上架的全流程。",
+          "comment": "当AI编码智能体开始绑定特定操作系统生态，开发者的选择自由会增强还是被进一步锁定？",
+          "source": "OSCHINA 社区最新新闻 / 雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/B5ahgA6nibk33DRO.html"
+        },
+        {
+          "title": "微软工程师花12万美元让AI重写Copilot运行时：43万行TS变80万行Rust，快15.9倍",
+          "summary": "微软用AI agents将GitHub Copilot运行时从TypeScript迁移到Rust，仅花费12万美元token费用和一名工程师三周时间，性能提升15.9倍。",
+          "comment": "当AI重写核心基础设施成为常态，工程师的核心价值会从写代码转向定义问题与验收结果吗？",
+          "source": "OSCHINA 社区最新新闻",
+          "url": "https://www.oschina.net/news/502646/ms-agentically-ports-copilot-runtime-to-rust-for-120k"
+        },
+        {
+          "title": "网易有道R2T2、T3PO双登顶Hugging Face细分热榜",
+          "summary": "网易有道两项AI技术成果同时登上Hugging Face细分热榜，全球开发者快速跟进适配，显示国产AI技术在国际开源社区的影响力提升。",
+          "comment": "国产AI团队在开源社区获得关注后，如何将热度转化为持续的生态影响力？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/317657"
+        },
+        {
+          "title": "OceanBase Data Agent登顶国际榜单，超过多项GPT、Claude方案",
+          "summary": "OceanBase基于国产大模型GLM-5.2构建的Data Agent方案以90.62%准确率登顶国际Data Agent Benchmark，成为首个突破90%的参评方案。",
+          "comment": "国产数据库加国产大模型的组合在垂直Agent任务上超越海外方案，是否意味着AI应用层的竞争格局正在变化？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/ug9HpmoWVwNMZZTH.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "微软内部文件曝光：高管称AI抓取新闻是'人类历史上最大规模的劳动力盗窃'",
+          "summary": "纽约时报诉微软与OpenAI案中解密的内部文件显示，微软应用科学总监曾将AI抓取新闻内容描述为'人类历史上最大规模的劳动力盗窃'，揭示巨头对版权问题的内部认知。",
+          "comment": "当科技巨头内部早已认识到AI训练数据的版权问题，行业自律与法律监管之间应如何划界？",
+          "source": "OSCHINA 社区最新新闻",
+          "url": "https://www.oschina.net/news/502644"
+        },
+        {
+          "title": "百度200万美元重奖2支技术团队，李彦宏强调技术信仰",
+          "summary": "百度创始人李彦宏为两支技术团队颁发'百度最高奖'，各获100万美元，获奖团队分处百度'芯-云-模-体'全栈AI布局的头尾两端，涉及万亿级MoE大模型超节点架构等方向。",
+          "comment": "在AI人才争夺白热化的当下，高额内部奖励能否比股权和薪酬更有效地留住顶尖技术人才？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/7frcIluWLrkbs5p9.html"
+        },
+        {
+          "title": "OpenAI自曝6起事故：AI安全的第一份'审计报告'由谁签字？",
+          "summary": "OpenAI主动披露6起AI安全事件，标志着AI公司从'出了大事再解释'转向'持续被审计'的披露模式，引发行业对AI安全治理透明度的讨论。",
+          "comment": "当AI公司自行披露安全事故时，公众应该信任这种'自我审计'，还是需要独立的第三方监管机制？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8147676.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-21T23:36:22.486146+08:00"
+}
