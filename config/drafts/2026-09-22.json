@@ -120,6 +120,6 @@
     }
   ],
   "source": "scheduled",
-  "status": "pending_review",
-  "created_at": "2026-09-22T21:51:39.384980+08:00"
+  "status": "sent",
+  "created_at": "2026-09-22T21:52:29.857187+08:00"
 }
