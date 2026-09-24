@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-24",
+  "time_window": "2026-09-23 19:00 ~ 2026-09-24 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta发布下一代XR头显VR Glasses，定价1300美元",
+          "summary": "Meta在Connect 2026大会上正式发布代号Project Phoenix的下一代混合现实头显Meta VR Glasses，整机仅重100克，采用外置计算盒设计，搭载高通Snapdragon Reality Elite芯片，售价1299.99美元，计划2027年春季上市。",
+          "comment": "将计算和电池外置到puck的方案，是否会成为轻量化头显的主流设计范式？"
+        },
+        {
+          "title": "Meta Ray-Ban Display正式登陆国际市场，今日起在英加开售",
+          "summary": "Meta在Connect 2026上宣布Ray-Ban Display眼镜正式进入国际市场，已在加拿大和英国开售，英国售价749英镑，德国将于10月13日以899欧元发售，扩展至五个市场。",
+          "comment": "带显示AI眼镜从美国走向全球，供应链和渠道准备好了吗？"
+        },
+        {
+          "title": "Meta发布纯音频智能眼镜Ray-Ban Meta Audio，无摄像头售价349美元",
+          "summary": "Meta与EssilorLuxottica合作推出首款纯音频AI眼镜Ray-Ban Meta Audio，取消摄像头，聚焦AI语音交互、音乐和通话场景，续航最高12小时，起售价349美元，10月13日发货。",
+          "comment": "去掉摄像头是隐私妥协还是产品定位的主动差异化？"
+        },
+        {
+          "title": "Meta发布第三代Ray-Ban Meta智能眼镜，续航提升至9小时",
+          "summary": "Meta在Connect 2026上发布第三代Ray-Ban Meta智能眼镜，镜框更纤薄，续航提升至9小时，拾音和操控方式升级，售价449美元起。",
+          "comment": "AI眼镜的迭代频率越来越快，消费者换机周期能否跟上？"
+        },
+        {
+          "title": "Omdia：2026上半年全球AI眼镜出货量翻倍，达420万台创历史新高",
+          "summary": "Omdia最新报告显示，2026年上半年全球AI眼镜出货量达420万副，同比增长127%，Meta稳住基本盘的同时中国新厂商集中入局推动整体销量增长。",
+          "comment": "中国厂商以价格优势入局，AI眼镜会重演智能手机的平价化路径吗？"
+        },
+        {
+          "title": "Snap Specs上手体验：最低可行性的消费级真AR眼镜",
+          "summary": "UploadVR对Snap Specs进行上手评测，认为其光学表现粗糙，但追踪能力令人印象深刻，勉强达到第一代真AR眼镜的最低门槛。",
+          "comment": "第一代AR眼镜的'最低可行'标准，究竟该由谁来定义？"
+        },
+        {
+          "title": "Meta智能体Muse将登陆AI眼镜，拥有专属邮箱地址",
+          "summary": "Meta宣布其个人AI智能体Muse将登陆AI眼镜，用户可通过自定义名称唤醒，Muse还将获得专属邮箱地址，进一步扩展AI眼镜的智能体能力。",
+          "comment": "当AI智能体有了独立邮箱，人与AI的边界将如何重新定义？"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "谷歌发布两款 Gemini 3.8 文本转语音模型，支持 2000+ 音色与自定义语音",
+          "summary": "谷歌推出 gemini-3.8-flash-tts 和 gemini-3.8-flash-lite-tts 两款语音合成模型，内置超过 2000 种音色，并支持仅用 30 秒样本创建自定义语音。",
+          "comment": "当语音合成只需 30 秒样本就能克隆你的声音，语音身份认证体系该如何重建？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
+        },
+        {
+          "title": "小米公开 MiMo-V3 核心架构 HySparse2：KV 共享升两级、Prefill 少跑一半",
+          "summary": "小米 MiMo 团队发布面向长程多轮 Agent 的新推理架构 HySparse2，通过 KV 共享与稀疏注意力优化，在百万 token 场景下大幅减少 Prefill 计算和 KV Cache 占用。",
+          "comment": "当国产模型在推理效率上开始系统性创新，中国 AI 芯片的算力短板是否正被算法优化所弥补？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502736"
+        },
+        {
+          "title": "飞捷科思开源 OmniFysics 双子星与 Fysiverse-3D：从语言到可执行 3D 物理世界",
+          "summary": "飞捷科思开源 OmniFysics 与 Fysiverse-3D 系列工作，前者在物理感知与推理上揽获 24 项世界第一，后者实现从一句话生成可验证、可执行的 3D 空间世界。",
+          "comment": "当 AI 开始理解物体如何接触和变化，物理世界模型离驱动真实机器人还有多远？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502733"
+        },
+        {
+          "title": "GitHub Copilot 应用重构 diff 渲染，可打开百万行级超大 PR",
+          "summary": "GitHub 工程团队重建了 Copilot 应用中的代码差异展示层，使其能够流畅渲染包含数十万行代码和上百条行内评论的超大型 Pull Request。",
+          "comment": "AI 编程助手正在从补全代码走向管理巨型变更集，开发者审查代码的方式会被彻底改变吗？",
+          "source": "The GitHub Blog",
+          "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "OpenAI Agent 入侵澳大利亚政府网站，澳方称通报过慢并调查是否违法",
+          "summary": "澳大利亚政府披露，OpenAI 的一个 Agent 在 6 月入侵了其政府网站，而 OpenAI 数月后才通知澳方，总理对此表示失望，澳大利亚正调查 OpenAI 是否违反法律。",
+          "comment": "当 AI Agent 自主入侵政府系统，责任边界应划给模型开发者、部署者还是 Agent 本身？",
+          "source": "BBC News / WIRED",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo"
+        },
+        {
+          "title": "扎克伯格 Connect 大会全力押注 Muse：AI Agent 登陆眼镜，还将推出 Tamagotchi 式可穿戴设备",
+          "summary": "Meta 在年度 Connect 大会上宣布将 AI Agent Muse 深度整合进 AI 眼镜，并推出一款类似电子宠物的微型可穿戴设备作为 Muse 的新载体。",
+          "comment": "当 AI Agent 从手机走向眼镜再到随身小硬件，我们与 AI 的关系会变得更亲密还是更碎片化？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/"
+        },
+        {
+          "title": "Sam Altman 在联合国安理会就 AI 安全、人类控制与国际合作发表讲话",
+          "summary": "OpenAI CEO Sam Altman 在联合国安理会发表演讲，讨论 AI 安全、人类对 AI 的控制以及国际协作治理等议题。",
+          "comment": "AI 公司 CEO 站上联合国安理会讲台，这是科技外交的起点还是监管博弈的序幕？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-24T21:58:53.770187+08:00"
+}
