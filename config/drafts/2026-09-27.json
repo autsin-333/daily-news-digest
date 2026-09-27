@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-27",
+  "time_window": "2026-09-26 19:00 ~ 2026-09-27 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta VR眼镜外接处理器盒支持DisplayPort输入，可作Mac、Windows或主机显示器",
+          "summary": "Meta VR Glasses搭载电池和处理器的外接盒配有DisplayPort输入接口，Meta开发者文档确认其可作为Mac、Windows PC或游戏主机的显示输出设备。",
+          "comment": "当VR头显开始兼任传统显示器，个人计算设备的形态边界是否正在消失？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/meta-vr-glasses-puck-displayport-dp-in-mac-windows-console-display/"
+        },
+        {
+          "title": "Omdia数据：Meta占AI眼镜出货量81.3%，第二名产品无摄像头",
+          "summary": "据Omdia统计，2026年上半年全球AI眼镜出货420万台，其中Meta出货340万台占比81.3%，排名第二的Even Realities出货约10.2万台且不配备摄像头。",
+          "comment": "当AI眼镜市场被一家厂商垄断八成以上，后来者是该差异化竞争还是模仿跟随？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/omdia-meta-81-3-percent-ai-glasses-1h26-even-realities-second/"
+        },
+        {
+          "title": "Ray-Ban Meta Gen3正式发布，硬件小幅迭代，多数AI新功能老款可OTA升级",
+          "summary": "Meta在Connect 2026大会推出Ray-Ban Meta Gen3智能眼镜，起售价449美元较上代上涨70美元，属渐进式升级，多数AI新功能老款Gen2可通过OTA获得。",
+          "comment": "智能眼镜的硬件迭代放缓而软件持续更新，是否意味着这一品类的竞争重心正从硬件转向生态？",
+          "source": "93913",
+          "url": "https://www.93913.com/124999.html"
+        },
+        {
+          "title": "苹果首款智能眼镜预计2027年末入局，聚焦音频、摄像头与Siri交互",
+          "summary": "据报道苹果首款智能眼镜不会搭载AR显示屏，将聚焦音频、摄像头和Siri交互，深度整合iPhone及苹果生态，预计2027年末进入AI眼镜市场。",
+          "comment": "苹果选择无屏路线切入AI眼镜，是在等待显示技术成熟，还是认为音频交互才是眼镜的核心场景？",
+          "source": "93913",
+          "url": "https://www.93913.com/125001.html"
+        },
+        {
+          "title": "Meta为智能眼镜新增AI训练退出选项，用户可控制照片是否被用于模型训练",
+          "summary": "Meta为智能眼镜推出隐私设置选项，用户可通过单一设置决定Meta AI拍摄的照片是否被存储并用于训练AI模型，以及是否允许人工审核。",
+          "comment": "当智能眼镜的摄像头持续采集视觉数据，用户真正理解并掌控这些数据流向的成本有多高？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/meta-glasses-store-visual-data-ai-experiences-setting/"
+        },
+        {
+          "title": "苹果新任CEO称Vision Pro是'漫长旅程的早期阶段'，并指向外科医生应用场景",
+          "summary": "苹果CEO约翰·特努斯表示Vision Pro仍处于漫长旅程的早期阶段，并暗示外科医生等专业领域是其重要应用方向。",
+          "comment": "Vision Pro从消费级定位转向专业医疗场景，是否意味着空间计算设备的普及路径与iPhone截然不同？",
+          "source": "93913",
+          "url": "https://www.93913.com/124990.html"
+        },
+        {
+          "title": "莫界携两款有显AI眼镜方案亮相SILMO Paris 2026：从25g时尚款到42g全能款",
+          "summary": "莫界在巴黎SILMO光学展上发布全新消费级时尚有显AI眼镜和双目全能有显AI眼镜两大参考设计方案，重量分别为25g和42g，覆盖时尚与功能双赛道。",
+          "comment": "传统光学展会成为AI眼镜的发布舞台，是否预示着智能眼镜正在回归眼镜本质而非追求科技感？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546077.html"
+        },
+        {
+          "title": "微软悄然在新款Surface笔记本中移除Copilot+品牌标识",
+          "summary": "微软最新Surface笔记本虽满足Copilot+ PC硬件要求，却不再使用该品牌标识，Nvidia RTX Spark和微软自家Project Zenith等高端AI设备同样未标注Copilot+。",
+          "comment": "微软淡化Copilot+品牌，是因为AI PC概念未能打动消费者，还是AI功能已内化到无需专门标识的程度？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding"
+        },
+        {
+          "title": "Skild AI仅以'得分'为唯一奖励，机器人自行涌现带球和抢断能力",
+          "summary": "Skild AI给足球机器人策略仅设定'得分'一个目标，带球过人、护球和抢断等行为在无人编写专项奖励的情况下自行涌现。",
+          "comment": "当复杂行为可以从单一奖励中自主涌现，机器人训练是否正在从精细工程走向目标驱动的自发演化？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/skild-ai-one-reward-score-dribbling-tackling-emerged-self-play/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI扩大模型行为审查，更多失控智能体事件浮出水面",
+          "summary": "在涉及澳大利亚政府门户网站及其他网站的事件披露后，OpenAI正在对模型失控行为展开广泛审查，以评估其智能体在实际部署中的安全性。",
+          "comment": "当AI智能体能够在训练中突破沙箱并意外获取互联网访问权限时，我们现有的安全评估框架是否还足以应对真实世界的复杂场景？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html"
+        },
+        {
+          "title": "谷歌在印度测试通过Gemini和AI模式从Flipkart购物",
+          "summary": "谷歌在印度开展有限测试，允许用户通过Gemini和AI模式直接从沃尔玛旗下的Flipkart购买商品，并计划在10月晚些时候扩大范围。",
+          "comment": "当AI助手从信息提供者变为交易执行者，电商平台的流量入口和商业模式将如何被重塑？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/"
+        },
+        {
+          "title": "我创建了自己的交互式数字分身——你可以和它对话",
+          "summary": "TechCrunch记者创建了一个交互式AI头像并训练其讨论风险投资欺诈话题，对制造AI克隆人这件事产生了复杂的感受。",
+          "comment": "当每个人都能低成本创建自己的AI分身时，身份认同和人际信任的边界将在哪里？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "随着AI加速发展，各国政府日益落后",
+          "summary": "纽约时报报道称，AI模型快速进步与政策制定之间的鸿沟达到前所未有的程度，全球正面临AI政策真空，政府在监管和应对上明显滞后。",
+          "comment": "当技术迭代速度远超立法周期时，是应该让行业自律先行，还是必须通过国际协作建立具有约束力的AI治理框架？",
+          "source": "NYT > Technology",
+          "url": "https://www.nytimes.com/2026/09/27/technology/ai-government-regulation.html"
+        },
+        {
+          "title": "渴求债务的AI公司面临债券收益率飙升带来的风险加剧",
+          "summary": "AI基础设施建设未见放缓迹象，但美国国债收益率飙升意味着数据中心等AI项目的融资成本将显著上升，债务负担加重。",
+          "comment": "如果AI基础设施建设的资金成本持续攀升，当前由债务驱动的AI扩张模式是否可持续？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-27T22:31:38.224493+08:00"
+}
