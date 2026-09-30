@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-30",
+  "time_window": "2026-09-29 19:00 ~ 2026-09-30 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta VR Glasses规格曝光：单眼2412×2288分辨率，感知FOV 58度",
+          "summary": "Meta首次公布VR Glasses的单眼分辨率为2412×2288像素，并披露p90感知视场角为58.54度，定位介于Quest 3与高端头显之间。",
+          "comment": "在Quest 3已足够成熟的当下，Meta为何还要用这样一款VR眼镜重新定义产品线？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/meta-vr-glasses-2412-2288-per-eye-resolution-58-54-p90-perceived/"
+        },
+        {
+          "title": "Meta VR Glasses对比Quest 3与Steam Frame：规格与功能横向解析",
+          "summary": "Road to VR对Meta VR Glasses、Quest 3和Valve Steam Frame三款头显进行规格对比，分析各自在VR硬件市场中的定位与购买建议。",
+          "comment": "当三款头显都能玩同一批游戏时，消费者究竟会为分辨率和形态中的哪一个买单？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/meta-vr-glasses-quest-3-steam-frame-compared-specs/"
+        },
+        {
+          "title": "Meta计划为VR眼镜推出游戏专用束带配件",
+          "summary": "Meta正在为VR Glasses开发一款束带配件，专为活跃VR游戏场景设计，配合Touch Plus控制器使用时提供更稳固的佩戴体验。",
+          "comment": "头显配件化是否会成为Meta硬件生态锁定用户的新手段？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/meta-vr-glasses-strap-accessory-active-vr-gaming/"
+        },
+        {
+          "title": "Meta携手Naver，年底为AI眼镜上线免手持步行导航",
+          "summary": "Meta与韩国Naver合作，计划2026年底前为Ray-Ban Meta和Oakley Meta接入Naver地图语音步行导航，用户无需掏手机即可获取路线指引。",
+          "comment": "当导航从手机迁移到眼镜，地图厂商的入口价值会被重新分配吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/125059.html"
+        },
+        {
+          "title": "PrismML将1-bit Bonsai大模型引入高通AI智能眼镜",
+          "summary": "加州理工研究人员创立的PrismML实验室开发出可在高通骁龙芯片智能眼镜上运行的微型语言模型版本，大幅降低端侧AI算力门槛。",
+          "comment": "1-bit模型若真能在眼镜上跑通，云端推理还有多大必要性？",
+          "source": "93913",
+          "url": "https://www.93913.com/125057.html"
+        },
+        {
+          "title": "Vuzix推出Shrike可配置光波导显示平台，面向国防安防",
+          "summary": "Vuzix发布Shrike可配置光波导显示平台，支持单目或双目全彩1280×720显示、40度FOV和最高3000nits入眼亮度，首批评估样机已交付客户。",
+          "comment": "消费级AR眼镜遇冷之际，国防与安防是否会成为波导显示技术最先规模化的市场？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546088.html"
+        },
+        {
+          "title": "EssilorLuxottica发布Nuance Audio Plus助听眼镜，续航约10小时",
+          "summary": "EssilorLuxottica推出新一代助听眼镜Nuance Audio Plus，已获FDA许可，在音频表现、续航和操控上全面升级，并新增通过眼镜直接接听电话功能。",
+          "comment": "当助听眼镜和AI眼镜的技术栈高度重合，两个品类最终会合并还是分化？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546089.html"
+        },
+        {
+          "title": "昀光科技称12月完成下一代彩色AI眼镜样机",
+          "summary": "昀光科技董事长潘仲光表示，公司预计2026年12月完成下一代AI眼镜样机，采用硅基OLED微显示方案并实现彩色显示，产品线覆盖AI、AR和VR三类眼镜。",
+          "comment": "Micro-OLED彩色化能否成为AI眼镜从单色信息提示走向真正AR体验的关键一步？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546090.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI 发布 GPT-6.1 Sol：智能接近 Astra，价格仅五分之一",
+          "summary": "OpenAI 推出 GPT-6.1 Sol，称其为重大升级，覆盖专业办公、操控电脑、agentic 编程等任务，智能水平接近因安全标准未通过而暂停发布的 Astra，但价格仅为后者的五分之一。",
+          "comment": "当安全审查拖住最强模型时，用‘次强但便宜五倍’的模型抢占市场，是负责任的妥协还是危险的信号？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502831/openai-gpt-6-1-sol"
+        },
+        {
+          "title": "Anthropic 红队评估 GLM-5.3：能力追平 Mythos，护栏形同虚设",
+          "summary": "Anthropic 前沿红队发现智谱 GLM-5.3 是首个能像 Claude Mythos Preview 一样自主构建端到端漏洞利用、却几乎未设拒绝护栏就发布的模型。",
+          "comment": "如果开源模型的攻击能力逼近闭源前沿模型，而安全护栏几乎为零，行业该用统一标准还是各自为战？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502835/anthropic-research-glm-5-3-advanced-cyber-capabilities"
+        },
+        {
+          "title": "雷峰网实测 Qwen-3.8 与 GLM-5.3 Flash 版：谁能让人提前下班半小时",
+          "summary": "雷峰网对 Qwen-3.8 和 GLM-5.3 的 Flash 版本进行实测，对比二者在真实工作流中的效率表现，评估谁能真正帮用户节省时间。",
+          "comment": "在‘快模型’竞赛中，用户真正需要的究竟是更快的响应，还是更少返工的一次性正确？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/yanxishe/Dp2FW4Pb6iLUvdhf.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "AMD 82 亿美元收购李飞飞 World Labs，为什么是现在？",
+          "summary": "AMD 以 82 亿美元收购李飞飞创办的 World Labs，钛媒体分析称资本正往头部集中，独立公司的定价权正在被重新评估。",
+          "comment": "当芯片巨头买下世界模型团队，AI 竞争的决胜点会从算力转向‘对物理世界的理解’吗？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8157114.html"
+        },
+        {
+          "title": "DeepSeek 开源算子工具，联手华为昇腾手撕 CUDA 绑定",
+          "summary": "DeepSeek 与华为昇腾合作开源算子工具包，旨在打破英伟达 CUDA 生态绑定，推动中国 AI 芯片软件栈自主化。",
+          "comment": "开源算子工具能真正撼动 CUDA 的护城河，还是只是给国产芯片一条‘能用但不够好用’的退路？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
+        },
+        {
+          "title": "百度 AI 办公进入上下文战争：文库和网盘是王牌",
+          "summary": "百度集团副总裁王颖表示，AI 办公正进入上下文竞争阶段，百度依托文库和网盘十余年积累的内容资产构建差异化优势。",
+          "comment": "当各家 AI 办公都在抢‘上下文’，用户的历史文件到底该成为谁的护城河？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/7q7ZyMuKeWjc1uGz.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-09-30T23:33:02.743521+08:00"
+}
