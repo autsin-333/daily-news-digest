@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-01",
+  "time_window": "2026-09-30 19:00 ~ 2026-10-01 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "三星智能眼镜通过FCC认证，Gentle Monster与Warby Parker合作款临近发布",
+          "summary": "三星两款型号为SM-O200P和SM-O200J的智能眼镜已通过FCC认证，暗示这款与Gentle Monster和Warby Parker合作的智能眼镜即将上市。",
+          "comment": "三星选择与传统眼镜品牌联名而非单打独斗，这是否意味着智能眼镜的竞争已从技术转向时尚话语权？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/samsung-fcc-gentle-monster-warby-parker-smart-glasses/"
+        },
+        {
+          "title": "亚马逊拟为超2万配送员配备智能眼镜，沿途不间断拍照引发隐私争议",
+          "summary": "亚马逊计划为超过2万名配送员配备智能眼镜，但该设备在配送途中几乎不间断拍照的做法引发了严重的隐私担忧。",
+          "comment": "当效率工具变成无处不在的摄像头，劳动者的隐私和路人的权利该如何平衡？",
+          "source": "映维网资讯",
+          "url": "https://news.nweon.com/143346"
+        },
+        {
+          "title": "亚马逊60美元AI智能眼镜走红：能拍高清视频，还带实时翻译与语音助手",
+          "summary": "亚马逊上一款售价仅60美元的AI智能眼镜引发关注，该产品支持高清视频拍摄、实时翻译和语音助手功能。",
+          "comment": "当AI眼镜价格下探到60美元，隐私侵犯的门槛是否也随之降到了最低？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/125087.html"
+        },
+        {
+          "title": "高通：智能眼镜将领跑AI可穿戴市场，AI别针与吊坠紧随其后",
+          "summary": "高通表示智能眼镜是目前个人AI设备中增长最快的品类，其战略优先级已被提升至骁龙产品组合的最优先业务领域之一。",
+          "comment": "高通将智能眼镜列为最高优先级，但消费者真的准备好让眼镜成为下一个计算平台了吗？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/125077.html"
+        },
+        {
+          "title": "荷兰政府不会推动摄像头眼镜规则，也不会研究公开禁令",
+          "summary": "荷兰政府向议会表示不会在欧盟层面推动具有约束力的摄像头眼镜设计规则，也不会研究公开禁令。",
+          "comment": "当政府选择不监管摄像头眼镜，公民社会的自我保护机制能否跟上技术扩散的速度？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/dutch-government-camera-glasses-no-design-rules-no-public-ban/"
+        },
+        {
+          "title": "波士顿动力Atlas机器人新灵巧手发布，或超越仿人设计",
+          "summary": "波士顿动力宣布为Atlas机器人重新设计了手部结构，采用三指加拇指的构型，在某些任务上可能超越传统仿人五指设计。",
+          "comment": "如果三指手比五指手更实用，人类对机器人'像人'的执念是否本身就是一种设计偏见？",
+          "source": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/robust-robot-hand"
+        },
+        {
+          "title": "ANYbotics推出Shift平台，简化机器人车队运营并扩展自主巡检规模",
+          "summary": "ANYbotics发布Shift平台，旨在帮助维护团队运行工业巡检、检测故障设备并将数据转化为工单。",
+          "comment": "当巡检机器人从单台演示走向车队运营，工业现场的'人机协作'是否正在变成'机机协作'？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/"
+        },
+        {
+          "title": "Innodata开设动作捕捉实验室，帮助人形机器人更像人一样移动",
+          "summary": "Innodata使用Vicon相机以亚毫米精度测量动作，为机器人收集真实世界的训练数据，帮助人形机器人更自然地移动。",
+          "comment": "当机器人通过捕捉人类动作来学习移动，它们会继承我们的优雅还是我们的偏见？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/"
+        },
+        {
+          "title": "Even G2处方镜片在日本售价超过眼镜本身，最高达150800日元",
+          "summary": "Even Realities的G2无摄像头显示眼镜在日本配处方镜片的价格高昂，变焦镜片最高可达150800日元，超过眼镜本身售价。",
+          "comment": "当智能眼镜的配件比主机还贵，这是产品定位的胜利还是市场策略的失误？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/even-g2-prescription-lens-prices-japan-varifocal-150800-yen/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "谷歌正式发布 Gemini 4 Argon：长流程软件工程与企业知识工作能力大幅提升",
+          "summary": "谷歌发布新一代模型 Gemini 4 Argon，重点面向长流程软件工程、法律金融等企业知识工作以及网络安全防御，已在谷歌内部用于 80 万行内核代码迁移。",
+          "comment": "当 AI 开始大规模接管内核级代码迁移，软件工程师的核心价值将如何被重新定义？",
+          "source": "InfoQ 推荐",
+          "url": "https://www.infoq.cn/article/vVrSzjhEvkmpevS7wZzU"
+        },
+        {
+          "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
+          "summary": "谷歌推出 Apache 2.0 许可的开源编排器 AX，基于 Agent Substrate 将 AI 代理视为有状态参与者，支持亚秒级任务暂停恢复与声明式运行时。",
+          "comment": "当 AI 代理拥有了自己的 Kubernetes，多代理协作的运维复杂度会由谁来买单？",
+          "source": "InfoQ 推荐",
+          "url": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "OpenAI DevDay 发布 Dots 代理，正面迎战 Meta Muse",
+          "summary": "在 OpenAI 年度 DevDay 大会上，Sam Altman 宣布推出由 GPT-6 Astra 驱动的 AI 代理 Dots，直接对标 Meta 的 Muse AI 代理平台。",
+          "comment": "当免费代理平台已经占据用户心智，OpenAI 的付费代理靠什么让用户愿意掏钱？",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle"
+        },
+        {
+          "title": "百度 AI 办公进入上下文战争：文库和网盘成为王牌",
+          "summary": "百度集团副总裁王颖在 AI Day 上表示，历史积累、文件资产和同事对话都是上下文的重要组成部分，文库和网盘运营十余年成为百度在 AI 办公竞争中的独特优势。",
+          "comment": "当上下文成为 AI 办公的核心壁垒，拥有海量用户数据的老牌互联网公司是否天然占据优势？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/7q7ZyMuKeWjc1uGz.html"
+        },
+        {
+          "title": "英国央行行长警告：AI 热潮可能引发市场冲击",
+          "summary": "英国央行行长安德鲁·贝利表示，央行正在非常仔细地关注投入人工智能领域的资金浪潮，警告 AI 繁荣可能触发市场冲击。",
+          "comment": "当央行开始警惕 AI 投资泡沫时，这是否意味着行业已经站在了非理性繁荣的边缘？",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-01T23:56:50.455382+08:00"
+}
