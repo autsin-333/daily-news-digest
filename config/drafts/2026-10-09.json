@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-09",
+  "time_window": "2026-10-08 19:00 ~ 2026-10-09 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "XREAL Aura XR智能眼镜开启预售：售价1,279美元起，搭载Android XR与Gemini AI",
+          "summary": "XREAL新款Aura XR智能眼镜已开启预售，起售价1,279美元，搭载Android XR平台和Gemini AI，将率先在美国和加拿大发货，随后登陆日本和韩国。",
+          "comment": "当智能眼镜价格逼近高端手机，消费者会优先为'戴在脸上的AI'买单，还是继续观望？",
+          "source": "93913",
+          "url": "https://www.93913.com/125273.html"
+        },
+        {
+          "title": "Meta VR眼镜对Quest的未来意味着什么",
+          "summary": "Meta表示VR眼镜是面向不同市场的不同产品，Quest并未消亡但已被降级，公司已从游戏领域收缩并关闭多家工作室，正将重心转向VR眼镜。",
+          "comment": "如果VR眼镜取代Quest成为Meta的XR主力，那现有Quest生态的开发者该何去何从？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/meta-vr-glasses-future-of-quest/"
+        },
+        {
+          "title": "vivo Vision MR头显亮相印度，398g机身搭载双目8K Micro-OLED显示系统",
+          "summary": "vivo在印度展示MR头显Vision Discovery Edition，整机仅398g，搭载双目8K Micro-OLED屏和骁龙XR2+ Gen 2平台，支持眼动与手势追踪，面向沉浸式娱乐和空间计算。",
+          "comment": "398g的MR头显已经接近日常佩戴的极限，重量还会是阻碍MR普及的核心障碍吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546113.html"
+        },
+        {
+          "title": "Jio AI眼镜亮相IMC 2026：语音操控即可完成UPI支付",
+          "summary": "印度电信巨头Jio展示了一款全新AI智能眼镜，最大亮点是支持免手持UPI支付，用户通过语音操控即可完成交易。",
+          "comment": "当AI眼镜能直接完成支付，安全与便捷之间的平衡点究竟在哪里？",
+          "source": "93913",
+          "url": "https://www.93913.com/125265.html"
+        },
+        {
+          "title": "AI眼镜品牌NIMO宣布完成数亿元人民币天使轮融资",
+          "summary": "智能眼镜品牌NIMO所属公司比特幻境完成数亿元天使轮融资，估值达15亿元，资金将用于产品研发、渠道拓展及海外市场布局。",
+          "comment": "一个成立不到一年、产品上市仅半年的品牌估值就达15亿，AI眼镜赛道是否存在泡沫？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546111.html"
+        },
+        {
+          "title": "Meta与ESPN合作，将上线沉浸式橄榄球赛事直播",
+          "summary": "Meta宣布与ESPN合作，在Meta Quest及Meta VR Glasses上推出180度沉浸式橄榄球赛事直播，首场比赛为10月10日的红河德比。",
+          "comment": "沉浸式体育直播能否成为推动VR头显从游戏设备走向大众消费的关键场景？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546118.html"
+        },
+        {
+          "title": "Meta宣布向新加坡残障社群捐赠1000副AI眼镜",
+          "summary": "Meta向新加坡4家社区机构捐赠1000副Ray-Ban Meta AI眼镜，帮助残障人士提升日常生活独立性，并提供3万美元用于无障碍使用培训。",
+          "comment": "科技巨头通过捐赠AI眼镜做公益，是真正的社会责任还是巧妙的低成本市场教育？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546117.html"
+        },
+        {
+          "title": "TDK首次实现智能眼镜超构光学视网膜直投，反射镜厚度仅150nm",
+          "summary": "TDK宣布首次利用超构光学反射镜实现面向智能眼镜的视网膜直投显示，反射镜厚度仅150nm，可见光透过率约80%，计划在CEATEC 2026展示原型设备。",
+          "comment": "当显示模组薄到可以嵌入普通镜片，智能眼镜离'隐形AI助手'还有多远？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546109.html"
+        },
+        {
+          "title": "千问N1 Pro、Wigain Flow加码眼部感知，AI眼镜补齐个人上下文入口",
+          "summary": "千问N1 Pro加入高精度眼动追踪用于视觉问答和虹膜支付，秋果计划Wigain Flow也在鼻托位置布置虹膜摄像头，眼部数据正成为AI眼镜理解用户的重要数据源。",
+          "comment": "当AI眼镜持续追踪你的视线和虹膜，个人隐私的边界应该由谁来划定？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546115.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI 全面上线 GPT-6，Anthropic 发布 Claude Haiku 5.5",
+          "summary": "OpenAI 宣布在 ChatGPT 全面上线 GPT-6 模型，同时 Anthropic 发布 Claude Haiku 5.5 模型，AI 模型能力竞赛持续升级。",
+          "comment": "新一代模型的密集发布，是否意味着 AI 能力提升正在从'代际跃迁'转向'快速迭代'？",
+          "source": "少数派",
+          "url": "https://sspai.com/post/115532"
+        },
+        {
+          "title": "纯 Uya 从零实现的 CLI 编程 Agent 开源",
+          "summary": "一个不依赖 Python、不引入 C 代码、纯 Uya 语言编写的 CLI 编程 Agent 开源，试图摆脱现有 Agent 框架的依赖束缚。",
+          "comment": "当 Agent 开发框架本身成为复杂度来源时，'去框架化'是否会成为新的技术趋势？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/502916"
+        },
+        {
+          "title": "Pollo AI 借助 OpenAI 将创意转化为广告活动",
+          "summary": "Pollo AI 利用 GPT-5.6、GPT-6 Astra 和 GPT-Image-2.5，帮助创作者将创意转化为精细图像和电影级视频广告。",
+          "comment": "AI 创作工具从'辅助'走向'主导'，创意工作者的核心价值将如何重新定义？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/pollo-ai"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "腾讯拟发行 50 亿美元离岸债券，或筹钱加码 AI",
+          "summary": "腾讯计划发行 50 亿美元离岸债券，市场分析认为所筹资金可能用于加码 AI 领域投资，国内大厂 AI 军备竞赛持续升温。",
+          "comment": "当 AI 投入从'利润支撑'转向'债务融资'，国内大厂的 AI 竞赛是否正在进入高风险阶段？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html"
+        },
+        {
+          "title": "OpenAI 开除三名安全研究员，联名公开信曝光内幕",
+          "summary": "OpenAI 三名安全研究员被开除，三人联名公开信称因'优先考虑安全'而被解雇，BBC 亦报道 OpenAI 声称其不当处理敏感信息。",
+          "comment": "当 AI 公司的商业野心与安全研究产生冲突时，谁来保护那些'吹哨人'？",
+          "source": "夕小瑶科技说",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247622339&idx=1&sn=916de06feb837e7a74273f8dfec9078c"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-09T23:47:02.807364+08:00"
+}
