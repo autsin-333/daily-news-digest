@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-14",
+  "time_window": "2026-10-13 19:00 ~ 2026-10-14 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "千问发布N1系列AI眼镜，探索AI眼镜新形态",
+          "summary": "阿里巴巴旗下千问正式发布N1、N1 Pro两款AI眼镜及AI耳夹式耳机，主打影像拍摄、眼动追踪、健康监测、实时翻译及AI主动服务，AI眼镜到手价2218元起。",
+          "comment": "当AI眼镜开始集成健康监测和眼动追踪，它究竟还是眼镜，还是贴身助理？"
+        },
+        {
+          "title": "三星首款AI眼镜全部框型曝光，涵盖9种镜框26种款式",
+          "summary": "三星即将推出的首款智能眼镜预计11月上市，重约41g，搭载高通骁龙AR1平台，与Gentle Monster、Warby Parker合作提供多种镜框款式。",
+          "comment": "三星与时尚眼镜品牌合作，是否意味着AI眼镜的竞争重心正从技术转向时尚属性？"
+        },
+        {
+          "title": "Ray-Ban Meta智能眼镜被曝意外录制用户对话，Meta称已修复",
+          "summary": "部分Ray-Ban Meta用户反映设备在未唤醒Meta AI的情况下意外录制日常对话，并将音频及转录内容保存至应用，Meta回应相关问题已修复。",
+          "comment": "当AI眼镜在用户不知情时录制对话，隐私边界应由谁来划定？"
+        },
+        {
+          "title": "Meta首款无摄像头眼镜Ray-Ban Meta Audio正式上市，349美元起",
+          "summary": "Meta推出全新Ray-Ban Meta Audio音频眼镜，主打开放式音频，集音频、通话与Meta AI助手于一体，单次充电最长可用12小时。",
+          "comment": "去掉摄像头的AI眼镜，是隐私妥协还是另一种产品思路的开端？"
+        },
+        {
+          "title": "延世大学入学考试现AI眼镜作弊，考生当场被查",
+          "summary": "韩国延世大学入学考试中，一名考生因违规佩戴智能眼镜作弊被监考人员当场查获，这是韩国首例大学入学考试使用AI眼镜作弊的案件。",
+          "comment": "当AI眼镜越来越难与普通眼镜区分，考试监管该如何应对？"
+        },
+        {
+          "title": "德国电信开售Meta Ray-Ban Display AI眼镜，支持实时翻译与字幕",
+          "summary": "德国电信正式在德国发售Meta Ray-Ban Display智能眼镜，裸机定价899欧元，保留雷朋经典镜框外观，集成Meta AI的实时翻译与字幕功能。",
+          "comment": "AI眼镜通过电信运营商渠道销售，是否会成为其进入大众市场的关键路径？"
+        },
+        {
+          "title": "Looktech新一代脑机接口AI眼镜亮相SILMO 2026",
+          "summary": "Looktech在SILMO 2026国际眼镜展上推出集成EEG脑电传感器的新一代AI智能眼镜，搭载物奇微WQ7036芯片，号称全球首款脑机接口AI眼镜。",
+          "comment": "把脑电传感器装进眼镜，我们真的准备好让设备读取大脑状态了吗？"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Google 发布 Gemini 4 Argon，主打解决最难题",
+          "summary": "Google 正式推出 Gemini 4 Argon 模型，定位为面向高难度问题的下一代旗舰模型，已在 Gemini API 和每月 100 美元订阅计划中开放使用。",
+          "comment": "当模型迭代速度越来越快，用户该如何判断一次升级是真正的能力跃迁还是营销话术？",
+          "source": "Google AI Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+        },
+        {
+          "title": "Anthropic 弃用 Git，自研源代码控制系统",
+          "summary": "Anthropic 工程团队发文解释为何以及如何构建自研的 Git 替代方案，原因是其代码变更频率在过去半年急剧上升，从 5 月日均约 2500 次合并增至 9 月超过 30000 次。",
+          "comment": "当 AI 让代码产出速度提升一个数量级，传统开发工具链是否都会面临被重构的命运？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+        },
+        {
+          "title": "Higgsfield 借助 GPT-6 Astra 将 AI 视频从 1 分钟扩展到 10 分钟以上",
+          "summary": "Higgsfield 利用 GPT-6 Astra 实现更长视频生成，结合 GPT-Image-2.5 提供精准视觉效果，并探索 GPT-Live 支持的语音电影制作路径。",
+          "comment": "AI 视频时长突破 10 分钟后，内容创作者的核心竞争力会从剪辑技巧转向什么？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+        },
+        {
+          "title": "Liquid AI 发布 LFM2.5-24B-A2B，可在端侧运行快速私有 Agent",
+          "summary": "Liquid AI 推出 LFM2.5-24B-A2B 模型，支持在设备端运行快速、私密的 AI Agent，进一步推动端侧 AI 应用落地。",
+          "comment": "端侧 Agent 普及后，云端大模型的价值会集中在哪些不可替代的场景？",
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "千问办公发布电商版，已开启邀测",
+          "summary": "阿里巴巴旗下千问办公推出针对电商行业的 AI 生产力工具，提供跨平台经营看板、趋势洞察、爆款素材批量生成和 ROI 智能优化等功能，并已接入生意参谋、有赞、千牛等主流经营工具。",
+          "comment": "当 AI 办公工具深度嵌入电商经营全链路，中小商家与平台之间的数据主权边界会如何演变？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html"
+        },
+        {
+          "title": "Anthropic 在新加坡开设办公室并与政府签署合作备忘录",
+          "summary": "Anthropic 宣布在新加坡设立办公室，并与新加坡政府签署谅解备忘录，进一步拓展其在亚洲的 AI 业务布局与公共部门合作。",
+          "comment": "AI 公司纷纷在东南亚设立区域总部，这轮出海潮背后是市场驱动还是地缘合规考量？",
+          "source": "Anthropic News",
+          "url": "https://www.anthropic.com/news/singapore-office-opening"
+        },
+        {
+          "title": "OpenAI 分析显示欧盟企业 Agentic AI 采用率持续增长",
+          "summary": "OpenAI 发布新分析，展示 agentic AI 在欧盟企业和中小企业中的采用增长趋势，并指出更深入的使用可能释放更大价值。",
+          "comment": "欧洲在 AI 监管先行的情况下，Agentic AI 的商业化落地会走出一条与美国不同的路径吗？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-14T22:17:27.997338+08:00"
+}
