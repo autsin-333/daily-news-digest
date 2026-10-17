@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-17",
+  "time_window": "2026-10-16 19:00 ~ 2026-10-17 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "三星首款智能眼镜曝光：重约41克，提供26种镜框配色",
+          "summary": "据SammyGuru报道，三星首款智能眼镜标准镜片下重量约41克，两个眼镜品牌将推出共计26种镜框和颜色版本。",
+          "comment": "当智能眼镜的重量逼近普通眼镜时，消费者真正愿意全天佩戴的门槛还剩下哪些？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/samsung-smart-glasses-41-grams-26-frame-versions-report/"
+        },
+        {
+          "title": "Meta称Ray-Ban眼镜自行唤醒Meta AI的问题已修复",
+          "summary": "Meta表示，此前有报道称Ray-Ban眼镜未经“Hey Meta”唤醒词便自行启动Meta AI，该问题已经解决，但未说明具体原因。",
+          "comment": "当AI眼镜的唤醒机制出现无法解释的误触发时，厂商仅说“已修复”是否足以重建用户对隐私的信任？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/meta-ray-ban-glasses-meta-ai-wake-word-issue-resolved/"
+        },
+        {
+          "title": "AtkinsRéalis联手Optaric开发核能行业专用企业级智能眼镜",
+          "summary": "国际工程与核能巨头AtkinsRéalis与企业智能眼镜厂商Optaric达成战略合作，联合开发适配核能等高安全环境的智能眼镜解决方案。",
+          "comment": "在核辐射等高危环境中，智能眼镜的可靠性和安全认证标准该由谁来定义？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546197.html"
+        },
+        {
+          "title": "Valve Steam Frame源代码现OLED面板驱动，或酝酿硬件升级",
+          "summary": "数据挖掘发现Steam Frame内核树中包含OLED面板驱动，但并非此前传闻的3552x3840面板，暗示Valve可能在筹备中期硬件升级。",
+          "comment": "当VR头显刚发售就出现硬件升级线索时，早期购买者会不会成为被频繁迭代“背刺”的群体？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/steam-frame-kernel-oled-panel-driver-1776x1920-not-3552x3840/"
+        },
+        {
+          "title": "Meta AI眼镜在米兰布雷拉美术馆为视障访客讲解八幅名作",
+          "summary": "Meta的AI眼镜现可识别米兰布雷拉美术馆内的八件艺术品，并通过镜框播放馆方录制的语音描述，访客可预约该导览服务。",
+          "comment": "当AI眼镜成为无障碍导览工具时，博物馆更应投资硬件还是内容？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/meta-ai-glasses-pinacoteca-brera-sensing-art-eight-artworks/"
+        },
+        {
+          "title": "Google称Gemini 4 Argon将机械臂抓放任务时间从58.9秒缩短至17.4秒",
+          "summary": "Google表示，Gemini 4 Argon在6自由度机械臂上通过三次尝试，将抓放任务耗时从58.9秒降至17.4秒。",
+          "comment": "当机器人能通过大模型自我改进任务效率时，硬件本体和AI大脑哪个才是机器人进化的瓶颈？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/gemini-4-argon-robotics-self-improvement-58-9-to-17-4-seconds/"
+        },
+        {
+          "title": "《2026年9月VR/AR与AI眼镜行业月报》发布：18款新品，融资50.6亿元",
+          "summary": "VR陀螺月报显示，9月全球XR与AI眼镜产业共有18款新品发布，代表产品包括Steam Frame、千问AI眼镜N1系列、Rokid二代AI眼镜等，产业链融资达50.6亿元。",
+          "comment": "AI眼镜新品密集发布但VR头显出货下滑，这是否意味着消费级XR的重心正在从沉浸显示转向日常智能穿戴？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546196.html"
+        },
+        {
+          "title": "UDEXREAL推出纯触控AI毛绒玩具NiniQuu：无屏无麦无摄像头，全离线设计",
+          "summary": "XR厂商UDEXREAL跨界推出掌心大小的AI毛绒玩偶NiniQuu，主打纯触控交互与全离线隐私保护，与语音对话式AI伴侣划清界限。",
+          "comment": "在AI硬件普遍追求语音和视觉交互的当下，“无麦无摄像头”的离线陪伴设备是回归本质还是自我设限？",
+          "source": "93913",
+          "url": "https://www.93913.com/125472.html"
+        },
+        {
+          "title": "乐奇Rokid全球首家AI眼镜无人自助体验店落地香港海港城",
+          "summary": "乐奇Rokid在香港海港城开设首间境外旗舰店，也是AI眼镜品类全球首个以自助体验为核心的零售空间，标志其全球化战略迈出关键一步。",
+          "comment": "AI眼镜需要怎样的线下体验才能让消费者从“好奇试戴”转化为“日常佩戴”？",
+          "source": "93913",
+          "url": "https://www.93913.com/125468.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "推翻一切！Nick Cammarata 万字长文宣告，AI 不是黑箱，99% 神经元清晰可见",
+          "summary": "Nick Cammarata 发布万字长文，提出 AI 模型并非黑箱，99% 的神经元功能可以被清晰解释，挑战了当前对神经网络不可解释性的主流认知。",
+          "comment": "如果 AI 的 99% 神经元都可解释，那剩下的 1% 是否恰恰是涌现出通用智能的关键所在？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html"
+        },
+        {
+          "title": "通用大模型正在重做机器人的研发与交付",
+          "summary": "钛媒体分析指出，通用大模型正在重塑机器人研发与交付流程，VLA（视觉-语言-动作）范式并未消亡，而是旧的分工模式正在被淘汰。",
+          "comment": "当大模型开始重做机器人研发，传统的机器人公司是否会沦为单纯的硬件代工厂？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8171971.html"
+        },
+        {
+          "title": "上下文争夺，为何成了办公AI新战场？",
+          "summary": "钛媒体探讨办公 AI 的竞争焦点正转向上下文争夺，从内部协作到客户经营，办公 AI 正在加速进化。",
+          "comment": "当办公 AI 掌握了足够的上下文，它会不会比你的同事更了解你的工作习惯和决策偏好？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8171629.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "早报｜iPhone Duo开启预购，发货排到明年/特斯拉超跑发布会现场飞了/华为阔直板出货量超71万台",
+          "summary": "爱范儿早报汇总：华为云下月调整 AI 专业服务价格，原型开发基础版升至 85.12 万元；17 岁研究员陈广宇离开 Kimi，否认将加入 Anthropic。",
+          "comment": "华为云 AI 专业服务价格大幅上调，是 AI 服务价值回归的信号，还是市场定价权的重新洗牌？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1684782?utm_source=rss&utm_medium=rss&utm_campaign="
+        },
+        {
+          "title": "Replit 不再与 Anthropic 合作，CEO 称出于成本等原因",
+          "summary": "Replit CEO 表示已不再与 Anthropic 合作，原因包括成本等因素，而 Replit 此前已宣布与 OpenAI 建立合作伙伴关系。",
+          "comment": "AI 编程工具放弃 Anthropic 转向 OpenAI，模型成本是否会成为 AI 应用层公司选择底层模型的决定性因素？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-17T20:39:33.923220+08:00"
+}
