@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-20",
+  "time_window": "2026-10-19 19:00 ~ 2026-10-20 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "影目科技携四款智能眼镜亮相广交会，展示中国智能制造出海实力",
+          "summary": "第140届广交会设立智能穿戴专区，影目科技展出INMO AIR3、GO3、XR2及Magic AI Glasses J四款核心产品，面向全球采购商集中展示智能眼镜成果。",
+          "comment": "中国AI眼镜厂商集体出海，能否在Meta主导的全球市场中找到差异化突破口？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546210.html"
+        },
+        {
+          "title": "乐奇Rokid联手腾讯出行上线行业首个AI眼镜原生打车服务",
+          "summary": "乐奇Rokid与腾讯出行服务合作，用户可通过Rokid AI眼镜完成从叫车到支付的全流程打车操作，为行业首个原生打车服务。",
+          "comment": "当AI眼镜能完成完整服务闭环时，它离取代手机还差哪一步？",
+          "source": "93913",
+          "url": "https://www.93913.com/125536.html"
+        },
+        {
+          "title": "苹果无屏AI眼镜Apple Glass曝光，与Vision Pro形成分工",
+          "summary": "苹果将先进AI融入时尚轻巧的无屏设计，Apple Glass定位与Vision Pro形成差异化分工，被视为迈向无实体屏幕未来的重要一步。",
+          "comment": "苹果放弃AR显示转攻无屏AI眼镜，是务实的取舍还是对Vision Pro路线的变相否定？",
+          "source": "93913",
+          "url": "https://www.93913.com/125518.html"
+        },
+        {
+          "title": "美国西北大学研发实验性智能眼镜，将眨眼与下颌运动转化为精准健康监测",
+          "summary": "美国西北大学团队开发实验性智能眼镜，通过捕捉眨眼和下颌运动实现精准健康监测，拓展了AI眼镜在医疗健康领域的应用可能。",
+          "comment": "当眼镜能持续监测身体信号，可穿戴健康设备的隐私边界该由谁来定义？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/143675"
+        },
+        {
+          "title": "谷东智能携五款工业AR终端亮相工博会，展示巡检与远程协作方案",
+          "summary": "谷东智能在第二十六届中国国际工业博览会展出五款工业级AR终端，可将标准作业程序叠加至视野，支持巡检留档、远程专家协作和实时预警。",
+          "comment": "工业AR从演示走向规模化落地，真正的瓶颈是硬件成本还是现场工作流的改造？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546218.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "DeepSeek 开源推理框架 DeepInfer：服务链路的最后一块拼图",
+          "summary": "DeepSeek 开源了其推理框架 DeepInfer，该中间层负责统筹调度算力集群，直接决定 AI 服务的算力成本和电力开销。",
+          "comment": "当推理成本成为 AI 商业化的最大变量，开源推理框架是否会成为各家模型的标配护城河？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/503116"
+        },
+        {
+          "title": "九章云极 Alaya-DFlash2 助 GLM-5.3 长文本解码提速 3.41 倍",
+          "summary": "九章云极推出推测解码加速方案 Alaya-DFlash2，通过并行起草草稿模型与路径选择机制，在长上下文和全部并发档位下实现解码速度与总输出提升。",
+          "comment": "推测解码在长上下文场景的突破，是否意味着大模型推理优化的主战场正从训练转向服务端调度？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/mJ5udryLFwjov1pk4Dsq"
+        },
+        {
+          "title": "OpenAI 改进低资源编程语言支持，覆盖 COBOL 迁移等场景",
+          "summary": "OpenAI 发布博客介绍如何提升 ChatGPT 在低资源编程语言上的表现，新增软件工程、SQLite 和 COBOL 迁移等评估维度。",
+          "comment": "当 AI 编程助手开始啃 COBOL 这类'遗产语言'，企业遗留系统的现代化改造会不会迎来一波新浪潮？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/low-resource-programming-languages"
+        },
+        {
+          "title": "Meta 工程博客：用'薄编排层'提升 AI Agent 可靠性",
+          "summary": "Meta 分享其数据管道 Agent 的架构经验，通过让编排层只负责路由和可靠性检查、由专业 Agent 承担领域推理，显著提升效率与准确率。",
+          "comment": "给编排层'减负'反而更可靠，这是否说明当前 Agent 系统的瓶颈不在模型能力而在架构设计？",
+          "source": "Engineering at Meta",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
+        },
+        {
+          "title": "MemT 1.0 开源：押注'记忆原生'破局养成系 AI",
+          "summary": "MemT 1.0 以开源形式发布，提出'记忆原生'的新解法，试图在 AI 记忆能力这一养成系应用下半场的关键赛道上破局。",
+          "comment": "如果记忆成为 AI 产品的核心差异化能力，用户数据的所有权与迁移问题该如何界定？",
+          "source": "爱范儿",
+          "url": "https://www.ifanr.com/1684997"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "Meta 揭秘 Prometheus：千兆瓦级超级集群首期完工，目标百万 GPU",
+          "summary": "Meta 首次公开其千兆瓦级 AI 超级集群 Prometheus 的细节，首期已建成，采用闭环液冷等技术，正朝着约 100 万块 GPU 的规模扩展，支撑 Muse 系列基础模型。",
+          "comment": "当单家公司的 AI 集群规模逼近百万 GPU，算力集中化会不会反过来成为创新的门槛？",
+          "source": "Engineering at Meta",
+          "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+        },
+        {
+          "title": "阿里云连续四年获评 Gartner 容器管理领导者象限，亚太唯一",
+          "summary": "Gartner 2026 年度容器管理魔力象限报告中，阿里云连续四年入选领导者象限，是亚太唯一获此评价的科技公司，AI 集成能力被列为核心优势。",
+          "comment": "容器管理被列为 AI 时代的基础设施能力，这是否意味着云厂商的 AI 竞争正从模型层下沉到编排层？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/z75kiSSlXYqfCza6.html"
+        },
+        {
+          "title": "美国发布 DeepSeek 禁令",
+          "summary": "雷峰网早报报道，美国突发发布针对 DeepSeek 的禁令，具体范围与影响尚待进一步披露。",
+          "comment": "针对单一 AI 模型的禁令，究竟是在防范安全风险，还是在重塑全球 AI 供应链的站队格局？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html"
+        },
+        {
+          "title": "韩国数据中心承建商 Elice 上市首日暴跌 32%",
+          "summary": "韩国数据中心建设商 Elice 在首尔上市首日股价大跌 32%，加剧了市场对 AI 估值过高的担忧。",
+          "comment": "AI 基础设施公司的上市遇冷，是估值回归的信号，还是资本市场对算力泡沫的第一次投票？",
+          "source": "Financial Times",
+          "url": "https://www.ft.com/content/cddafc0a-1ae6-467b-84b8-34c172002b6a"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-20T22:03:23.249534+08:00"
+}
