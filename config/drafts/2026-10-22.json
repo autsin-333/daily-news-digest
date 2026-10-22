@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-22",
+  "time_window": "2026-10-21 19:00 ~ 2026-10-22 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "英伟达联合思灵推出人形机器人参考平台Agile ONE，预计2027年初上市",
+          "summary": "英伟达与思灵机器人在柏林GTC大会期间联合发布人形机器人参考平台Agile ONE SN，基于Isaac GR00T开发平台与Jetson Thor机载计算系统，面向科研机构与开发者，可将开发环境搭建时间从数周缩短至数天。",
+          "comment": "参考平台能否真正降低人形机器人开发门槛，还是会形成新的生态绑定？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546237.html"
+        },
+        {
+          "title": "特斯拉Optimus产线进入早期爬坡阶段",
+          "summary": "特斯拉2026年第三季度财报披露，Optimus已在加州弗里蒙特工厂新产线开始生产，项目状态由“建设中”调整为“早期爬坡”，得克萨斯州项目仍处于建设阶段。",
+          "comment": "Optimus从“建设中”转入“早期爬坡”，距离真正规模化商用还有多远？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546245.html"
+        },
+        {
+          "title": "雷鸟创新正式进入加拿大零售市场，GT MAX与iO智能眼镜领衔上市",
+          "summary": "雷鸟创新宣布正式进入加拿大零售市场，推出包括GT MAX娱乐眼镜和RayNeo iO智能眼镜在内的五款产品，覆盖大屏影音、游戏及日常AI辅助场景，售价429加元起。",
+          "comment": "中国AR眼镜厂商加速出海，雷鸟在北美市场能撼动Ray-Ban Meta的先发优势吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546240.html"
+        },
+        {
+          "title": "谷歌公开AR眼镜新专利：结合手势与眼动，手指一指即可获取现实物体信息",
+          "summary": "谷歌新专利显示，AR眼镜可结合用户手指指向动作与眼球注视点理解意图，无需语音提问即可针对现实物体直接给出AI解答。",
+          "comment": "当AR眼镜能“看懂”你指什么，语音交互会被手势+眼动取代吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/125563.html"
+        },
+        {
+          "title": "三星AR显示新专利曝光：动态调节遮光区域，改善虚拟画面模糊问题",
+          "summary": "三星公开AR显示技术专利，通过动态调节遮光层透光率改善AR眼镜在强光环境下虚拟图像对比度不足与边缘模糊问题，美国专利公开号为US20260320759A1。",
+          "comment": "遮光层动态调节能否成为户外AR眼镜显示体验的标配方案？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546241.html"
+        },
+        {
+          "title": "Meta AI随Horizon OS v2.9扩展至英国、日本等六国Quest头显",
+          "summary": "Meta宣布随Horizon OS v2.9正式版推送，Meta AI助手扩展至英国、澳大利亚、日本、墨西哥、韩国及新加坡六个市场，新增七种语言支持，面向Quest 2、Quest 3、Quest 3S及Quest Pro分批推送。",
+          "comment": "AI助手进入头显系统层，会成为VR设备下一阶段的核心卖点吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546238.html"
+        },
+        {
+          "title": "维多利亚州宣布2027年起所有学校禁用智能眼镜，对成年人有更严格规定",
+          "summary": "澳大利亚维多利亚州宣布从2027学年起，所有学校学生须在校期间关闭并收纳智能眼镜，公立学校的教师、家长和志愿者也被禁止佩戴。",
+          "comment": "校园禁用智能眼镜，是隐私保护的进步还是对新技术的一刀切？",
+          "source": "MIXED Reality News",
+          "url": "https://mixed-news.com/en/victoria-bans-smart-glasses-all-schools-2027-teachers-parents/"
+        },
+        {
+          "title": "VR健身应用《Supernatural》从Meta分拆后重新上线Quest开启抢先体验",
+          "summary": "曾登陆Quest的热门VR健身应用《Supernatural》今年夏季从Meta分拆成立独立公司Supernatural Health，近日以抢先体验形式重新上线Quest，内置数千节课程并新增家庭场景与多人家庭账户支持。",
+          "comment": "从平台方分拆独立后，订阅制VR健身应用能否摆脱对Meta生态的依赖？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/supernatural-re-launch-early-access-quest/"
+        },
+        {
+          "title": "AGCO将在堪萨斯工厂部署Agility Digit人形机器人",
+          "summary": "Agility Robotics的人形机器人Digit将于2027年起在AGCO位于堪萨斯的农业设备生产设施中开展试点部署。",
+          "comment": "人形机器人进入农业机械制造产线，是务实落地还是又一次概念验证？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Anthropic 推出主动式 AI Agent「Claude Duet」：无需开口即主动干活",
+          "summary": "Anthropic 发布常驻型主动式 AI Agent Claude Duet，可从用户连接的应用中主动发现待办事项并在用户未开口前提醒，关键操作会先请求批准，用户离开设备后也能继续工作。",
+          "comment": "当 AI 从「你问我答」变成「主动找活干」，人类该如何重新定义对 Agent 的信任边界与授权粒度？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/503159/claude-duet"
+        },
+        {
+          "title": "蚂蚁数科发布决策模型 LingDT-Decision-1.0，准确率超过微软等决策模型",
+          "summary": "蚂蚁数科发布专为快速决策打造的 LingDT-Decision-1.0，提供 4B 和 27B 两个版本，在结构化决策任务上准确率更高，相比大语言模型 Token 消耗降低超 90%、响应时效提升 10 倍，已在 DTMaaS 平台上线。",
+          "comment": "当「小而专」的决策模型在特定场景把成本砍掉九成，通用大模型在企业落地中的位置会不会被重新划分？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/IshbO1ikAgjvB6G9.html"
+        },
+        {
+          "title": "黄仁勋押注新一轮「PC 革命」，Agent 找到了「最佳宿主」吗？",
+          "summary": "文章探讨在英伟达推动的端侧算力浪潮下，PC 是否将成为 AI Agent 的最佳载体，并指出 Agent 的运行模式或许并不需要 PC 式的集中式结构。",
+          "comment": "如果 Agent 天生适合分布式而非集中式硬件，那这场「PC 革命」究竟是算力叙事还是形态误判？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8177566.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "DeepSeek 完成约 1000 亿元人民币融资，为中国史上最大规模融资之一",
+          "summary": "DeepSeek 在最新一轮融资中筹得约 1000 亿元人民币（约 150 亿美元），宁德时代与腾讯为最大投资方，资金主要投向模型研发与算力，公司还在筹备重组并计划登陆科创板。",
+          "comment": "半年两轮融资合计约 1500 亿元、估值却未明显上调，资本是在为模型能力买单还是在为算力军备竞赛下注？",
+          "source": "夕小瑶科技说",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247622657&idx=1&sn=610050df5aa8c2662c25dc65951fc23e"
+        },
+        {
+          "title": "OpenAI 模型即将登陆 Google Cloud，前沿模型与 Codex 进入 Gemini Model Garden",
+          "summary": "OpenAI 与 Google Cloud 达成合作，将前沿模型及 Codex 工作流引入 Gemini 的 Model Garden，并通过 Google Cloud Marketplace 提供使用。",
+          "comment": "竞争对手的模型摆上自家云货架，云厂商的护城河究竟在模型还是在分发渠道？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-models-google-cloud"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-22T22:18:40.087021+08:00"
+}
