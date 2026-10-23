@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-23",
+  "time_window": "2026-10-22 19:00 ~ 2026-10-23 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Meta Reality Labs烧掉963亿美元后，预计明年起逐步盈利，AI成主力",
+          "summary": "Meta 2026财年第三季度财报显示，Reality Labs部门营收4.43亿美元，营业亏损41.29亿美元，亏损幅度优于预期，Meta预计该部门从明年开始逐步盈利，AI是盈利背后主力。",
+          "comment": "一个累计亏损近千亿美元的硬件部门真能靠AI扭亏为盈，还是这只是给投资者的新故事？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546246.html"
+        },
+        {
+          "title": "INMO GO3智能眼镜发布：双MicroLED屏+Gemini集成，还有摄像头隐私盖",
+          "summary": "INMO GO3智能眼镜正式发布，采用双MicroLED显示屏，集成谷歌Gemini和OpenAI ChatGPT，并配备摄像头隐私盖，售价尚未公布。",
+          "comment": "当智能眼镜同时接入两家大模型，用户隐私和数据流向该由谁真正把关？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/125612.html"
+        },
+        {
+          "title": "小鹏IRON升级：每0.2秒重新推理，可预测未来6秒动作",
+          "summary": "小鹏汽车公布人形机器人IRON最新进展，第二代VLA大模型已部署至机器人端侧，IRON可每0.2秒根据实时画面重新推理，并预测未来6秒内的动作变化，在握手、击掌等互动中灵活调整。",
+          "comment": "当机器人能预测你未来6秒的动作，人机交互的主动权究竟在谁手里？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546248.html"
+        },
+        {
+          "title": "宇树G1人形机器人累计生产约1万至2万台，王兴兴称物理AI有望突破",
+          "summary": "宇树科技创始人王兴兴透露，自2024年5月发布以来，G1人形机器人累计生产下线约1万至2万台，已成为全球最畅销的人形机器人之一，并认为物理AI未来一至三年有望迎来突破。",
+          "comment": "人形机器人销量破万之后，真正的瓶颈是技术突破还是找到愿意买单的场景？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546250.html"
+        },
+        {
+          "title": "谷歌旗下Owlchemy Labs公布XR游戏《Hyper Visor》，首发登陆XREAL AURA",
+          "summary": "谷歌旗下VR游戏工作室Owlchemy Labs公布全新XR街机射击游戏《Hyper Visor》，将作为XREAL AURA的首发游戏之一登陆Google Play商店，售价1.99美元。",
+          "comment": "谷歌亲自为XREAL新眼镜站台做首发游戏，这是否意味着Android XR生态要开始认真抢开发者了？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546247.html"
+        },
+        {
+          "title": "蒙通智能展出39克双目全彩光波导AI眼镜，采用MCU+DSP双芯片架构",
+          "summary": "蒙通智能在香港秋季电子展展示了一款重量仅39克的双目全彩光波导AI眼镜，采用MCU+DSP双芯片架构，主打轻量化设计和日常佩戴体验，支持AI问答、实时翻译、演讲提词及导航等场景。",
+          "comment": "39克的AI眼镜离'全天候佩戴'还有多远，重量之外下一个被卡住的会是什么？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546251.html"
+        },
+        {
+          "title": "MCNEX推进ToF相机落地AI眼镜，拓展3D传感应用场景",
+          "summary": "韩国相机模组厂商MCNEX宣布已完成单通道、双通道两款ToF相机研发，验证了1至7米范围测距精度，目前正推进其在AI眼镜中的集成测试，面向工业XR设备与视障辅助AR眼镜。",
+          "comment": "当AI眼镜开始具备精确的空间感知能力，它离'理解现实世界'还差什么？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546254.html"
+        },
+        {
+          "title": "苹果新眼动追踪专利曝光：摄像头与红外光源集成至鼻梁，模组厚度可低于3mm",
+          "summary": "苹果公开一项紧凑型眼动追踪技术专利，提出将微型摄像头、红外照明器及运动传感器集成至眼镜鼻梁或鼻托位置，模组厚度可低于3mm，为轻量化AR眼镜及Vision Pro头显提供新硬件方案。",
+          "comment": "苹果把眼动追踪塞进鼻梁，是在为更轻的AR眼镜铺路，还是为下一代Vision Pro找差异化？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546255.html"
+        },
+        {
+          "title": "雷鸟GT Max bilibili限定版发布，助阵BLG出征世界赛",
+          "summary": "雷鸟创新与哔哩哔哩携手发布雷鸟GT Max bilibili限定版AR眼镜，以专业巨幕体验助力BLG征战S16世界赛，并打出'不夺冠全退款'的营销口号。",
+          "comment": "AR眼镜绑定电竞赛事做限定营销，这究竟是破圈良机还是小众圈层内的自嗨？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/125628.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "OpenAI 推出 Decisions API，为应用提供快速低成本决策能力",
+          "summary": "OpenAI 发布 Decisions API，旨在为各类应用提供快速、聚焦且低成本的决策功能。",
+          "comment": "当决策能力像水电一样通过 API 按需调用，应用开发的竞争壁垒会转向哪里？",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/decisions-api"
+        },
+        {
+          "title": "Anthropic 将 Agent Skills 标准捐赠给 Agentic AI 基金会",
+          "summary": "Anthropic 宣布把 Agent Skills 标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation，以保持其开放、社区驱动和厂商中立。",
+          "comment": "Agent 技能标准走向中立化，会加速 Agent 生态爆发还是让领先者失去差异化优势？",
+          "source": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+        },
+        {
+          "title": "MIT 研究：无事可做的 AI 智能体在虚拟岛上自发玩游戏",
+          "summary": "MIT 研究人员将 13 个 AI 智能体置于虚拟孤岛，它们自发发明游戏、悼念丢失的戒指，并最终提升了任务表现。",
+          "comment": "当 AI 在无任务时自发产生‘玩耍’行为，这是通向通用智能的线索还是拟人化的错觉？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "OpenAI 拟以 1.25 万亿美元估值融资 300 亿美元，IPO 前再破纪录",
+          "summary": "TechCrunch 报道 OpenAI 正在推进新一轮 300 亿美元融资，估值达 1.25 万亿美元，若成真将创下最高估值私营公司纪录。",
+          "comment": "在 IPO 前以万亿美元估值融资，OpenAI 的估值叙事还能靠什么持续支撑？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+        },
+        {
+          "title": "Kimi K3.1 泄露：3D 成本仅为 GPT-6 Astra 的 1/14，横扫海外视觉三巨头",
+          "summary": "雷峰网报道泄露信息显示，Kimi K3.1 在 3D 任务上成本仅为 GPT-6 Astra 的十四分之一，并在视觉基准上超越海外三大模型。",
+          "comment": "国产模型以极低成本在垂直能力上反超，价格战之后下一阶段的竞争焦点会是什么？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/yanxishe/PZo9w14YeFSo4jmf.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-23T22:01:50.624082+08:00"
+}
