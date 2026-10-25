@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-25",
+  "time_window": "2026-10-24 19:00 ~ 2026-10-25 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "三星入局智能眼镜赛道：联手Gentle Monster与Warby Parker，搭载Gemini对标Meta",
+          "summary": "三星宣布进军智能眼镜市场，与眼镜品牌Gentle Monster和Warby Parker合作，产品搭载谷歌Gemini，直接对标Meta的Ray-Ban智能眼镜。",
+          "comment": "当科技巨头纷纷联手时尚品牌，智能眼镜的竞争焦点会从技术转向设计吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/125669.html"
+        },
+        {
+          "title": "苹果眼动追踪新专利：模组塞进眼镜鼻托，推动智能眼镜外观平民化",
+          "summary": "苹果新专利将微型摄像头、红外光源、电路板与陀螺仪集成到眼镜鼻托中，追踪模组厚度可低于3mm，让智能眼镜外观更接近普通眼镜。",
+          "comment": "把传感器藏进鼻托，是智能眼镜走向日常佩戴的关键一步吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/125671.html"
+        },
+        {
+          "title": "Eka Robotics融资1.5亿美元，规模化机器人视觉-力-动作模型",
+          "summary": "Eka Robotics获得1.5亿美元融资，用于通过大规模强化学习构建视觉-力-动作（VFA）模型，让机器人形成对物理世界的直觉。",
+          "comment": "机器人靠强化学习获得物理直觉，会比靠海量示教数据更高效吗？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/"
+        },
+        {
+          "title": "Teradyne Robotics联手Sereact，在零售与物流领域规模化落地物理AI",
+          "summary": "Teradyne Robotics与Sereact达成合作，已在欧洲客户现场部署数百台UR双臂机器人系统，推动物理AI在零售和物流场景的规模化应用。",
+          "comment": "双臂机器人进入零售物流，最先被替代的会是仓库拣货还是门店服务？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"
+        },
+        {
+          "title": "英伟达发布面向本地AI助手的4GB内存小模型Nemotron 3.5 Bolt",
+          "summary": "英伟达推出专为本地语音助手、游戏角色和机器人设计的小型AI模型Nemotron 3.5 Bolt E4B，仅占用4GB内存预算。",
+          "comment": "端侧小模型能否让AI助手摆脱云端依赖，真正成为设备原生能力？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/nvidia-nemotron-bolt-local-ai-assistant-4gb/"
+        },
+        {
+          "title": "VR僵尸生存射击游戏《Fading Light》11月12日免费登陆Quest",
+          "summary": "Joy Way开发的VR僵尸生存游戏《Fading Light》将于11月12日以免费形式登陆Meta Quest，融合合作僵尸战斗、屋顶跑酷与基地建造玩法。",
+          "comment": "免费模式加合作玩法，会成为VR游戏拉动用户留存的标准配方吗？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/fading-light-free-quest-zombie-survival-november-12/"
+        },
+        {
+          "title": "VRChat开放测试版上线原生面部追踪，告别依赖社区插件",
+          "summary": "VRChat在Open Beta客户端和Avatars SDK测试版中提供SDK级别的原生面部追踪支持，创作者可直接在Avatar Descriptor中映射表情，不再依赖社区插件。",
+          "comment": "原生面部追踪普及后，VR社交中的虚拟形象表达会迎来质变吗？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/vrchat-native-avatar-face-tracking-open-beta/"
+        },
+        {
+          "title": "Steam Frame内核获Valve加入CD-ROM光驱支持，耗时不到十分钟",
+          "summary": "Valve为Steam Frame内核添加了CD-ROM光驱支持，距社区论坛用户提出需求仅一天，更新耗时不到十分钟。",
+          "comment": "为VR头显加上光驱支持，是复古情怀还是隐藏着更实际的使用场景？",
+          "source": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/virtual-reality/valve-adds-cd-rom-drive-support-to-steam-frame-kernel-took-less-than-ten-minutes-update-comes-one-day-after-user-requests-for-capability-in-the-steam-community-forum"
+        },
+        {
+          "title": "《FlatOut 4: Total Insanity VR》结束抢先体验，新增乘客模式并涨价至29.99美元",
+          "summary": "《FlatOut 4: Total Insanity VR》发布1.0完整版，新增坐在其他赛车手副驾的乘客模式以及可选的FlatOut 2物理效果，售价上调至29.99美元。",
+          "comment": "VR赛车游戏加入乘客视角，能让沉浸感突破驾驶座位的局限吗？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/flatout-4-vr-full-release-passenger-flatout-2-physics/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "Block 新语音模型听起来酷似真人",
+          "summary": "Block 发布了一款新的语音模型，号称可以在 MacBook M4 Max 上本地运行，生成的声音非常接近真人。",
+          "comment": "当语音合成逼真到本地即可运行时，语音诈骗的防御门槛会变成什么样？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+        },
+        {
+          "title": "OpenAI 与 Meta 的 AI 智能体可帮你做这四件事",
+          "summary": "纽约时报介绍了 Meta 的 Muse 和 OpenAI 的 dots 等 AI 智能体在求职申请、预订热门餐厅等任务上的实际表现。",
+          "comment": "当 AI 智能体替人完成高摩擦任务时，人类会不会逐渐失去处理繁琐事务的能力？",
+          "source": "NYT > Technology",
+          "url": "https://www.nytimes.com/2026/10/25/technology/personaltech/openai-dots-meta-muse-4-killer-tasks.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "英伟达作为 AI 融资方的角色面临首次重大考验",
+          "summary": "随着英伟达从芯片制造商转向行业融资方，一些投资者认为该公司正承担与 AI 基建扩张绑定的过度风险，而 neocloud 类公司正遭遇市场冲击。",
+          "comment": "当芯片巨头同时成为 AI 产业的贷款人和供应商，它的风险敞口该由谁来监督？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+        },
+        {
+          "title": "AI 支出担忧可能淹没科技巨头强劲财报",
+          "summary": "彭博报道称，全球三家最重要的科技公司本周将公布财报，预计业绩增长健康，但投资者对 AI 资本支出的担忧可能盖过财报利好。",
+          "comment": "如果巨头财报亮眼却因 AI 支出被看空，市场究竟在担心回报周期还是估值逻辑？",
+          "source": "Bloomberg Technology",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-spending-fears-threaten-to-swamp-big-tech-s-strong-earnings"
+        },
+        {
+          "title": "谷歌 AI 搜索改变重创在线出版业",
+          "summary": "The Verge 专栏梳理了谷歌 AI 搜索摘要如何改变流量分发，进而冲击依赖搜索流量的数字出版行业。",
+          "comment": "当 AI 搜索直接给出答案，内容生产者的商业模式还能建立在什么之上？",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-25T21:31:45.790046+08:00"
+}
