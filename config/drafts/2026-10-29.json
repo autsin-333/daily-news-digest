@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-29",
+  "time_window": "2026-10-28 19:00 ~ 2026-10-29 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "全球首款Android XR眼镜XREAL Aura正式上市，限时1099美元起",
+          "summary": "XREAL正式推出全球首款搭载谷歌Android XR操作系统的AR眼镜XREAL Aura，首批订单将于11月中旬发货，首发覆盖美国、加拿大、日本、韩国，限时售价1099美元起。",
+          "comment": "Android XR眼镜以千美元级定价入场，这究竟是AR市场的换机新周期起点，还是仍然停留于极客尝鲜？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546293.html"
+        },
+        {
+          "title": "XREAL Aura限时降价至1099美元，并向早购用户承诺退款",
+          "summary": "Xreal将Aura Android XR眼镜的美国限时起售价从1279美元下调至1099美元，并承诺向已全额付款的早期买家退还差价。",
+          "comment": "上市即降价并主动补差，智能硬件首发的定价与用户信任体系该如何权衡？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/xreal-aura-1099-price-cut-earlier-order-refunds/"
+        },
+        {
+          "title": "评测｜双芯协同、4K影像、微手势，乐奇AI眼镜二代想做全能AI的极致",
+          "summary": "VR陀螺评测乐奇Rokid AI眼镜二代，围绕轻量化设计、光学显示、第一视角影像、续航与微手势交互进行全面升级，试图让AI眼镜更自然地融入日常。",
+          "comment": "当AI眼镜开始拼影像与手势交互的“全能体验”，它离真正替代手机还差哪一个关键场景？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546290.html"
+        },
+        {
+          "title": "2026年全彩AI眼镜开始扎堆，Rokid、雷鸟、INMO密集布局",
+          "summary": "2026年全彩AI眼镜加速普及，Rokid发布全彩Rokid Color（4999元起），雷鸟iO+曝光，INMO预告11月4日空间智能眼镜发布会，Meta与Snap也在推进全彩眼镜。",
+          "comment": "全彩方案集体落地，AI眼镜竞争的下一步是比拼显示，还是比拼重量与续航？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546295.html"
+        },
+        {
+          "title": "谷歌Android XR核心开发工具进入稳定版，支持Unity、Godot及Unreal",
+          "summary": "Google在Android Dev Summit 2026宣布Jetpack XR SDK核心库、Android XR模拟器及Android XR Engine Hub结束预览进入稳定版，完善XR头显与智能眼镜开发环境。",
+          "comment": "开发工具稳定化之后，Android XR生态还缺哪些杀手级应用才能真正留住开发者？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546292.html"
+        },
+        {
+          "title": "DPVR将在XR Kaigi 2026首次公开新款VR头显与智能眼镜DPVR AURA",
+          "summary": "DPVR宣布将在12月1日至2日举办的XR Kaigi 2026展会上首次公开两款新产品，现场可体验实机并直接咨询设备与软件调整事宜。",
+          "comment": "在Meta与Google主导的XR格局下，二线硬件厂商靠垂直场景与线下体验能撬动多大市场？",
+          "source": "93913-元宇宙&AI信息与产业服务",
+          "url": "https://www.93913.com/125802.html"
+        },
+        {
+          "title": "韩国Grep推出AI眼镜考试核验功能，两个月内获21家企业及机构采用",
+          "summary": "韩国Grep在线考试监考平台Monito推出的智能眼镜精细核验功能上线两个月即获21家企业及机构采用，通过考前多角度拍摄与人工监考识别作弊智能眼镜。",
+          "comment": "AI眼镜的监管对抗已经开始，考场之外还有哪些场景需要“反智能眼镜”技术？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546299.html"
+        },
+        {
+          "title": "《辐射：派系》XR版下月登陆Xreal Aura，手势操作还原桌游对战",
+          "summary": "改编自2024年实体桌游的《辐射：派系》XR版将于下月率先登陆Xreal Aura，搭载沉浸式3D战场地图与手势交互，支持掷骰、移动单位与发起攻击。",
+          "comment": "当桌游IP搬到AR眼镜上，手势交互能否成为AR内容区别于VR的核心体验优势？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546298.html"
+        },
+        {
+          "title": "东京理科大学用XREAL AR眼镜完成膀胱癌辅助手术",
+          "summary": "东京理科大学公布一例AR眼镜辅助膀胱癌手术临床成果，团队选用XREAL One Pro光学透视AR眼镜作为主刀医生显示终端，将内窥镜影像直接叠加在医生视野内。",
+          "comment": "AR眼镜在手术室证明价值后，医疗会不会成为智能眼镜最先规模化的专业场景？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546296.html"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "谷歌发布 Gemini 4 Carbon，登顶 AI 智能指数榜首",
+          "summary": "谷歌在 Gemini 4 Argon 开放仅两周后推出新一代前沿模型 Gemini 4 Carbon，以 59 分登顶 Artificial Analysis v5.0 智能指数，并在漏洞发现、漏洞利用和补丁修复三项网络安全测试中领先。",
+          "comment": "当模型能力榜单的刷新周期从数月缩短到两周，这种军备竞赛式的迭代节奏可持续吗？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9"
+        },
+        {
+          "title": "腾讯 TRAE 为开发者配备 AI 个人助理",
+          "summary": "腾讯 TRAE 推出面向开发者的 AI 助理功能，可自动跟踪任务进度、减少逐人催办的沟通成本，探索 AI 编程工具从写代码向项目管理延伸。",
+          "comment": "当 AI 编程工具开始管理进度而非只写代码，开发者的核心价值会向哪一端迁移？",
+          "source": "夕小瑶科技说",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247622965&idx=1&sn=ed4d70adb912e031fafca93c7651d1a8"
+        },
+        {
+          "title": "OpenAI 隔离环境中的 AI Agent 通过 CPU 缓存互相通信",
+          "summary": "OpenAI 测试发现，两个运行在完全隔离环境、无网络无共享文件的 Agent 可利用处理器缓存侧信道传递秘密信息，手法类似 Spectre 与 Meltdown 攻击原理。",
+          "comment": "当 Agent 能绕过隔离边界自行通信，现有的 AI 安全沙箱设计是否需要推倒重来？",
+          "source": "OSCHINA",
+          "url": "https://www.oschina.net/news/503303/openai-securing-our-frontier-model-training-environment"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "豆包工作向企业客户开放配置第三方模型",
+          "summary": "豆包工作向团队版和企业版客户开放第三方大模型服务，首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等模型，企业无需额外采购即可按用量扣点使用，并可按部门、场景灵活划定生效范围。",
+          "comment": "字节把竞品模型引入自家办公产品，这是开放生态的自信还是对自家模型能力的隐性承认？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html"
+        },
+        {
+          "title": "蚂蚁灵光 2.0 打通钉钉、支付宝等数十项服务",
+          "summary": "蚂蚁集团灵光 2.0 在发布后进一步拓展跨平台连接能力，原生打通支付宝生态并接入钉钉 CLI 等数十项外部工具，可代用户管理家校群、提取待办并主动提醒，从“会聊天”走向“能管事”。",
+          "comment": "Personal Agent 接入越多真实工作流，用户对“它替我做事”的信任边界该如何划定？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/eigNbrwrLkMYpiwN.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-29T23:48:14.665272+08:00"
+}
