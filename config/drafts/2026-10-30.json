@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-30",
+  "time_window": "2026-10-29 19:00 ~ 2026-10-30 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "美国两名参议员致信Meta，要求说明AI眼镜隐私风险及训练数据用途",
+          "summary": "美国民主党参议员Ron Wyden与Edward Markey致信Meta CEO扎克伯格，对Meta智能眼镜的隐私与安全风险提出质疑，要求披露风险评估、数据处理及AI模型训练情况。",
+          "comment": "当AI眼镜能随时拍摄他人时，隐私边界该由企业自律还是立法来划定？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546307.html"
+        },
+        {
+          "title": "Raven Prism全彩AR眼镜开启预订，支持独立运行Linux系统与眼动交互",
+          "summary": "美国Raven Resonance宣布旗下Raven Prism AR眼镜开启预订，定位为独立运行的环境计算设备，采用RavenOS系统，无需连接手机，面向开发者与企业用户，首批预计2027年1月发货。",
+          "comment": "脱离手机的独立AR眼镜，会成为环境计算时代的主流形态吗？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546301.html"
+        },
+        {
+          "title": "朱庇特发布面向中老年用户的AI眼镜Wise 1，支持翻折镜片与智能辅听",
+          "summary": "智能眼镜品牌朱庇特（JOVE）发布面向中老年用户的AI眼镜JOVE Glasses Wise 1，针对视力、听力及日常交互需求设计，提供无框与翻盖两种形态。",
+          "comment": "把AI眼镜的第一批核心用户锁定在银发族，是否是智能硬件落地更务实的路径？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546306.html"
+        },
+        {
+          "title": "最高200Hz采样率、1°以内追踪精度，大朋P1 PRO MAX眼动版正式发布",
+          "summary": "大朋正式推出企业级VR头显P1 PRO MAX眼动版，在原有企业级VR能力基础上加入眼动追踪，可获取用户注视位置数据，支持视线交互及相关应用开发。",
+          "comment": "当VR头显能精确记录'用户看了哪里'，训练与科研数据的伦理规范是否跟得上？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546302.html"
+        },
+        {
+          "title": "L’Atitude 52°N AI旅行眼镜众筹近40万美元",
+          "summary": "L’Atitude 52°N将AI眼镜聚焦于旅行场景，帮助旅行者记录旅程、理解陌生环境而不必频繁掏出设备，众筹金额已接近40万美元。",
+          "comment": "把AI眼镜收窄到单一场景做深，是否比追求'全能助手'更容易赢得用户？",
+          "source": "93913",
+          "url": "https://www.93913.com/125818.html"
+        },
+        {
+          "title": "从Best Buy到Meta Lab：XR零售体验对比",
+          "summary": "文章对比了Best Buy与Meta Lab两类XR零售渠道，二者均展示Meta与Ray-Ban Meta AI眼镜、Meta Ray-Ban Display眼镜及Quest头显和相关配件。",
+          "comment": "当AI眼镜越来越依赖线下体验促成购买，渠道能力会不会成为硬件厂商的新护城河？",
+          "source": "93913",
+          "url": "https://www.93913.com/125812.html"
+        },
+        {
+          "title": "芬兰与Varjo联合测试XR反无人机士兵训练",
+          "summary": "芬兰与Varjo合作，利用XR技术开展反无人机士兵训练测试，将混合现实头显应用于军事训练场景。",
+          "comment": "XR军事训练的普及，会让下一代士兵的实战经验更多来自虚拟环境吗？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/143885"
+        },
+        {
+          "title": "新模拟器Venture声称可让PC运行Quest独占游戏",
+          "summary": "名为Venture的新模拟器声称能让Quest独占VR游戏在PC及任意PC VR头显上运行，主打易用性，无需复杂配置。",
+          "comment": "平台独占被模拟器绕过，VR内容生态的护城河究竟还剩多少？",
+          "source": "Road to VR",
+          "url": "https://roadtovr.com/quest-emulator-exclusive-vr-games-pc-vr/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "谷歌开源 EmbeddingGemma 2：把五种模态塞进同一个向量空间",
+          "summary": "Google 发布开源多模态嵌入模型 EmbeddingGemma 2，基于 Gemma 4 构建，采用 Apache 2.0 许可，可将文本图像等五种模态映射到统一向量空间，并针对移动端和笔记本等端侧设备优化。",
+          "comment": "当嵌入模型能把五种模态压进同一向量空间并跑在手机端，RAG 和本地搜索的边界会被推到多远？",
+          "source": "InfoQ",
+          "url": "https://www.infoq.cn/article/O6mtiB7FVd0VSDHJe348"
+        },
+        {
+          "title": "IBM 发布 Granite Switch 4.1.1：像更新软件一样更新模型",
+          "summary": "Hugging Face 博客介绍 IBM 的 Granite Switch 4.1.1，主打模型可按版本像软件一样热切换更新，以降低企业部署模型的维护成本。",
+          "comment": "如果模型可以像软件一样打补丁和回滚，企业 AI 的运维范式会从'重训'转向'版本管理'吗？",
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+        },
+        {
+          "title": "MiniMax H3 开源生态持续拓展，英伟达团队开源 4K 视频增强方案",
+          "summary": "MiniMax H3 的开源生态继续扩展，英伟达团队基于其生态开源了一套 4K 视频增强方案，推动视频生成与后处理能力走向开放。",
+          "comment": "视频生成模型的开源生态开始出现'配套工具链'，这是否意味着开源视频模型正在进入工程化落地阶段？",
+          "source": "品玩",
+          "url": "https://www.pingwest.com/w/318998"
+        },
+        {
+          "title": "腾讯 TGR：以生成式范式重塑推荐系统",
+          "summary": "腾讯技术工程分享 TGR 实践，从生成式排序、端到端生成到大模型推理增强，推动推荐系统迈向 Agentic 自进化。",
+          "comment": "当推荐系统从'排序模型'变成'会自我进化的 Agent'，平台对用户意图的理解会更准还是更不可控？",
+          "source": "腾讯技术工程",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649807946&idx=1&sn=bddba91dc62036b312dfb28c529fb9bf"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "DeepSeek 千亿融资名单曝光，估值达 6155 亿元",
+          "summary": "DeepSeek 第二轮融资 1055 亿元人民币（约 158 亿美元），投资名单近 30 家，国资占比从 2% 跃升至 27%，腾讯与宁德时代仍是主力，长鑫存储、中芯国际等芯片厂商也在列。",
+          "comment": "国资占比从 2% 跳到 27%，DeepSeek 的下一阶段会更偏向国家算力体系还是市场化产品竞争？",
+          "source": "OSCHINA / 钛媒体",
+          "url": "https://www.oschina.net/news/503318"
+        },
+        {
+          "title": "沙钢接入千问办公，已将 Agent 落地核心业务场景",
+          "summary": "江苏沙钢正式接入阿里千问办公，将 Agent 应用于电炉冶炼复盘、变压器状态评估、财务经营分析等核心场景，部分业务提效可达数百倍。",
+          "comment": "当钢铁这样的重工业把核心生产分析交给 Agent，传统制造业的数据治理能力跟得上吗？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-10-30T23:29:31.317987+08:00"
+}
