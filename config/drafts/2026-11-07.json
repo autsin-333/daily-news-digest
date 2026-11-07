@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-07",
+  "time_window": "2026-11-06 19:00 ~ 2026-11-07 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Warby Parker首款智能眼镜将于11月12日开启预订",
+          "summary": "Warby Parker公布第三季度财报，营收同比增长10.4%，同时宣布其首款智能眼镜系列将于11月12日开启预订，预计年末假日购物季交付。",
+          "comment": "传统眼镜品牌入局智能眼镜，能否凭借渠道优势撼动科技巨头的先发地位？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546358.html"
+        },
+        {
+          "title": "Steam Frame上市首月跻身Steam平台第五大常用头显",
+          "summary": "Valve最新Steam硬件调查显示，独立VR头显Steam Frame上市仅一个多月，便以5.49%的占比位列Steam平台头显使用量第五名。",
+          "comment": "Valve亲自下场做硬件后，Steam Frame能否复制Steam Deck在掌机市场的破局路径？",
+          "source": "93913",
+          "url": "https://www.93913.com/126021.html"
+        },
+        {
+          "title": "Meta Quest推送Horizon OS 2.10 PTC更新，新增影院环境与界面重构",
+          "summary": "Quest的Horizon OS 2.10公测版开始推送，引入全新的影院环境用于观看媒体内容，并对Navigator启动器进行精简化的界面重新设计。",
+          "comment": "VR系统界面越来越像传统桌面系统，这是否意味着沉浸式交互的想象力正在收敛？",
+          "source": "UploadVR",
+          "url": "https://www.uploadvr.com/quests-latest-ptc-brings-streamlined-interface-theater-environment/"
+        },
+        {
+          "title": "索尼PS VR2从官方商店下架，419项XR专利转让Meta",
+          "summary": "据Road to VR报道，PS VR2已从美国、日本PlayStation官方直营商店下架，且索尼此前已向Meta转让419项全球XR专利，引发外界对其VR战略收缩的猜测。",
+          "comment": "当主机大厂开始收缩VR硬件战线，独立VR头显厂商是否将迎来更明确的窗口期？",
+          "source": "VR陀螺",
+          "url": "https://www.vrtuoluo.cn/546362.html"
+        },
+        {
+          "title": "Boston Dynamics推出Stretch Gen 2物流机器人",
+          "summary": "Boston Dynamics物流机器人副总裁表示，新一代Stretch Gen 2经过两年半研发，主打可靠性和一致性表现，面向仓储物流场景。",
+          "comment": "当人形机器人抢占 headlines 时，专用物流机器人是否才是商业化落地更现实的答案？",
+          "source": "The Robot Report",
+          "url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/"
+        },
+        {
+          "title": "VR游戏《PAYDAY: Aces High》正式发售，未来劫案将免费更新",
+          "summary": "Fast Travel Games开发的VR原生《PAYDAY》新作已登陆Quest与SteamVR，首个追加劫案Coup De Grâce计划于12月14日免费推出。",
+          "comment": "VR游戏靠免费内容更新维持玩家留存，这种模式能否支撑起3A级VR作品的商业回报？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/payday-aces-high-free-heists-december-2026-roadmap/"
+        },
+        {
+          "title": "翻新版Meta Quest 3S降价近100美元",
+          "summary": "映维网报道，翻新版Meta Quest 3S现降价近100美元，进一步降低了入门级MR头显的购买门槛。",
+          "comment": "翻新机大幅降价是否暗示Quest 3S的生命周期已接近尾声，新品即将登场？",
+          "source": "映维网",
+          "url": "https://news.nweon.com/144047"
+        },
+        {
+          "title": "《Project Hail Mary》混合现实体验将于下周登陆",
+          "summary": "Maze Theory开发的《Project Hail Mary: Journey Among the Stars》将于11月12日推出，玩家将在混合现实中与Rocky合作维持飞船运转。",
+          "comment": "影视IP改编的MR体验越来越多，但它们是真正的沉浸式叙事，还是只是加长版预告片？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/project-hail-mary-mixed-reality-rocky-november-12/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "GitHub发布开发者指南：从代码生成迈向智能体工程",
+          "summary": "GitHub在官方博客中发布《超越代码生成：智能体工程开发者指南》，介绍如何用GitHub Copilot完成规划、编码、审查变更和排查生产问题，并指出哪些环节仍需人类判断。",
+          "comment": "当AI能接管越来越多工程环节时，开发者的核心价值是否会从写代码转向定义问题与把关质量？",
+          "source": "The GitHub Blog",
+          "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"
+        },
+        {
+          "title": "Hugging Face发布ToyBlocks：为机器人学习与评估提供受控世界",
+          "summary": "Hugging Face博客介绍了由Allen AI推出的ToyBlocks，一个用于机器人学习与评估的受控环境，旨在让机器人训练和评测更可复现、更可比较。",
+          "comment": "机器人学习缺乏统一评测标准，受控环境能否成为该领域的‘ImageNet时刻’？",
+          "source": "Hugging Face - Blog",
+          "url": "https://huggingface.co/blog/allenai/toyblocks"
+        },
+        {
+          "title": "百图生科与11家伙伴战略合作，AI生物计算覆盖医药研发及农业育种",
+          "summary": "百图生科主办第三届峰会，宣布与大学、科企及投资机构合作，以AI生物计算聚焦乳腺癌虚拟细胞大模型、中医药研究、农业育种及产业配套，合作网络延伸至日本、新加坡及‘一带一路’沿线市场。",
+          "comment": "AI生物计算从论文走向产业合作，下一个可规模化的落地场景会出现在药物研发还是农业育种？",
+          "source": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "OpenAI据报以1.25万亿美元估值再融资110亿美元",
+          "summary": "TechCrunch报道，OpenAI在一轮尚未关闭的融资中又筹集了110亿美元，预计未来几周完成，估值达1.25万亿美元。",
+          "comment": "在AI泡沫争论与监管压力升温之际，如此高的估值是资本对技术拐点的押注，还是流动性驱动的惯性？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
+        {
+          "title": "美国中期选举引发AI股票抛售，监管担忧升温",
+          "summary": "BBC报道，美国中期选举后投资者因担心AI监管加强而抛售科技股，但市场对AI行业的忧虑此前已持续累积。",
+          "comment": "政治周期开始直接定价AI监管风险，科技巨头该如何在合规成本与创新速度之间重新平衡？",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌",
+          "summary": "TechCrunch报道，Crusoe把位于怀俄明州、开发受阻的大型AI数据中心项目出售给谷歌，凸显超大规模AI数据中心建设面临的挑战。",
+          "comment": "当AI算力扩张遭遇地方阻力与资本压力，科技巨头收购‘烂尾’项目是否会成为新的扩张路径？",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-11-07T23:22:31.742131+08:00"
+}
