@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-08",
+  "time_window": "2026-11-07 19:00 ~ 2026-11-08 18:59",
+  "categories": [
+    {
+      "name": "智能硬件",
+      "icon": "🥽",
+      "news": [
+        {
+          "title": "Gentle Monster联合三星、谷歌押注AI眼镜，11月12日开启预购",
+          "summary": "韩国眼镜品牌Gentle Monster与三星、谷歌合作的AI眼镜项目将于12月中旬在韩国和美国首发，11月12日开放预购，Warby Parker也参与该项目。",
+          "comment": "当时尚眼镜品牌成为AI硬件的主要推手时，科技公司是否正在把产品定义权交给时尚行业？",
+          "source": "93913",
+          "url": "https://www.93913.com/126038.html"
+        },
+        {
+          "title": "无摄像头智能眼镜瞄准办公室场景，以隐私友好姿态突围",
+          "summary": "在Meta、Snap主攻消费市场之际，一批去掉摄像头的智能眼镜正试图以隐私友好的定位切入白领办公场景。",
+          "comment": "如果智能眼镜的核心价值需要靠阉割功能来换取信任，这条路真的能走通吗？",
+          "source": "93913",
+          "url": "https://www.93913.com/126036.html"
+        },
+        {
+          "title": "浙江消防嘉年华：六腿消防机器人冲火场，AI眼镜排查隐患",
+          "summary": "浙江消防嘉年华在西湖边展示六条腿的消防机器人“逆行者”和可识别火灾隐患的AI眼镜，两款设备成为全场焦点。",
+          "comment": "当AI眼镜和机器人进入高危作业场景，它们的可靠性验证标准该由谁来制定？",
+          "source": "93913",
+          "url": "https://www.93913.com/126046.html"
+        },
+        {
+          "title": "智能眼镜品牌NIMO母公司比特幻境完成天使轮融资，估值达15亿元",
+          "summary": "智能眼镜品牌NIMO所属公司比特幻境完成数亿元人民币天使轮融资，最新估值达15亿元。",
+          "comment": "在AI眼镜赛道尚未跑出规模化销量前，15亿估值押注的是产品还是叙事？",
+          "source": "93913",
+          "url": "https://www.93913.com/126055.html"
+        },
+        {
+          "title": "世嘉把《死亡之屋》搬进VR街机，双人恐怖体验承重130公斤",
+          "summary": "世嘉推出主题公园风格的哥特式庄园VR街机机柜，支持双人恐怖体验，配备动态灯光、运转钟楼和惊吓式揭幕设计，装甲线缆承重130公斤。",
+          "comment": "VR线下街机是在为沉浸式体验寻找新商业模式，还是在重复传统街机的消亡路径？",
+          "source": "93913",
+          "url": "https://www.93913.com/126032.html"
+        },
+        {
+          "title": "Meta VR Glasses体验后：Apple Vision Pro 2本可以是这样",
+          "summary": "有观点在体验Meta即将推出的VR Glasses后认为，这款产品代表了Apple Vision Pro 2本可以走的产品方向。",
+          "comment": "当轻量级VR眼镜开始逼近体验下限，重投入的空间计算头显路线是否需要重新证明自己？",
+          "source": "93913",
+          "url": "https://www.93913.com/126034.html"
+        },
+        {
+          "title": "Steam Frame测试版支持PC串流Room View，串流时可看到现实环境",
+          "summary": "Valve在SteamOS 0.5.8测试版中为Steam Frame加入PC串流Room View支持，用户串流桌面或游戏影院时可以看到周围环境。",
+          "comment": "透视功能成为VR头显的标配后，沉浸与安全之间的边界该由用户还是系统来划定？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/steam-frame-beta-room-view-pc-streaming-passthrough/"
+        },
+        {
+          "title": "vrOS为Steam Frame带来PC窗口与VR串流，无需Steam Link",
+          "summary": "第三方应用vrOS可将Steam Frame连接Windows PC，在头显内以可移动面板呈现桌面窗口并串流PC VR游戏，开发者称无需Steam Link。",
+          "comment": "第三方工具绕过官方串流链路，Valve会视其为生态补充还是控制权流失？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/vros-3-steam-frame-windows-desktop-panels-pc-vr/"
+        },
+        {
+          "title": "Quest模拟器Venture大版本更新，新增混合现实与PC镜像",
+          "summary": "非官方Quest PC VR模拟器Venture发布0.2.0更新，扩展混合现实支持范围，并新增桌面镜像与控制器重映射功能。",
+          "comment": "非官方模拟器不断补齐官方缺失的能力，平台方该封堵还是招安？",
+          "source": "MIXED News",
+          "url": "https://mixed-news.com/en/venture-quest-emulator-020-mixed-reality-pc-mirror-controls/"
+        }
+      ]
+    },
+    {
+      "name": "AI技术与产品",
+      "icon": "🤖",
+      "news": [
+        {
+          "title": "苹果探索将 Siri AI 改造为类似 ChatGPT Dots 的智能体，iOS 28 将迎来重大调整",
+          "summary": "苹果计划将 Siri 升级为真正的 AI Agent，类似 ChatGPT 的 Dots 智能体形态，并将在 iOS 28 中进行系统性重构。",
+          "comment": "当语音助手进化为能自主执行多步任务的智能体，用户对隐私与可控性的边界该如何重新定义？",
+          "source": "Bloomberg Technology",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up"
+        },
+        {
+          "title": "AI 智能体协作实验揭示企业内部机器‘团队合作’的风险未来",
+          "summary": "最新实验显示，AI 智能体已开始常态化协同工作，但它们并非总追求同一目标，也未必遵循统一的伦理准则。",
+          "comment": "当多个 AI 智能体在企业内部自主协作时，谁来为它们集体决策的后果负责？",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html"
+        },
+        {
+          "title": "《纽约时报》烹饪应用新增 AI 驱动的食谱修改器，实测表现相当不错",
+          "summary": "NYT Cooking 应用推出 Beta 版 AI 功能，可帮助读者替换食材或按需调整食谱，实测大多数场景下准确命中需求。",
+          "comment": "当 AI 能按个人口味实时改写食谱，传统美食内容的作者权威与品牌价值将如何被重新定价？",
+          "source": "WIRED",
+          "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/"
+        }
+      ]
+    },
+    {
+      "name": "巨头动向与行业观察",
+      "icon": "🏢",
+      "news": [
+        {
+          "title": "字节跳动正在巴西扩建数据中心，打造海外最大规模算力资产布局",
+          "summary": "字节跳动正于巴西打造其海外最大规模的算力资产布局，持续加码全球 AI 基础设施。",
+          "comment": "当中国大厂把算力基建铺到拉美，全球 AI 基础设施的地缘竞争格局将如何演变？",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8196975.html"
+        },
+        {
+          "title": "Anthropic 达成 34 亿美元交易，为数据中心自建燃气发电",
+          "summary": "AI 实验室 Anthropic 绕过传统电力供应商，直接锁定稀缺发电设备，以应对数据中心激增的能源需求。",
+          "comment": "当 AI 公司开始自建发电厂，能源供给会不会成为决定模型竞赛胜负的新护城河？",
+          "source": "Financial Times",
+          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
+        }
+      ]
+    }
+  ],
+  "source": "scheduled",
+  "status": "pending_review",
+  "created_at": "2026-11-08T23:44:09.188703+08:00"
+}
